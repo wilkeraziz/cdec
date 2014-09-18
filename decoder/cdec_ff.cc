@@ -5,6 +5,7 @@
 #include "ff_context.h"
 #include "ff_spans.h"
 #include "ff_lm.h"
+#include "ff_stateless_klm.h"
 #include "ff_klm.h"
 #include "ff_ngrams.h"
 #include "ff_csplit.h"
@@ -56,6 +57,7 @@ void register_feature_functions() {
   ff_registry.Register("CMR2008ReorderingFeatures", new FFFactory<CMR2008ReorderingFeatures>());
   ff_registry.Register("RuleSourceBigramFeatures", new FFFactory<RuleSourceBigramFeatures>());
   ff_registry.Register("RuleTargetBigramFeatures", new FFFactory<RuleTargetBigramFeatures>());
+  ff_registry.Register("StatelessKLanguageModel", new StatelessKLanguageModelFactory());
   ff_registry.Register("KLanguageModel", new KLanguageModelFactory());
   ff_registry.Register("NonLatinCount", new FFFactory<NonLatinCount>);
   ff_registry.Register("RuleShape", new FFFactory<RuleShapeFeatures>);

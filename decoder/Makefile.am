@@ -49,6 +49,7 @@ libcdec_a_SOURCES = \
   ff_csplit.h \
   ff_external.h \
   ff_factory.h \
+  ff_stateless_klm.h \
   ff_klm.h \
 	ff_lexical.h \
   ff_lm.h \
@@ -114,6 +115,7 @@ libcdec_a_SOURCES = \
   ff_csplit.cc \
   ff_external.cc \
   ff_factory.cc \
+  ff_stateless_klm.cc \
   ff_klm.cc \
   ff_lm.cc \
   ff_ngrams.cc \
