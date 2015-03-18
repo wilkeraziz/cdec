@@ -1,6 +1,7 @@
 #coding: utf8
 import cdec
 import gzip
+from math import exp
 
 weights = '../tests/system_tests/australia/weights'
 grammar_file = '../tests/system_tests/australia/australia.scfg.gz'

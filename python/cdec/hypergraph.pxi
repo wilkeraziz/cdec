@@ -1,5 +1,6 @@
 cimport hypergraph
 cimport kbest
+cimport utils
 
 cdef class Hypergraph:
     cdef hypergraph.Hypergraph* hg
@@ -239,6 +240,12 @@ cdef class Hypergraph:
     property npaths:
         def __get__(self):
             return self.hg.NumberOfPaths()
+
+    def inside(self):
+        """returns the inside score of each node"""
+        cdef vector[prob_t]* scores = new vector[prob_t]()
+        cdef prob_t z = hypergraph.Inside(self.hg[0], scores)
+        return [scores[0][i].as_float() for i in range(scores.size())]
 
     def inside_outside(self):
         """hg.inside_outside() -> SparseVector with inside-outside scores for each feature."""

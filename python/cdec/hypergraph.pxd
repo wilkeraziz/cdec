@@ -93,3 +93,4 @@ cdef extern from "decoder/csplit.h" namespace "CompoundSplit":
 
 cdef extern from "decoder/inside_outside.h":
     prob_t InsideOutside "InsideOutside<prob_t, EdgeProb, SparseVector<prob_t>, EdgeFeaturesAndProbWeightFunction>" (Hypergraph& hg, FastSparseVector[prob_t]* result) nogil
+    prob_t Inside "Inside<prob_t, EdgeProb>" (Hypergraph& hg, vector[prob_t]* result) nogil

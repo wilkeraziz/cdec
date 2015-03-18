@@ -3,6 +3,6 @@
 
 #include "logval.h"
 
-typedef LogVal<double> prob_t;
+typedef LogVal<long double> prob_t;
 
 #endif

@@ -94,7 +94,7 @@ bool InitCommandLine(int argc, char** argv, po::variables_map* conf) {
 
 double scaling_trick = 1; // see http://blog.smola.org/post/940672544/fast-quadratic-regularization-for-online-learning
 /*computes and returns cost augmented score for negative example selection*/
-double cost_augmented_score(const LogVal<double> model_score, const double mt_metric_score, const double mt_metric_scale, const bool logbleu) {
+typename prob_t::value_type cost_augmented_score(const prob_t model_score, const double mt_metric_score, const double mt_metric_scale, const bool logbleu) {
   if(logbleu) {
     if(mt_metric_score != 0)
       // NOTE: log(model_score) is just the model score feature weights * features
@@ -189,7 +189,7 @@ struct TrainingObserver : public DecoderObserver {
       if (!d) break;
       double mt_metric_score = ds[sent_id]->ScoreCandidate(d->yield)->ComputeScore(); //this might need to change!!
       const SparseVector<double>& feature_vals = d->feature_values; 
-      double costaugmented_score = cost_augmented_score(d->score, mt_metric_score, mt_metric_scale, log_bleu); //note that d->score, i.e., model score, is passed in
+      typename prob_t::value_type costaugmented_score = cost_augmented_score(d->score, mt_metric_score, mt_metric_scale, log_bleu); //note that d->score, i.e., model score, is passed in
       if (i == 0) { //i.e., setting up cur_best to be model score highest, and initializing costaug_best
         cur_best = MakeHypothesisInfo(feature_vals, mt_metric_score);
         cur_costaug_best = cur_best;

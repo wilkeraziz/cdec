@@ -17,6 +17,8 @@
 template <class T>
 class LogVal {
  public:
+
+  using value_type = T;
   void print(std::ostream &o) const {
     if (s_) o<<"(-)";
     o<<v_;

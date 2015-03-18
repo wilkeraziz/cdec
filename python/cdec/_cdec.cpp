@@ -713,8 +713,8 @@ struct __pyx_obj_4cdec_5_cdec_TextGrammar {
 };
 
 
-/* "cdec/hypergraph.pxi":4
- * cimport kbest
+/* "cdec/hypergraph.pxi":5
+ * cimport utils
  * 
  * cdef class Hypergraph:             # <<<<<<<<<<<<<<
  *     cdef hypergraph.Hypergraph* hg
@@ -728,7 +728,7 @@ struct __pyx_obj_4cdec_5_cdec_Hypergraph {
 };
 
 
-/* "cdec/hypergraph.pxi":259
+/* "cdec/hypergraph.pxi":266
  *         return vector
  * 
  * cdef class HypergraphEdge:             # <<<<<<<<<<<<<<
@@ -744,7 +744,7 @@ struct __pyx_obj_4cdec_5_cdec_HypergraphEdge {
 };
 
 
-/* "cdec/hypergraph.pxi":309
+/* "cdec/hypergraph.pxi":316
  *         raise NotImplemented('comparison not implemented for HypergraphEdge')
  * 
  * cdef class HypergraphNode:             # <<<<<<<<<<<<<<
@@ -999,7 +999,7 @@ struct __pyx_obj_4cdec_5_cdec___pyx_scope_struct_7___iter__ {
 };
 
 
-/* "cdec/hypergraph.pxi":49
+/* "cdec/hypergraph.pxi":50
  *         return unicode(hypergraph.JoshuaVisualizationString(self.hg[0]).c_str(), 'utf8')
  * 
  *     def kbest(self, size):             # <<<<<<<<<<<<<<
@@ -1018,7 +1018,7 @@ struct __pyx_obj_4cdec_5_cdec___pyx_scope_struct_8_kbest {
 };
 
 
-/* "cdec/hypergraph.pxi":62
+/* "cdec/hypergraph.pxi":63
  *             del derivations
  * 
  *     def kbest_trees(self, size):             # <<<<<<<<<<<<<<
@@ -1041,7 +1041,7 @@ struct __pyx_obj_4cdec_5_cdec___pyx_scope_struct_9_kbest_trees {
 };
 
 
-/* "cdec/hypergraph.pxi":81
+/* "cdec/hypergraph.pxi":82
  *             del e_derivations
  * 
  *     def kbest_features(self, size):             # <<<<<<<<<<<<<<
@@ -1061,7 +1061,7 @@ struct __pyx_obj_4cdec_5_cdec___pyx_scope_struct_10_kbest_features {
 };
 
 
-/* "cdec/hypergraph.pxi":97
+/* "cdec/hypergraph.pxi":98
  *             del derivations
  * 
  *     def unique_kbest(self, size):             # <<<<<<<<<<<<<<
@@ -1080,7 +1080,7 @@ struct __pyx_obj_4cdec_5_cdec___pyx_scope_struct_11_unique_kbest {
 };
 
 
-/* "cdec/hypergraph.pxi":110
+/* "cdec/hypergraph.pxi":111
  *             del derivations
  * 
  *     def unique_kbest_trees(self, size):             # <<<<<<<<<<<<<<
@@ -1103,7 +1103,7 @@ struct __pyx_obj_4cdec_5_cdec___pyx_scope_struct_12_unique_kbest_trees {
 };
 
 
-/* "cdec/hypergraph.pxi":129
+/* "cdec/hypergraph.pxi":130
  *             del e_derivations
  * 
  *     def unique_kbest_features(self, size):             # <<<<<<<<<<<<<<
@@ -1123,7 +1123,7 @@ struct __pyx_obj_4cdec_5_cdec___pyx_scope_struct_13_unique_kbest_features {
 };
 
 
-/* "cdec/hypergraph.pxi":145
+/* "cdec/hypergraph.pxi":146
  *             del derivations
  * 
  *     def sample(self, unsigned n):             # <<<<<<<<<<<<<<
@@ -1141,7 +1141,7 @@ struct __pyx_obj_4cdec_5_cdec___pyx_scope_struct_14_sample {
 };
 
 
-/* "cdec/hypergraph.pxi":156
+/* "cdec/hypergraph.pxi":157
  *             del hypos
  * 
  *     def sample_hypotheses(self, unsigned n):             # <<<<<<<<<<<<<<
@@ -1160,7 +1160,7 @@ struct __pyx_obj_4cdec_5_cdec___pyx_scope_struct_15_sample_hypotheses {
 };
 
 
-/* "cdec/hypergraph.pxi":171
+/* "cdec/hypergraph.pxi":172
  *             del hypos
  * 
  *     def sample_trees(self, unsigned n):             # <<<<<<<<<<<<<<
@@ -1178,7 +1178,7 @@ struct __pyx_obj_4cdec_5_cdec___pyx_scope_struct_16_sample_trees {
 };
 
 
-/* "cdec/hypergraph.pxi":224
+/* "cdec/hypergraph.pxi":225
  * 
  *     property edges:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -1194,7 +1194,7 @@ struct __pyx_obj_4cdec_5_cdec___pyx_scope_struct_17___get__ {
 };
 
 
-/* "cdec/hypergraph.pxi":230
+/* "cdec/hypergraph.pxi":231
  * 
  *     property nodes:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -1210,7 +1210,7 @@ struct __pyx_obj_4cdec_5_cdec___pyx_scope_struct_18___get__ {
 };
 
 
-/* "cdec/hypergraph.pxi":279
+/* "cdec/hypergraph.pxi":286
  * 
  *     property tail_nodes:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -1226,7 +1226,7 @@ struct __pyx_obj_4cdec_5_cdec___pyx_scope_struct_19___get__ {
 };
 
 
-/* "cdec/hypergraph.pxi":323
+/* "cdec/hypergraph.pxi":330
  * 
  *     property in_edges:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -1242,7 +1242,7 @@ struct __pyx_obj_4cdec_5_cdec___pyx_scope_struct_20___get__ {
 };
 
 
-/* "cdec/hypergraph.pxi":329
+/* "cdec/hypergraph.pxi":336
  * 
  *     property out_edges:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -1447,8 +1447,8 @@ struct __pyx_vtabstruct_4cdec_2sa_3_sa_Phrase {
 static struct __pyx_vtabstruct_4cdec_2sa_3_sa_Phrase *__pyx_vtabptr_4cdec_2sa_3_sa_Phrase;
 
 
-/* "cdec/hypergraph.pxi":4
- * cimport kbest
+/* "cdec/hypergraph.pxi":5
+ * cimport utils
  * 
  * cdef class Hypergraph:             # <<<<<<<<<<<<<<
  *     cdef hypergraph.Hypergraph* hg
@@ -1461,7 +1461,7 @@ struct __pyx_vtabstruct_4cdec_5_cdec_Hypergraph {
 static struct __pyx_vtabstruct_4cdec_5_cdec_Hypergraph *__pyx_vtabptr_4cdec_5_cdec_Hypergraph;
 
 
-/* "cdec/hypergraph.pxi":259
+/* "cdec/hypergraph.pxi":266
  *         return vector
  * 
  * cdef class HypergraphEdge:             # <<<<<<<<<<<<<<
@@ -1475,7 +1475,7 @@ struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphEdge {
 static struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphEdge *__pyx_vtabptr_4cdec_5_cdec_HypergraphEdge;
 
 
-/* "cdec/hypergraph.pxi":309
+/* "cdec/hypergraph.pxi":316
  *         raise NotImplemented('comparison not implemented for HypergraphEdge')
  * 
  * cdef class HypergraphNode:             # <<<<<<<<<<<<<<
@@ -1708,6 +1708,22 @@ static CYTHON_INLINE int __Pyx_PyDict_Contains(PyObject* item, PyObject* dict, i
     return unlikely(result < 0) ? result : (result == (eq == Py_EQ));
 }
 
+#if CYTHON_COMPILING_IN_CPYTHON
+static CYTHON_INLINE int __Pyx_ListComp_Append(PyObject* list, PyObject* x) {
+    PyListObject* L = (PyListObject*) list;
+    Py_ssize_t len = Py_SIZE(list);
+    if (likely(L->allocated > len)) {
+        Py_INCREF(x);
+        PyList_SET_ITEM(list, len, x);
+        Py_SIZE(list) = len+1;
+        return 0;
+    }
+    return PyList_Append(list, x);
+}
+#else
+#define __Pyx_ListComp_Append(L,x) PyList_Append(L,x)
+#endif
+
 #define __Pyx_PyIter_Next(obj) __Pyx_PyIter_Next2(obj, NULL)
 static CYTHON_INLINE PyObject *__Pyx_PyIter_Next2(PyObject *, PyObject *);
 
@@ -1903,6 +1919,8 @@ static CYTHON_INLINE PyObject* __Pyx_PyInt_From_short(short value);
 static CYTHON_INLINE PyObject *__Pyx_GetAttr(PyObject *, PyObject *);
 
 static PyObject* __Pyx_Globals(void);
+
+static CYTHON_INLINE size_t __Pyx_PyInt_As_size_t(PyObject *);
 
 static CYTHON_INLINE long __Pyx_PyInt_As_long(PyObject *);
 
@@ -2154,7 +2172,8 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_5edges___get__(struct __pyx_
 static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_5nodes___get__(struct __pyx_obj_4cdec_5_cdec_Hypergraph *__pyx_v_self); /* proto */
 static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_4goal___get__(struct __pyx_obj_4cdec_5_cdec_Hypergraph *__pyx_v_self); /* proto */
 static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_6npaths___get__(struct __pyx_obj_4cdec_5_cdec_Hypergraph *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(struct __pyx_obj_4cdec_5_cdec_Hypergraph *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside(struct __pyx_obj_4cdec_5_cdec_Hypergraph *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_51inside_outside(struct __pyx_obj_4cdec_5_cdec_Hypergraph *__pyx_v_self); /* proto */
 static Py_ssize_t __pyx_pf_4cdec_5_cdec_14HypergraphEdge___len__(struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *__pyx_v_self); /* proto */
 static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_9head_node___get__(struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *__pyx_v_self); /* proto */
 static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_10tail_nodes___get__(struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *__pyx_v_self); /* proto */
@@ -2440,17 +2459,17 @@ static char __pyx_k_Hypergraph_sample_hypotheses[] = "Hypergraph.sample_hypothes
 static char __pyx_k_cannot_create_lattice_from_s[] = "cannot create lattice from %s";
 static char __pyx_k_Cannot_translate_input_type_s[] = "Cannot translate input type %s";
 static char __pyx_k_Hypergraph_unique_kbest_trees[] = "Hypergraph.unique_kbest_trees";
-static char __pyx_k_Users_waziz_workspace_mtm14_my[] = "/Users/waziz/workspace/mtm14/my-cdec/python/cdec/lattice.pxi";
+static char __pyx_k_home_waziz_workspace_github_my[] = "/home/waziz/workspace/github/my-cdec/python/cdec/lattice.pxi";
 static char __pyx_k_cannot_reweight_hypergraph_with[] = "cannot reweight hypergraph with %s";
 static char __pyx_k_Hypergraph_unique_kbest_features[] = "Hypergraph.unique_kbest_features";
-static char __pyx_k_Users_waziz_workspace_mtm14_my_2[] = "/Users/waziz/workspace/mtm14/my-cdec/python/cdec/grammar.pxi";
-static char __pyx_k_Users_waziz_workspace_mtm14_my_3[] = "/Users/waziz/workspace/mtm14/my-cdec/python/cdec/_cdec.pyx";
 static char __pyx_k_candidate_set_index_out_of_range[] = "candidate set index out of range";
 static char __pyx_k_cannot_initialize_weights_with_s[] = "cannot initialize weights with %s";
 static char __pyx_k_cannot_intersect_hypergraph_with[] = "cannot intersect hypergraph with %s";
 static char __pyx_k_cannot_take_the_dot_product_of_s[] = "cannot take the dot product of %s and SparseVector";
 static char __pyx_k_comparison_not_implemented_for_H[] = "comparison not implemented for HypergraphEdge";
 static char __pyx_k_comparison_not_implemented_for_S[] = "comparison not implemented for SparseVector";
+static char __pyx_k_home_waziz_workspace_github_my_2[] = "/home/waziz/workspace/github/my-cdec/python/cdec/grammar.pxi";
+static char __pyx_k_home_waziz_workspace_github_my_3[] = "/home/waziz/workspace/github/my-cdec/python/cdec/_cdec.pyx";
 static char __pyx_k_sufficient_stats_vector_index_ou[] = "sufficient stats vector index out of range";
 static char __pyx_k_the_grammar_should_contain_TRule[] = "the grammar should contain TRule objects";
 static char __pyx_k_comparison_not_implemented_for_H_2[] = "comparison not implemented for HypergraphNode";
@@ -2488,9 +2507,6 @@ static PyObject *__pyx_n_s_SufficientStats___iter;
 static PyObject *__pyx_n_s_TER;
 static PyObject *__pyx_n_s_TRule___get;
 static PyObject *__pyx_n_s_TypeError;
-static PyObject *__pyx_kp_s_Users_waziz_workspace_mtm14_my;
-static PyObject *__pyx_kp_s_Users_waziz_workspace_mtm14_my_2;
-static PyObject *__pyx_kp_s_Users_waziz_workspace_mtm14_my_3;
 static PyObject *__pyx_n_s_ValueError;
 static PyObject *__pyx_kp_s__10;
 static PyObject *__pyx_kp_s__11;
@@ -2548,6 +2564,9 @@ static PyObject *__pyx_n_s_genexpr;
 static PyObject *__pyx_n_s_get;
 static PyObject *__pyx_n_s_get_2;
 static PyObject *__pyx_n_s_grammar;
+static PyObject *__pyx_kp_s_home_waziz_workspace_github_my;
+static PyObject *__pyx_kp_s_home_waziz_workspace_github_my_2;
+static PyObject *__pyx_kp_s_home_waziz_workspace_github_my_3;
 static PyObject *__pyx_n_s_hyp;
 static PyObject *__pyx_n_s_hypergraph;
 static PyObject *__pyx_n_s_i;
@@ -9951,7 +9970,7 @@ static int __pyx_pf_4cdec_5_cdec_11TextGrammar___init__(struct __pyx_obj_4cdec_5
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":8
+/* "cdec/hypergraph.pxi":9
  *     cdef MT19937* rng
  * 
  *     def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -9975,7 +9994,7 @@ static void __pyx_pf_4cdec_5_cdec_10Hypergraph___dealloc__(struct __pyx_obj_4cde
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__dealloc__", 0);
 
-  /* "cdec/hypergraph.pxi":9
+  /* "cdec/hypergraph.pxi":10
  * 
  *     def __dealloc__(self):
  *         del self.hg             # <<<<<<<<<<<<<<
@@ -9984,7 +10003,7 @@ static void __pyx_pf_4cdec_5_cdec_10Hypergraph___dealloc__(struct __pyx_obj_4cde
  */
   delete __pyx_v_self->hg;
 
-  /* "cdec/hypergraph.pxi":10
+  /* "cdec/hypergraph.pxi":11
  *     def __dealloc__(self):
  *         del self.hg
  *         if self.rng != NULL:             # <<<<<<<<<<<<<<
@@ -9994,7 +10013,7 @@ static void __pyx_pf_4cdec_5_cdec_10Hypergraph___dealloc__(struct __pyx_obj_4cde
   __pyx_t_1 = ((__pyx_v_self->rng != NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "cdec/hypergraph.pxi":11
+    /* "cdec/hypergraph.pxi":12
  *         del self.hg
  *         if self.rng != NULL:
  *             del self.rng             # <<<<<<<<<<<<<<
@@ -10006,7 +10025,7 @@ static void __pyx_pf_4cdec_5_cdec_10Hypergraph___dealloc__(struct __pyx_obj_4cde
   }
   __pyx_L3:;
 
-  /* "cdec/hypergraph.pxi":8
+  /* "cdec/hypergraph.pxi":9
  *     cdef MT19937* rng
  * 
  *     def __dealloc__(self):             # <<<<<<<<<<<<<<
@@ -10018,7 +10037,7 @@ static void __pyx_pf_4cdec_5_cdec_10Hypergraph___dealloc__(struct __pyx_obj_4cde
   __Pyx_RefNannyFinishContext();
 }
 
-/* "cdec/hypergraph.pxi":13
+/* "cdec/hypergraph.pxi":14
  *             del self.rng
  * 
  *     cdef MT19937* _rng(self):             # <<<<<<<<<<<<<<
@@ -10036,7 +10055,7 @@ static MT19937 *__pyx_f_4cdec_5_cdec_10Hypergraph__rng(struct __pyx_obj_4cdec_5_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_rng", 0);
 
-  /* "cdec/hypergraph.pxi":14
+  /* "cdec/hypergraph.pxi":15
  * 
  *     cdef MT19937* _rng(self):
  *         if self.rng == NULL:             # <<<<<<<<<<<<<<
@@ -10046,7 +10065,7 @@ static MT19937 *__pyx_f_4cdec_5_cdec_10Hypergraph__rng(struct __pyx_obj_4cdec_5_
   __pyx_t_1 = ((__pyx_v_self->rng == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "cdec/hypergraph.pxi":15
+    /* "cdec/hypergraph.pxi":16
  *     cdef MT19937* _rng(self):
  *         if self.rng == NULL:
  *             self.rng = new MT19937()             # <<<<<<<<<<<<<<
@@ -10057,14 +10076,14 @@ static MT19937 *__pyx_f_4cdec_5_cdec_10Hypergraph__rng(struct __pyx_obj_4cdec_5_
       __pyx_t_2 = new MT19937();
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      {__pyx_filename = __pyx_f[3]; __pyx_lineno = 15; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+      {__pyx_filename = __pyx_f[3]; __pyx_lineno = 16; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     }
     __pyx_v_self->rng = __pyx_t_2;
     goto __pyx_L3;
   }
   __pyx_L3:;
 
-  /* "cdec/hypergraph.pxi":16
+  /* "cdec/hypergraph.pxi":17
  *         if self.rng == NULL:
  *             self.rng = new MT19937()
  *         return self.rng             # <<<<<<<<<<<<<<
@@ -10074,7 +10093,7 @@ static MT19937 *__pyx_f_4cdec_5_cdec_10Hypergraph__rng(struct __pyx_obj_4cdec_5_
   __pyx_r = __pyx_v_self->rng;
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":13
+  /* "cdec/hypergraph.pxi":14
  *             del self.rng
  * 
  *     cdef MT19937* _rng(self):             # <<<<<<<<<<<<<<
@@ -10091,7 +10110,7 @@ static MT19937 *__pyx_f_4cdec_5_cdec_10Hypergraph__rng(struct __pyx_obj_4cdec_5_
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":18
+/* "cdec/hypergraph.pxi":19
  *         return self.rng
  * 
  *     def viterbi(self):             # <<<<<<<<<<<<<<
@@ -10124,7 +10143,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_2viterbi(struct __pyx_obj_4c
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("viterbi", 0);
 
-  /* "cdec/hypergraph.pxi":21
+  /* "cdec/hypergraph.pxi":22
  *         """hg.viterbi() -> String for the best hypothesis in the hypergraph."""
  *         cdef vector[WordID] trans
  *         hypergraph.ViterbiESentence(self.hg[0], &trans)             # <<<<<<<<<<<<<<
@@ -10133,7 +10152,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_2viterbi(struct __pyx_obj_4c
  */
   ViterbiESentence((__pyx_v_self->hg[0]), (&__pyx_v_trans));
 
-  /* "cdec/hypergraph.pxi":22
+  /* "cdec/hypergraph.pxi":23
  *         cdef vector[WordID] trans
  *         hypergraph.ViterbiESentence(self.hg[0], &trans)
  *         return unicode(GetString(trans).c_str(), 'utf8')             # <<<<<<<<<<<<<<
@@ -10141,9 +10160,9 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_2viterbi(struct __pyx_obj_4c
  *     def viterbi_trees(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBytes_FromString(TD::GetString(__pyx_v_trans).c_str()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 22; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyBytes_FromString(TD::GetString(__pyx_v_trans).c_str()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 23; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 22; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 23; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
@@ -10151,14 +10170,14 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_2viterbi(struct __pyx_obj_4c
   PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_n_s_utf8);
   __Pyx_GIVEREF(__pyx_n_s_utf8);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 22; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 23; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":18
+  /* "cdec/hypergraph.pxi":19
  *         return self.rng
  * 
  *     def viterbi(self):             # <<<<<<<<<<<<<<
@@ -10178,7 +10197,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_2viterbi(struct __pyx_obj_4c
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":24
+/* "cdec/hypergraph.pxi":25
  *         return unicode(GetString(trans).c_str(), 'utf8')
  * 
  *     def viterbi_trees(self):             # <<<<<<<<<<<<<<
@@ -10212,37 +10231,14 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_4viterbi_trees(struct __pyx_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("viterbi_trees", 0);
 
-  /* "cdec/hypergraph.pxi":29
+  /* "cdec/hypergraph.pxi":30
  *         e_tree: Target tree for the best hypothesis in the hypergraph.
  *         """
  *         f_tree = unicode(hypergraph.ViterbiFTree(self.hg[0]).c_str(), 'utf8')             # <<<<<<<<<<<<<<
  *         e_tree = unicode(hypergraph.ViterbiETree(self.hg[0]).c_str(), 'utf8')
  *         return (f_tree, e_tree)
  */
-  __pyx_t_1 = __Pyx_PyBytes_FromString(ViterbiFTree((__pyx_v_self->hg[0])).c_str()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 29; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 29; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_2);
-  PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
-  __Pyx_GIVEREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_n_s_utf8);
-  PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_n_s_utf8);
-  __Pyx_GIVEREF(__pyx_n_s_utf8);
-  __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 29; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_f_tree = ((PyObject*)__pyx_t_1);
-  __pyx_t_1 = 0;
-
-  /* "cdec/hypergraph.pxi":30
- *         """
- *         f_tree = unicode(hypergraph.ViterbiFTree(self.hg[0]).c_str(), 'utf8')
- *         e_tree = unicode(hypergraph.ViterbiETree(self.hg[0]).c_str(), 'utf8')             # <<<<<<<<<<<<<<
- *         return (f_tree, e_tree)
- * 
- */
-  __pyx_t_1 = __Pyx_PyBytes_FromString(ViterbiETree((__pyx_v_self->hg[0])).c_str()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 30; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyBytes_FromString(ViterbiFTree((__pyx_v_self->hg[0])).c_str()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 30; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 30; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
@@ -10255,10 +10251,33 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_4viterbi_trees(struct __pyx_
   __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 30; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_e_tree = ((PyObject*)__pyx_t_1);
+  __pyx_v_f_tree = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
   /* "cdec/hypergraph.pxi":31
+ *         """
+ *         f_tree = unicode(hypergraph.ViterbiFTree(self.hg[0]).c_str(), 'utf8')
+ *         e_tree = unicode(hypergraph.ViterbiETree(self.hg[0]).c_str(), 'utf8')             # <<<<<<<<<<<<<<
+ *         return (f_tree, e_tree)
+ * 
+ */
+  __pyx_t_1 = __Pyx_PyBytes_FromString(ViterbiETree((__pyx_v_self->hg[0])).c_str()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 31; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 31; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
+  __Pyx_GIVEREF(__pyx_t_1);
+  __Pyx_INCREF(__pyx_n_s_utf8);
+  PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_n_s_utf8);
+  __Pyx_GIVEREF(__pyx_n_s_utf8);
+  __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 31; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_v_e_tree = ((PyObject*)__pyx_t_1);
+  __pyx_t_1 = 0;
+
+  /* "cdec/hypergraph.pxi":32
  *         f_tree = unicode(hypergraph.ViterbiFTree(self.hg[0]).c_str(), 'utf8')
  *         e_tree = unicode(hypergraph.ViterbiETree(self.hg[0]).c_str(), 'utf8')
  *         return (f_tree, e_tree)             # <<<<<<<<<<<<<<
@@ -10266,7 +10285,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_4viterbi_trees(struct __pyx_
  *     def viterbi_features(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 31; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 32; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_v_f_tree);
   PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_f_tree);
@@ -10278,7 +10297,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_4viterbi_trees(struct __pyx_
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":24
+  /* "cdec/hypergraph.pxi":25
  *         return unicode(GetString(trans).c_str(), 'utf8')
  * 
  *     def viterbi_trees(self):             # <<<<<<<<<<<<<<
@@ -10300,7 +10319,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_4viterbi_trees(struct __pyx_
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":33
+/* "cdec/hypergraph.pxi":34
  *         return (f_tree, e_tree)
  * 
  *     def viterbi_features(self):             # <<<<<<<<<<<<<<
@@ -10332,20 +10351,20 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_6viterbi_features(struct __p
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("viterbi_features", 0);
 
-  /* "cdec/hypergraph.pxi":36
+  /* "cdec/hypergraph.pxi":37
  *         """hg.viterbi_features() -> SparseVector with the features corresponding
  *         to the best derivation in the hypergraph."""
  *         cdef SparseVector fmap = SparseVector.__new__(SparseVector)             # <<<<<<<<<<<<<<
  *         fmap.vector = new FastSparseVector[weight_t](hypergraph.ViterbiFeatures(self.hg[0]))
  *         return fmap
  */
-  __pyx_t_1 = __pyx_tp_new_4cdec_5_cdec_SparseVector(((PyTypeObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_SparseVector)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 36; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __pyx_tp_new_4cdec_5_cdec_SparseVector(((PyTypeObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_SparseVector)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 37; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  if (!(likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_4cdec_5_cdec_SparseVector)))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 36; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (!(likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_4cdec_5_cdec_SparseVector)))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 37; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_v_fmap = ((struct __pyx_obj_4cdec_5_cdec_SparseVector *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "cdec/hypergraph.pxi":37
+  /* "cdec/hypergraph.pxi":38
  *         to the best derivation in the hypergraph."""
  *         cdef SparseVector fmap = SparseVector.__new__(SparseVector)
  *         fmap.vector = new FastSparseVector[weight_t](hypergraph.ViterbiFeatures(self.hg[0]))             # <<<<<<<<<<<<<<
@@ -10354,7 +10373,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_6viterbi_features(struct __p
  */
   __pyx_v_fmap->vector = new FastSparseVector<weight_t> (ViterbiFeatures((__pyx_v_self->hg[0])));
 
-  /* "cdec/hypergraph.pxi":38
+  /* "cdec/hypergraph.pxi":39
  *         cdef SparseVector fmap = SparseVector.__new__(SparseVector)
  *         fmap.vector = new FastSparseVector[weight_t](hypergraph.ViterbiFeatures(self.hg[0]))
  *         return fmap             # <<<<<<<<<<<<<<
@@ -10366,7 +10385,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_6viterbi_features(struct __p
   __pyx_r = ((PyObject *)__pyx_v_fmap);
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":33
+  /* "cdec/hypergraph.pxi":34
  *         return (f_tree, e_tree)
  * 
  *     def viterbi_features(self):             # <<<<<<<<<<<<<<
@@ -10386,7 +10405,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_6viterbi_features(struct __p
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":40
+/* "cdec/hypergraph.pxi":41
  *         return fmap
  * 
  *     def viterbi_forest(self):             # <<<<<<<<<<<<<<
@@ -10417,19 +10436,19 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_8viterbi_forest(struct __pyx
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("viterbi_forest", 0);
 
-  /* "cdec/hypergraph.pxi":41
+  /* "cdec/hypergraph.pxi":42
  * 
  *     def viterbi_forest(self):
  *         cdef Hypergraph hg = Hypergraph()             # <<<<<<<<<<<<<<
  *         hg.hg = new hypergraph.Hypergraph(self.hg[0].CreateViterbiHypergraph(NULL).get()[0])
  *         return hg
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_Hypergraph)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 41; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_Hypergraph)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 42; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_hg = ((struct __pyx_obj_4cdec_5_cdec_Hypergraph *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "cdec/hypergraph.pxi":42
+  /* "cdec/hypergraph.pxi":43
  *     def viterbi_forest(self):
  *         cdef Hypergraph hg = Hypergraph()
  *         hg.hg = new hypergraph.Hypergraph(self.hg[0].CreateViterbiHypergraph(NULL).get()[0])             # <<<<<<<<<<<<<<
@@ -10438,7 +10457,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_8viterbi_forest(struct __pyx
  */
   __pyx_v_hg->hg = new Hypergraph(((__pyx_v_self->hg[0]).CreateViterbiHypergraph(NULL).get()[0]));
 
-  /* "cdec/hypergraph.pxi":43
+  /* "cdec/hypergraph.pxi":44
  *         cdef Hypergraph hg = Hypergraph()
  *         hg.hg = new hypergraph.Hypergraph(self.hg[0].CreateViterbiHypergraph(NULL).get()[0])
  *         return hg             # <<<<<<<<<<<<<<
@@ -10450,7 +10469,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_8viterbi_forest(struct __pyx
   __pyx_r = ((PyObject *)__pyx_v_hg);
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":40
+  /* "cdec/hypergraph.pxi":41
  *         return fmap
  * 
  *     def viterbi_forest(self):             # <<<<<<<<<<<<<<
@@ -10470,7 +10489,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_8viterbi_forest(struct __pyx
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":45
+/* "cdec/hypergraph.pxi":46
  *         return hg
  * 
  *     def viterbi_joshua(self):             # <<<<<<<<<<<<<<
@@ -10502,7 +10521,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_10viterbi_joshua(struct __py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("viterbi_joshua", 0);
 
-  /* "cdec/hypergraph.pxi":47
+  /* "cdec/hypergraph.pxi":48
  *     def viterbi_joshua(self):
  *         """hg.viterbi_joshua() -> Joshua representation of the best derivation."""
  *         return unicode(hypergraph.JoshuaVisualizationString(self.hg[0]).c_str(), 'utf8')             # <<<<<<<<<<<<<<
@@ -10510,9 +10529,9 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_10viterbi_joshua(struct __py
  *     def kbest(self, size):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBytes_FromString(JoshuaVisualizationString((__pyx_v_self->hg[0])).c_str()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 47; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyBytes_FromString(JoshuaVisualizationString((__pyx_v_self->hg[0])).c_str()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 48; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 47; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 48; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
@@ -10520,14 +10539,14 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_10viterbi_joshua(struct __py
   PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_n_s_utf8);
   __Pyx_GIVEREF(__pyx_n_s_utf8);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 47; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 48; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":45
+  /* "cdec/hypergraph.pxi":46
  *         return hg
  * 
  *     def viterbi_joshua(self):             # <<<<<<<<<<<<<<
@@ -10548,7 +10567,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_10viterbi_joshua(struct __py
 }
 static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_14generator4(__pyx_GeneratorObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
 
-/* "cdec/hypergraph.pxi":49
+/* "cdec/hypergraph.pxi":50
  *         return unicode(hypergraph.JoshuaVisualizationString(self.hg[0]).c_str(), 'utf8')
  * 
  *     def kbest(self, size):             # <<<<<<<<<<<<<<
@@ -10591,7 +10610,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_12kbest(struct __pyx_obj_4cd
   __Pyx_INCREF(__pyx_cur_scope->__pyx_v_size);
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_size);
   {
-    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_14generator4, (PyObject *) __pyx_cur_scope, __pyx_n_s_kbest, __pyx_n_s_Hypergraph_kbest); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 49; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_14generator4, (PyObject *) __pyx_cur_scope, __pyx_n_s_kbest, __pyx_n_s_Hypergraph_kbest); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 50; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -10638,19 +10657,19 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_14generator4(__pyx_Generator
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 49; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 50; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":51
+  /* "cdec/hypergraph.pxi":52
  *     def kbest(self, size):
  *         """hg.kbest(size) -> List of k-best hypotheses in the hypergraph."""
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.ESentenceTraversal, kbest.NoFilter[vector[int]]]* derivations = new kbest.KBestDerivations[vector[WordID], kbest.ESentenceTraversal, kbest.NoFilter[vector[int]]](self.hg[0], size)             # <<<<<<<<<<<<<<
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.ESentenceTraversal, kbest.NoFilter[vector[int]]].Derivation* derivation
  *         cdef unsigned k
  */
-  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 51; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 52; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_cur_scope->__pyx_v_derivations = new KBest::KBestDerivations<std::vector<WordID> ,ESentenceTraversal,KBest::NoFilter<std::vector<int> > > ((__pyx_cur_scope->__pyx_v_self->hg[0]), __pyx_t_1);
 
-  /* "cdec/hypergraph.pxi":54
+  /* "cdec/hypergraph.pxi":55
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.ESentenceTraversal, kbest.NoFilter[vector[int]]].Derivation* derivation
  *         cdef unsigned k
  *         try:             # <<<<<<<<<<<<<<
@@ -10659,18 +10678,18 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_14generator4(__pyx_Generator
  */
   /*try:*/ {
 
-    /* "cdec/hypergraph.pxi":55
+    /* "cdec/hypergraph.pxi":56
  *         cdef unsigned k
  *         try:
  *             for k in range(size):             # <<<<<<<<<<<<<<
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not derivation: break
  */
-    __pyx_t_2 = __Pyx_PyInt_As_long(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_2 == (long)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 55; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+    __pyx_t_2 = __Pyx_PyInt_As_long(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_2 == (long)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 56; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
     for (__pyx_t_1 = 0; __pyx_t_1 < __pyx_t_2; __pyx_t_1+=1) {
       __pyx_cur_scope->__pyx_v_k = __pyx_t_1;
 
-      /* "cdec/hypergraph.pxi":56
+      /* "cdec/hypergraph.pxi":57
  *         try:
  *             for k in range(size):
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)             # <<<<<<<<<<<<<<
@@ -10679,7 +10698,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_14generator4(__pyx_Generator
  */
       __pyx_cur_scope->__pyx_v_derivation = __pyx_cur_scope->__pyx_v_derivations->LazyKthBest((__pyx_cur_scope->__pyx_v_self->hg->nodes_.size() - 1), __pyx_cur_scope->__pyx_v_k);
 
-      /* "cdec/hypergraph.pxi":57
+      /* "cdec/hypergraph.pxi":58
  *             for k in range(size):
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not derivation: break             # <<<<<<<<<<<<<<
@@ -10691,16 +10710,16 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_14generator4(__pyx_Generator
         goto __pyx_L8_break;
       }
 
-      /* "cdec/hypergraph.pxi":58
+      /* "cdec/hypergraph.pxi":59
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not derivation: break
  *                 yield unicode(GetString(derivation._yield).c_str(), 'utf8')             # <<<<<<<<<<<<<<
  *         finally:
  *             del derivations
  */
-      __pyx_t_4 = __Pyx_PyBytes_FromString(TD::GetString(__pyx_cur_scope->__pyx_v_derivation->yield).c_str()); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 58; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_4 = __Pyx_PyBytes_FromString(TD::GetString(__pyx_cur_scope->__pyx_v_derivation->yield).c_str()); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 59; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 58; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 59; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_5);
       PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4);
       __Pyx_GIVEREF(__pyx_t_4);
@@ -10708,7 +10727,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_14generator4(__pyx_Generator
       PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_n_s_utf8);
       __Pyx_GIVEREF(__pyx_n_s_utf8);
       __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 58; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 59; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_r = __pyx_t_4;
@@ -10723,12 +10742,12 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_14generator4(__pyx_Generator
       __pyx_L10_resume_from_yield:;
       __pyx_t_1 = __pyx_cur_scope->__pyx_t_0;
       __pyx_t_2 = __pyx_cur_scope->__pyx_t_1;
-      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 58; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 59; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
     }
     __pyx_L8_break:;
   }
 
-  /* "cdec/hypergraph.pxi":60
+  /* "cdec/hypergraph.pxi":61
  *                 yield unicode(GetString(derivation._yield).c_str(), 'utf8')
  *         finally:
  *             del derivations             # <<<<<<<<<<<<<<
@@ -10774,7 +10793,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_14generator4(__pyx_Generator
     __pyx_L6:;
   }
 
-  /* "cdec/hypergraph.pxi":49
+  /* "cdec/hypergraph.pxi":50
  *         return unicode(hypergraph.JoshuaVisualizationString(self.hg[0]).c_str(), 'utf8')
  * 
  *     def kbest(self, size):             # <<<<<<<<<<<<<<
@@ -10798,7 +10817,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_14generator4(__pyx_Generator
 }
 static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_17generator5(__pyx_GeneratorObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
 
-/* "cdec/hypergraph.pxi":62
+/* "cdec/hypergraph.pxi":63
  *             del derivations
  * 
  *     def kbest_trees(self, size):             # <<<<<<<<<<<<<<
@@ -10841,7 +10860,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_15kbest_trees(struct __pyx_o
   __Pyx_INCREF(__pyx_cur_scope->__pyx_v_size);
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_size);
   {
-    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_17generator5, (PyObject *) __pyx_cur_scope, __pyx_n_s_kbest_trees, __pyx_n_s_Hypergraph_kbest_trees); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 62; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_17generator5, (PyObject *) __pyx_cur_scope, __pyx_n_s_kbest_trees, __pyx_n_s_Hypergraph_kbest_trees); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 63; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -10889,29 +10908,29 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_17generator5(__pyx_Generator
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 62; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 63; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":64
+  /* "cdec/hypergraph.pxi":65
  *     def kbest_trees(self, size):
  *         """hg.kbest_trees(size) -> List of k-best trees in the hypergrapt.NoFilter."""
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.FTreeTraversal, kbest.NoFilter[vector[int]]]* f_derivations = new kbest.KBestDerivations[vector[WordID], kbest.FTreeTraversal, kbest.NoFilter[vector[int]]](self.hg[0], size)             # <<<<<<<<<<<<<<
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.FTreeTraversal, kbest.NoFilter[vector[int]]].Derivation* f_derivation
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.ETreeTraversal, kbest.NoFilter[vector[int]]]* e_derivations = new kbest.KBestDerivations[vector[WordID], kbest.ETreeTraversal, kbest.NoFilter[vector[int]]](self.hg[0], size)
  */
-  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 64; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 65; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_cur_scope->__pyx_v_f_derivations = new KBest::KBestDerivations<std::vector<WordID> ,FTreeTraversal,KBest::NoFilter<std::vector<int> > > ((__pyx_cur_scope->__pyx_v_self->hg[0]), __pyx_t_1);
 
-  /* "cdec/hypergraph.pxi":66
+  /* "cdec/hypergraph.pxi":67
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.FTreeTraversal, kbest.NoFilter[vector[int]]]* f_derivations = new kbest.KBestDerivations[vector[WordID], kbest.FTreeTraversal, kbest.NoFilter[vector[int]]](self.hg[0], size)
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.FTreeTraversal, kbest.NoFilter[vector[int]]].Derivation* f_derivation
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.ETreeTraversal, kbest.NoFilter[vector[int]]]* e_derivations = new kbest.KBestDerivations[vector[WordID], kbest.ETreeTraversal, kbest.NoFilter[vector[int]]](self.hg[0], size)             # <<<<<<<<<<<<<<
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.ETreeTraversal, kbest.NoFilter[vector[int]]].Derivation* e_derivation
  *         cdef unsigned k
  */
-  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 66; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 67; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_cur_scope->__pyx_v_e_derivations = new KBest::KBestDerivations<std::vector<WordID> ,ETreeTraversal,KBest::NoFilter<std::vector<int> > > ((__pyx_cur_scope->__pyx_v_self->hg[0]), __pyx_t_1);
 
-  /* "cdec/hypergraph.pxi":69
+  /* "cdec/hypergraph.pxi":70
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.ETreeTraversal, kbest.NoFilter[vector[int]]].Derivation* e_derivation
  *         cdef unsigned k
  *         try:             # <<<<<<<<<<<<<<
@@ -10920,18 +10939,18 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_17generator5(__pyx_Generator
  */
   /*try:*/ {
 
-    /* "cdec/hypergraph.pxi":70
+    /* "cdec/hypergraph.pxi":71
  *         cdef unsigned k
  *         try:
  *             for k in range(size):             # <<<<<<<<<<<<<<
  *                 f_derivation = f_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 e_derivation = e_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  */
-    __pyx_t_2 = __Pyx_PyInt_As_long(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_2 == (long)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 70; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+    __pyx_t_2 = __Pyx_PyInt_As_long(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_2 == (long)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 71; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
     for (__pyx_t_1 = 0; __pyx_t_1 < __pyx_t_2; __pyx_t_1+=1) {
       __pyx_cur_scope->__pyx_v_k = __pyx_t_1;
 
-      /* "cdec/hypergraph.pxi":71
+      /* "cdec/hypergraph.pxi":72
  *         try:
  *             for k in range(size):
  *                 f_derivation = f_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)             # <<<<<<<<<<<<<<
@@ -10940,7 +10959,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_17generator5(__pyx_Generator
  */
       __pyx_cur_scope->__pyx_v_f_derivation = __pyx_cur_scope->__pyx_v_f_derivations->LazyKthBest((__pyx_cur_scope->__pyx_v_self->hg->nodes_.size() - 1), __pyx_cur_scope->__pyx_v_k);
 
-      /* "cdec/hypergraph.pxi":72
+      /* "cdec/hypergraph.pxi":73
  *             for k in range(size):
  *                 f_derivation = f_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 e_derivation = e_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)             # <<<<<<<<<<<<<<
@@ -10949,7 +10968,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_17generator5(__pyx_Generator
  */
       __pyx_cur_scope->__pyx_v_e_derivation = __pyx_cur_scope->__pyx_v_e_derivations->LazyKthBest((__pyx_cur_scope->__pyx_v_self->hg->nodes_.size() - 1), __pyx_cur_scope->__pyx_v_k);
 
-      /* "cdec/hypergraph.pxi":73
+      /* "cdec/hypergraph.pxi":74
  *                 f_derivation = f_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 e_derivation = e_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not f_derivation or not e_derivation: break             # <<<<<<<<<<<<<<
@@ -10971,39 +10990,14 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_17generator5(__pyx_Generator
         goto __pyx_L8_break;
       }
 
-      /* "cdec/hypergraph.pxi":74
+      /* "cdec/hypergraph.pxi":75
  *                 e_derivation = e_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not f_derivation or not e_derivation: break
  *                 f_tree = unicode(GetString(f_derivation._yield).c_str(), 'utf8')             # <<<<<<<<<<<<<<
  *                 e_tree = unicode(GetString(e_derivation._yield).c_str(), 'utf8')
  *                 yield (f_tree, e_tree)
  */
-      __pyx_t_5 = __Pyx_PyBytes_FromString(TD::GetString(__pyx_cur_scope->__pyx_v_f_derivation->yield).c_str()); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 74; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
-      __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 74; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
-      __Pyx_GOTREF(__pyx_t_6);
-      PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_5);
-      __Pyx_GIVEREF(__pyx_t_5);
-      __Pyx_INCREF(__pyx_n_s_utf8);
-      PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_n_s_utf8);
-      __Pyx_GIVEREF(__pyx_n_s_utf8);
-      __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_6, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 74; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
-      __Pyx_GOTREF(__pyx_t_5);
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __Pyx_XGOTREF(__pyx_cur_scope->__pyx_v_f_tree);
-      __Pyx_XDECREF_SET(__pyx_cur_scope->__pyx_v_f_tree, ((PyObject*)__pyx_t_5));
-      __Pyx_GIVEREF(__pyx_t_5);
-      __pyx_t_5 = 0;
-
-      /* "cdec/hypergraph.pxi":75
- *                 if not f_derivation or not e_derivation: break
- *                 f_tree = unicode(GetString(f_derivation._yield).c_str(), 'utf8')
- *                 e_tree = unicode(GetString(e_derivation._yield).c_str(), 'utf8')             # <<<<<<<<<<<<<<
- *                 yield (f_tree, e_tree)
- *         finally:
- */
-      __pyx_t_5 = __Pyx_PyBytes_FromString(TD::GetString(__pyx_cur_scope->__pyx_v_e_derivation->yield).c_str()); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 75; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_5 = __Pyx_PyBytes_FromString(TD::GetString(__pyx_cur_scope->__pyx_v_f_derivation->yield).c_str()); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 75; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 75; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_6);
@@ -11016,19 +11010,44 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_17generator5(__pyx_Generator
       __pyx_t_5 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_6, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 75; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __Pyx_XGOTREF(__pyx_cur_scope->__pyx_v_f_tree);
+      __Pyx_XDECREF_SET(__pyx_cur_scope->__pyx_v_f_tree, ((PyObject*)__pyx_t_5));
+      __Pyx_GIVEREF(__pyx_t_5);
+      __pyx_t_5 = 0;
+
+      /* "cdec/hypergraph.pxi":76
+ *                 if not f_derivation or not e_derivation: break
+ *                 f_tree = unicode(GetString(f_derivation._yield).c_str(), 'utf8')
+ *                 e_tree = unicode(GetString(e_derivation._yield).c_str(), 'utf8')             # <<<<<<<<<<<<<<
+ *                 yield (f_tree, e_tree)
+ *         finally:
+ */
+      __pyx_t_5 = __Pyx_PyBytes_FromString(TD::GetString(__pyx_cur_scope->__pyx_v_e_derivation->yield).c_str()); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 76; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __Pyx_GOTREF(__pyx_t_5);
+      __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 76; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __Pyx_GOTREF(__pyx_t_6);
+      PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_5);
+      __Pyx_GIVEREF(__pyx_t_5);
+      __Pyx_INCREF(__pyx_n_s_utf8);
+      PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_n_s_utf8);
+      __Pyx_GIVEREF(__pyx_n_s_utf8);
+      __pyx_t_5 = 0;
+      __pyx_t_5 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_6, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 76; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __Pyx_GOTREF(__pyx_t_5);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_XGOTREF(__pyx_cur_scope->__pyx_v_e_tree);
       __Pyx_XDECREF_SET(__pyx_cur_scope->__pyx_v_e_tree, ((PyObject*)__pyx_t_5));
       __Pyx_GIVEREF(__pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "cdec/hypergraph.pxi":76
+      /* "cdec/hypergraph.pxi":77
  *                 f_tree = unicode(GetString(f_derivation._yield).c_str(), 'utf8')
  *                 e_tree = unicode(GetString(e_derivation._yield).c_str(), 'utf8')
  *                 yield (f_tree, e_tree)             # <<<<<<<<<<<<<<
  *         finally:
  *             del f_derivations
  */
-      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 76; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 77; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_INCREF(__pyx_cur_scope->__pyx_v_f_tree);
       PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_cur_scope->__pyx_v_f_tree);
@@ -11048,12 +11067,12 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_17generator5(__pyx_Generator
       __pyx_L12_resume_from_yield:;
       __pyx_t_1 = __pyx_cur_scope->__pyx_t_0;
       __pyx_t_2 = __pyx_cur_scope->__pyx_t_1;
-      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 76; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 77; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
     }
     __pyx_L8_break:;
   }
 
-  /* "cdec/hypergraph.pxi":78
+  /* "cdec/hypergraph.pxi":79
  *                 yield (f_tree, e_tree)
  *         finally:
  *             del f_derivations             # <<<<<<<<<<<<<<
@@ -11064,7 +11083,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_17generator5(__pyx_Generator
     /*normal exit:*/{
       delete __pyx_cur_scope->__pyx_v_f_derivations;
 
-      /* "cdec/hypergraph.pxi":79
+      /* "cdec/hypergraph.pxi":80
  *         finally:
  *             del f_derivations
  *             del e_derivations             # <<<<<<<<<<<<<<
@@ -11090,7 +11109,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_17generator5(__pyx_Generator
       __pyx_t_7 = __pyx_lineno; __pyx_t_8 = __pyx_clineno; __pyx_t_9 = __pyx_filename;
       {
 
-        /* "cdec/hypergraph.pxi":78
+        /* "cdec/hypergraph.pxi":79
  *                 yield (f_tree, e_tree)
  *         finally:
  *             del f_derivations             # <<<<<<<<<<<<<<
@@ -11099,7 +11118,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_17generator5(__pyx_Generator
  */
         delete __pyx_cur_scope->__pyx_v_f_derivations;
 
-        /* "cdec/hypergraph.pxi":79
+        /* "cdec/hypergraph.pxi":80
  *         finally:
  *             del f_derivations
  *             del e_derivations             # <<<<<<<<<<<<<<
@@ -11125,7 +11144,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_17generator5(__pyx_Generator
     __pyx_L6:;
   }
 
-  /* "cdec/hypergraph.pxi":62
+  /* "cdec/hypergraph.pxi":63
  *             del derivations
  * 
  *     def kbest_trees(self, size):             # <<<<<<<<<<<<<<
@@ -11149,7 +11168,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_17generator5(__pyx_Generator
 }
 static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_20generator6(__pyx_GeneratorObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
 
-/* "cdec/hypergraph.pxi":81
+/* "cdec/hypergraph.pxi":82
  *             del e_derivations
  * 
  *     def kbest_features(self, size):             # <<<<<<<<<<<<<<
@@ -11192,7 +11211,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_18kbest_features(struct __py
   __Pyx_INCREF(__pyx_cur_scope->__pyx_v_size);
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_size);
   {
-    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_20generator6, (PyObject *) __pyx_cur_scope, __pyx_n_s_kbest_features, __pyx_n_s_Hypergraph_kbest_features); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 81; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_20generator6, (PyObject *) __pyx_cur_scope, __pyx_n_s_kbest_features, __pyx_n_s_Hypergraph_kbest_features); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 82; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -11238,19 +11257,19 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_20generator6(__pyx_Generator
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 81; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 82; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":83
+  /* "cdec/hypergraph.pxi":84
  *     def kbest_features(self, size):
  *         """hg.kbest_trees(size) -> List of k-best feature vectors in the hypergraph."""
  *         cdef kbest.KBestDerivations[FastSparseVector[weight_t], kbest.FeatureVectorTraversal, kbest.NoFilter[FastSparseVector[double]]]* derivations = new kbest.KBestDerivations[FastSparseVector[weight_t], kbest.FeatureVectorTraversal, kbest.NoFilter[FastSparseVector[double]]](self.hg[0], size)             # <<<<<<<<<<<<<<
  *         cdef kbest.KBestDerivations[FastSparseVector[weight_t], kbest.FeatureVectorTraversal, kbest.NoFilter[FastSparseVector[double]]].Derivation* derivation
  *         cdef SparseVector fmap
  */
-  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 83; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 84; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_cur_scope->__pyx_v_derivations = new KBest::KBestDerivations<FastSparseVector<weight_t> ,FeatureVectorTraversal,KBest::NoFilter<FastSparseVector<double> > > ((__pyx_cur_scope->__pyx_v_self->hg[0]), __pyx_t_1);
 
-  /* "cdec/hypergraph.pxi":87
+  /* "cdec/hypergraph.pxi":88
  *         cdef SparseVector fmap
  *         cdef unsigned k
  *         try:             # <<<<<<<<<<<<<<
@@ -11259,18 +11278,18 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_20generator6(__pyx_Generator
  */
   /*try:*/ {
 
-    /* "cdec/hypergraph.pxi":88
+    /* "cdec/hypergraph.pxi":89
  *         cdef unsigned k
  *         try:
  *             for k in range(size):             # <<<<<<<<<<<<<<
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not derivation: break
  */
-    __pyx_t_2 = __Pyx_PyInt_As_long(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_2 == (long)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 88; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+    __pyx_t_2 = __Pyx_PyInt_As_long(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_2 == (long)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 89; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
     for (__pyx_t_1 = 0; __pyx_t_1 < __pyx_t_2; __pyx_t_1+=1) {
       __pyx_cur_scope->__pyx_v_k = __pyx_t_1;
 
-      /* "cdec/hypergraph.pxi":89
+      /* "cdec/hypergraph.pxi":90
  *         try:
  *             for k in range(size):
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)             # <<<<<<<<<<<<<<
@@ -11279,7 +11298,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_20generator6(__pyx_Generator
  */
       __pyx_cur_scope->__pyx_v_derivation = __pyx_cur_scope->__pyx_v_derivations->LazyKthBest((__pyx_cur_scope->__pyx_v_self->hg->nodes_.size() - 1), __pyx_cur_scope->__pyx_v_k);
 
-      /* "cdec/hypergraph.pxi":90
+      /* "cdec/hypergraph.pxi":91
  *             for k in range(size):
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not derivation: break             # <<<<<<<<<<<<<<
@@ -11291,22 +11310,22 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_20generator6(__pyx_Generator
         goto __pyx_L8_break;
       }
 
-      /* "cdec/hypergraph.pxi":91
+      /* "cdec/hypergraph.pxi":92
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not derivation: break
  *                 fmap = SparseVector.__new__(SparseVector)             # <<<<<<<<<<<<<<
  *                 fmap.vector = new FastSparseVector[weight_t](derivation._yield)
  *                 yield fmap
  */
-      __pyx_t_4 = __pyx_tp_new_4cdec_5_cdec_SparseVector(((PyTypeObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_SparseVector)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 91; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_4 = __pyx_tp_new_4cdec_5_cdec_SparseVector(((PyTypeObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_SparseVector)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 92; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_4);
-      if (!(likely(__Pyx_TypeTest(__pyx_t_4, __pyx_ptype_4cdec_5_cdec_SparseVector)))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 91; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      if (!(likely(__Pyx_TypeTest(__pyx_t_4, __pyx_ptype_4cdec_5_cdec_SparseVector)))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 92; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_XGOTREF(((PyObject *)__pyx_cur_scope->__pyx_v_fmap));
       __Pyx_XDECREF_SET(__pyx_cur_scope->__pyx_v_fmap, ((struct __pyx_obj_4cdec_5_cdec_SparseVector *)__pyx_t_4));
       __Pyx_GIVEREF(__pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "cdec/hypergraph.pxi":92
+      /* "cdec/hypergraph.pxi":93
  *                 if not derivation: break
  *                 fmap = SparseVector.__new__(SparseVector)
  *                 fmap.vector = new FastSparseVector[weight_t](derivation._yield)             # <<<<<<<<<<<<<<
@@ -11315,7 +11334,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_20generator6(__pyx_Generator
  */
       __pyx_cur_scope->__pyx_v_fmap->vector = new FastSparseVector<weight_t> (__pyx_cur_scope->__pyx_v_derivation->yield);
 
-      /* "cdec/hypergraph.pxi":93
+      /* "cdec/hypergraph.pxi":94
  *                 fmap = SparseVector.__new__(SparseVector)
  *                 fmap.vector = new FastSparseVector[weight_t](derivation._yield)
  *                 yield fmap             # <<<<<<<<<<<<<<
@@ -11334,12 +11353,12 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_20generator6(__pyx_Generator
       __pyx_L10_resume_from_yield:;
       __pyx_t_1 = __pyx_cur_scope->__pyx_t_0;
       __pyx_t_2 = __pyx_cur_scope->__pyx_t_1;
-      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 93; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 94; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
     }
     __pyx_L8_break:;
   }
 
-  /* "cdec/hypergraph.pxi":95
+  /* "cdec/hypergraph.pxi":96
  *                 yield fmap
  *         finally:
  *             del derivations             # <<<<<<<<<<<<<<
@@ -11384,7 +11403,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_20generator6(__pyx_Generator
     __pyx_L6:;
   }
 
-  /* "cdec/hypergraph.pxi":81
+  /* "cdec/hypergraph.pxi":82
  *             del e_derivations
  * 
  *     def kbest_features(self, size):             # <<<<<<<<<<<<<<
@@ -11407,7 +11426,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_20generator6(__pyx_Generator
 }
 static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_23generator7(__pyx_GeneratorObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
 
-/* "cdec/hypergraph.pxi":97
+/* "cdec/hypergraph.pxi":98
  *             del derivations
  * 
  *     def unique_kbest(self, size):             # <<<<<<<<<<<<<<
@@ -11450,7 +11469,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_21unique_kbest(struct __pyx_
   __Pyx_INCREF(__pyx_cur_scope->__pyx_v_size);
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_size);
   {
-    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_23generator7, (PyObject *) __pyx_cur_scope, __pyx_n_s_unique_kbest, __pyx_n_s_Hypergraph_unique_kbest); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 97; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_23generator7, (PyObject *) __pyx_cur_scope, __pyx_n_s_unique_kbest, __pyx_n_s_Hypergraph_unique_kbest); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 98; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -11497,19 +11516,19 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_23generator7(__pyx_Generator
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 97; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 98; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":99
+  /* "cdec/hypergraph.pxi":100
  *     def unique_kbest(self, size):
  *         """hg.kbest(size) -> List of unique k-best hypotheses in the hypergraph."""
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.ESentenceTraversal, kbest.FilterUnique]* derivations = new kbest.KBestDerivations[vector[WordID], kbest.ESentenceTraversal, kbest.FilterUnique](self.hg[0], size)             # <<<<<<<<<<<<<<
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.ESentenceTraversal, kbest.FilterUnique].Derivation* derivation
  *         cdef unsigned k
  */
-  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 99; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 100; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_cur_scope->__pyx_v_derivations = new KBest::KBestDerivations<std::vector<WordID> ,ESentenceTraversal,KBest::FilterUnique> ((__pyx_cur_scope->__pyx_v_self->hg[0]), __pyx_t_1);
 
-  /* "cdec/hypergraph.pxi":102
+  /* "cdec/hypergraph.pxi":103
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.ESentenceTraversal, kbest.FilterUnique].Derivation* derivation
  *         cdef unsigned k
  *         try:             # <<<<<<<<<<<<<<
@@ -11518,18 +11537,18 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_23generator7(__pyx_Generator
  */
   /*try:*/ {
 
-    /* "cdec/hypergraph.pxi":103
+    /* "cdec/hypergraph.pxi":104
  *         cdef unsigned k
  *         try:
  *             for k in range(size):             # <<<<<<<<<<<<<<
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not derivation: break
  */
-    __pyx_t_2 = __Pyx_PyInt_As_long(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_2 == (long)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 103; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+    __pyx_t_2 = __Pyx_PyInt_As_long(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_2 == (long)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 104; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
     for (__pyx_t_1 = 0; __pyx_t_1 < __pyx_t_2; __pyx_t_1+=1) {
       __pyx_cur_scope->__pyx_v_k = __pyx_t_1;
 
-      /* "cdec/hypergraph.pxi":104
+      /* "cdec/hypergraph.pxi":105
  *         try:
  *             for k in range(size):
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)             # <<<<<<<<<<<<<<
@@ -11538,7 +11557,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_23generator7(__pyx_Generator
  */
       __pyx_cur_scope->__pyx_v_derivation = __pyx_cur_scope->__pyx_v_derivations->LazyKthBest((__pyx_cur_scope->__pyx_v_self->hg->nodes_.size() - 1), __pyx_cur_scope->__pyx_v_k);
 
-      /* "cdec/hypergraph.pxi":105
+      /* "cdec/hypergraph.pxi":106
  *             for k in range(size):
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not derivation: break             # <<<<<<<<<<<<<<
@@ -11550,16 +11569,16 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_23generator7(__pyx_Generator
         goto __pyx_L8_break;
       }
 
-      /* "cdec/hypergraph.pxi":106
+      /* "cdec/hypergraph.pxi":107
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not derivation: break
  *                 yield unicode(GetString(derivation._yield).c_str(), 'utf8')             # <<<<<<<<<<<<<<
  *         finally:
  *             del derivations
  */
-      __pyx_t_4 = __Pyx_PyBytes_FromString(TD::GetString(__pyx_cur_scope->__pyx_v_derivation->yield).c_str()); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 106; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_4 = __Pyx_PyBytes_FromString(TD::GetString(__pyx_cur_scope->__pyx_v_derivation->yield).c_str()); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 107; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 106; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 107; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_5);
       PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4);
       __Pyx_GIVEREF(__pyx_t_4);
@@ -11567,7 +11586,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_23generator7(__pyx_Generator
       PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_n_s_utf8);
       __Pyx_GIVEREF(__pyx_n_s_utf8);
       __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 106; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 107; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_r = __pyx_t_4;
@@ -11582,12 +11601,12 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_23generator7(__pyx_Generator
       __pyx_L10_resume_from_yield:;
       __pyx_t_1 = __pyx_cur_scope->__pyx_t_0;
       __pyx_t_2 = __pyx_cur_scope->__pyx_t_1;
-      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 106; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 107; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
     }
     __pyx_L8_break:;
   }
 
-  /* "cdec/hypergraph.pxi":108
+  /* "cdec/hypergraph.pxi":109
  *                 yield unicode(GetString(derivation._yield).c_str(), 'utf8')
  *         finally:
  *             del derivations             # <<<<<<<<<<<<<<
@@ -11633,7 +11652,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_23generator7(__pyx_Generator
     __pyx_L6:;
   }
 
-  /* "cdec/hypergraph.pxi":97
+  /* "cdec/hypergraph.pxi":98
  *             del derivations
  * 
  *     def unique_kbest(self, size):             # <<<<<<<<<<<<<<
@@ -11657,7 +11676,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_23generator7(__pyx_Generator
 }
 static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_26generator8(__pyx_GeneratorObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
 
-/* "cdec/hypergraph.pxi":110
+/* "cdec/hypergraph.pxi":111
  *             del derivations
  * 
  *     def unique_kbest_trees(self, size):             # <<<<<<<<<<<<<<
@@ -11700,7 +11719,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_24unique_kbest_trees(struct 
   __Pyx_INCREF(__pyx_cur_scope->__pyx_v_size);
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_size);
   {
-    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_26generator8, (PyObject *) __pyx_cur_scope, __pyx_n_s_unique_kbest_trees, __pyx_n_s_Hypergraph_unique_kbest_trees); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 110; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_26generator8, (PyObject *) __pyx_cur_scope, __pyx_n_s_unique_kbest_trees, __pyx_n_s_Hypergraph_unique_kbest_trees); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 111; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -11748,29 +11767,29 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_26generator8(__pyx_Generator
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 110; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 111; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":112
+  /* "cdec/hypergraph.pxi":113
  *     def unique_kbest_trees(self, size):
  *         """hg.kbest_trees(size) -> List of unique k-best trees in the hypergraph."""
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.FTreeTraversal, kbest.FilterUnique]* f_derivations = new kbest.KBestDerivations[vector[WordID], kbest.FTreeTraversal, kbest.FilterUnique](self.hg[0], size)             # <<<<<<<<<<<<<<
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.FTreeTraversal, kbest.FilterUnique].Derivation* f_derivation
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.ETreeTraversal, kbest.FilterUnique]* e_derivations = new kbest.KBestDerivations[vector[WordID], kbest.ETreeTraversal, kbest.FilterUnique](self.hg[0], size)
  */
-  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 112; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 113; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_cur_scope->__pyx_v_f_derivations = new KBest::KBestDerivations<std::vector<WordID> ,FTreeTraversal,KBest::FilterUnique> ((__pyx_cur_scope->__pyx_v_self->hg[0]), __pyx_t_1);
 
-  /* "cdec/hypergraph.pxi":114
+  /* "cdec/hypergraph.pxi":115
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.FTreeTraversal, kbest.FilterUnique]* f_derivations = new kbest.KBestDerivations[vector[WordID], kbest.FTreeTraversal, kbest.FilterUnique](self.hg[0], size)
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.FTreeTraversal, kbest.FilterUnique].Derivation* f_derivation
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.ETreeTraversal, kbest.FilterUnique]* e_derivations = new kbest.KBestDerivations[vector[WordID], kbest.ETreeTraversal, kbest.FilterUnique](self.hg[0], size)             # <<<<<<<<<<<<<<
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.ETreeTraversal, kbest.FilterUnique].Derivation* e_derivation
  *         cdef unsigned k
  */
-  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 114; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 115; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_cur_scope->__pyx_v_e_derivations = new KBest::KBestDerivations<std::vector<WordID> ,ETreeTraversal,KBest::FilterUnique> ((__pyx_cur_scope->__pyx_v_self->hg[0]), __pyx_t_1);
 
-  /* "cdec/hypergraph.pxi":117
+  /* "cdec/hypergraph.pxi":118
  *         cdef kbest.KBestDerivations[vector[WordID], kbest.ETreeTraversal, kbest.FilterUnique].Derivation* e_derivation
  *         cdef unsigned k
  *         try:             # <<<<<<<<<<<<<<
@@ -11779,18 +11798,18 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_26generator8(__pyx_Generator
  */
   /*try:*/ {
 
-    /* "cdec/hypergraph.pxi":118
+    /* "cdec/hypergraph.pxi":119
  *         cdef unsigned k
  *         try:
  *             for k in range(size):             # <<<<<<<<<<<<<<
  *                 f_derivation = f_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 e_derivation = e_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  */
-    __pyx_t_2 = __Pyx_PyInt_As_long(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_2 == (long)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 118; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+    __pyx_t_2 = __Pyx_PyInt_As_long(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_2 == (long)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 119; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
     for (__pyx_t_1 = 0; __pyx_t_1 < __pyx_t_2; __pyx_t_1+=1) {
       __pyx_cur_scope->__pyx_v_k = __pyx_t_1;
 
-      /* "cdec/hypergraph.pxi":119
+      /* "cdec/hypergraph.pxi":120
  *         try:
  *             for k in range(size):
  *                 f_derivation = f_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)             # <<<<<<<<<<<<<<
@@ -11799,7 +11818,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_26generator8(__pyx_Generator
  */
       __pyx_cur_scope->__pyx_v_f_derivation = __pyx_cur_scope->__pyx_v_f_derivations->LazyKthBest((__pyx_cur_scope->__pyx_v_self->hg->nodes_.size() - 1), __pyx_cur_scope->__pyx_v_k);
 
-      /* "cdec/hypergraph.pxi":120
+      /* "cdec/hypergraph.pxi":121
  *             for k in range(size):
  *                 f_derivation = f_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 e_derivation = e_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)             # <<<<<<<<<<<<<<
@@ -11808,7 +11827,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_26generator8(__pyx_Generator
  */
       __pyx_cur_scope->__pyx_v_e_derivation = __pyx_cur_scope->__pyx_v_e_derivations->LazyKthBest((__pyx_cur_scope->__pyx_v_self->hg->nodes_.size() - 1), __pyx_cur_scope->__pyx_v_k);
 
-      /* "cdec/hypergraph.pxi":121
+      /* "cdec/hypergraph.pxi":122
  *                 f_derivation = f_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 e_derivation = e_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not f_derivation or not e_derivation: break             # <<<<<<<<<<<<<<
@@ -11830,39 +11849,14 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_26generator8(__pyx_Generator
         goto __pyx_L8_break;
       }
 
-      /* "cdec/hypergraph.pxi":122
+      /* "cdec/hypergraph.pxi":123
  *                 e_derivation = e_derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not f_derivation or not e_derivation: break
  *                 f_tree = unicode(GetString(f_derivation._yield).c_str(), 'utf8')             # <<<<<<<<<<<<<<
  *                 e_tree = unicode(GetString(e_derivation._yield).c_str(), 'utf8')
  *                 yield (f_tree, e_tree)
  */
-      __pyx_t_5 = __Pyx_PyBytes_FromString(TD::GetString(__pyx_cur_scope->__pyx_v_f_derivation->yield).c_str()); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 122; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
-      __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 122; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
-      __Pyx_GOTREF(__pyx_t_6);
-      PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_5);
-      __Pyx_GIVEREF(__pyx_t_5);
-      __Pyx_INCREF(__pyx_n_s_utf8);
-      PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_n_s_utf8);
-      __Pyx_GIVEREF(__pyx_n_s_utf8);
-      __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_6, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 122; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
-      __Pyx_GOTREF(__pyx_t_5);
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __Pyx_XGOTREF(__pyx_cur_scope->__pyx_v_f_tree);
-      __Pyx_XDECREF_SET(__pyx_cur_scope->__pyx_v_f_tree, ((PyObject*)__pyx_t_5));
-      __Pyx_GIVEREF(__pyx_t_5);
-      __pyx_t_5 = 0;
-
-      /* "cdec/hypergraph.pxi":123
- *                 if not f_derivation or not e_derivation: break
- *                 f_tree = unicode(GetString(f_derivation._yield).c_str(), 'utf8')
- *                 e_tree = unicode(GetString(e_derivation._yield).c_str(), 'utf8')             # <<<<<<<<<<<<<<
- *                 yield (f_tree, e_tree)
- *         finally:
- */
-      __pyx_t_5 = __Pyx_PyBytes_FromString(TD::GetString(__pyx_cur_scope->__pyx_v_e_derivation->yield).c_str()); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 123; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_5 = __Pyx_PyBytes_FromString(TD::GetString(__pyx_cur_scope->__pyx_v_f_derivation->yield).c_str()); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 123; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 123; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_6);
@@ -11875,19 +11869,44 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_26generator8(__pyx_Generator
       __pyx_t_5 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_6, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 123; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __Pyx_XGOTREF(__pyx_cur_scope->__pyx_v_f_tree);
+      __Pyx_XDECREF_SET(__pyx_cur_scope->__pyx_v_f_tree, ((PyObject*)__pyx_t_5));
+      __Pyx_GIVEREF(__pyx_t_5);
+      __pyx_t_5 = 0;
+
+      /* "cdec/hypergraph.pxi":124
+ *                 if not f_derivation or not e_derivation: break
+ *                 f_tree = unicode(GetString(f_derivation._yield).c_str(), 'utf8')
+ *                 e_tree = unicode(GetString(e_derivation._yield).c_str(), 'utf8')             # <<<<<<<<<<<<<<
+ *                 yield (f_tree, e_tree)
+ *         finally:
+ */
+      __pyx_t_5 = __Pyx_PyBytes_FromString(TD::GetString(__pyx_cur_scope->__pyx_v_e_derivation->yield).c_str()); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 124; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __Pyx_GOTREF(__pyx_t_5);
+      __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 124; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __Pyx_GOTREF(__pyx_t_6);
+      PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_5);
+      __Pyx_GIVEREF(__pyx_t_5);
+      __Pyx_INCREF(__pyx_n_s_utf8);
+      PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_n_s_utf8);
+      __Pyx_GIVEREF(__pyx_n_s_utf8);
+      __pyx_t_5 = 0;
+      __pyx_t_5 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_6, NULL); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 124; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __Pyx_GOTREF(__pyx_t_5);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_XGOTREF(__pyx_cur_scope->__pyx_v_e_tree);
       __Pyx_XDECREF_SET(__pyx_cur_scope->__pyx_v_e_tree, ((PyObject*)__pyx_t_5));
       __Pyx_GIVEREF(__pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "cdec/hypergraph.pxi":124
+      /* "cdec/hypergraph.pxi":125
  *                 f_tree = unicode(GetString(f_derivation._yield).c_str(), 'utf8')
  *                 e_tree = unicode(GetString(e_derivation._yield).c_str(), 'utf8')
  *                 yield (f_tree, e_tree)             # <<<<<<<<<<<<<<
  *         finally:
  *             del f_derivations
  */
-      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 124; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 125; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_INCREF(__pyx_cur_scope->__pyx_v_f_tree);
       PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_cur_scope->__pyx_v_f_tree);
@@ -11907,12 +11926,12 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_26generator8(__pyx_Generator
       __pyx_L12_resume_from_yield:;
       __pyx_t_1 = __pyx_cur_scope->__pyx_t_0;
       __pyx_t_2 = __pyx_cur_scope->__pyx_t_1;
-      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 124; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 125; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
     }
     __pyx_L8_break:;
   }
 
-  /* "cdec/hypergraph.pxi":126
+  /* "cdec/hypergraph.pxi":127
  *                 yield (f_tree, e_tree)
  *         finally:
  *             del f_derivations             # <<<<<<<<<<<<<<
@@ -11923,7 +11942,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_26generator8(__pyx_Generator
     /*normal exit:*/{
       delete __pyx_cur_scope->__pyx_v_f_derivations;
 
-      /* "cdec/hypergraph.pxi":127
+      /* "cdec/hypergraph.pxi":128
  *         finally:
  *             del f_derivations
  *             del e_derivations             # <<<<<<<<<<<<<<
@@ -11949,7 +11968,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_26generator8(__pyx_Generator
       __pyx_t_7 = __pyx_lineno; __pyx_t_8 = __pyx_clineno; __pyx_t_9 = __pyx_filename;
       {
 
-        /* "cdec/hypergraph.pxi":126
+        /* "cdec/hypergraph.pxi":127
  *                 yield (f_tree, e_tree)
  *         finally:
  *             del f_derivations             # <<<<<<<<<<<<<<
@@ -11958,7 +11977,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_26generator8(__pyx_Generator
  */
         delete __pyx_cur_scope->__pyx_v_f_derivations;
 
-        /* "cdec/hypergraph.pxi":127
+        /* "cdec/hypergraph.pxi":128
  *         finally:
  *             del f_derivations
  *             del e_derivations             # <<<<<<<<<<<<<<
@@ -11984,7 +12003,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_26generator8(__pyx_Generator
     __pyx_L6:;
   }
 
-  /* "cdec/hypergraph.pxi":110
+  /* "cdec/hypergraph.pxi":111
  *             del derivations
  * 
  *     def unique_kbest_trees(self, size):             # <<<<<<<<<<<<<<
@@ -12008,7 +12027,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_26generator8(__pyx_Generator
 }
 static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_29generator9(__pyx_GeneratorObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
 
-/* "cdec/hypergraph.pxi":129
+/* "cdec/hypergraph.pxi":130
  *             del e_derivations
  * 
  *     def unique_kbest_features(self, size):             # <<<<<<<<<<<<<<
@@ -12051,7 +12070,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_27unique_kbest_features(stru
   __Pyx_INCREF(__pyx_cur_scope->__pyx_v_size);
   __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_size);
   {
-    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_29generator9, (PyObject *) __pyx_cur_scope, __pyx_n_s_unique_kbest_features, __pyx_n_s_Hypergraph_unique_kbest_features); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 129; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_29generator9, (PyObject *) __pyx_cur_scope, __pyx_n_s_unique_kbest_features, __pyx_n_s_Hypergraph_unique_kbest_features); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 130; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -12097,19 +12116,19 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_29generator9(__pyx_Generator
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 129; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 130; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":131
+  /* "cdec/hypergraph.pxi":132
  *     def unique_kbest_features(self, size):
  *         """hg.kbest_trees(size) -> List of unique k-best feature vectors in the hypergraph."""
  *         cdef kbest.KBestDerivations[FastSparseVector[weight_t], kbest.FeatureVectorTraversal, kbest.NoFilter[FastSparseVector[double]]]* derivations = new kbest.KBestDerivations[FastSparseVector[weight_t], kbest.FeatureVectorTraversal, kbest.NoFilter[FastSparseVector[double]]](self.hg[0], size)             # <<<<<<<<<<<<<<
  *         cdef kbest.KBestDerivations[FastSparseVector[weight_t], kbest.FeatureVectorTraversal, kbest.NoFilter[FastSparseVector[double]]].Derivation* derivation
  *         cdef SparseVector fmap
  */
-  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 131; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyInt_As_unsigned_int(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_1 == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 132; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_cur_scope->__pyx_v_derivations = new KBest::KBestDerivations<FastSparseVector<weight_t> ,FeatureVectorTraversal,KBest::NoFilter<FastSparseVector<double> > > ((__pyx_cur_scope->__pyx_v_self->hg[0]), __pyx_t_1);
 
-  /* "cdec/hypergraph.pxi":135
+  /* "cdec/hypergraph.pxi":136
  *         cdef SparseVector fmap
  *         cdef unsigned k
  *         try:             # <<<<<<<<<<<<<<
@@ -12118,18 +12137,18 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_29generator9(__pyx_Generator
  */
   /*try:*/ {
 
-    /* "cdec/hypergraph.pxi":136
+    /* "cdec/hypergraph.pxi":137
  *         cdef unsigned k
  *         try:
  *             for k in range(size):             # <<<<<<<<<<<<<<
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not derivation: break
  */
-    __pyx_t_2 = __Pyx_PyInt_As_long(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_2 == (long)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 136; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+    __pyx_t_2 = __Pyx_PyInt_As_long(__pyx_cur_scope->__pyx_v_size); if (unlikely((__pyx_t_2 == (long)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 137; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
     for (__pyx_t_1 = 0; __pyx_t_1 < __pyx_t_2; __pyx_t_1+=1) {
       __pyx_cur_scope->__pyx_v_k = __pyx_t_1;
 
-      /* "cdec/hypergraph.pxi":137
+      /* "cdec/hypergraph.pxi":138
  *         try:
  *             for k in range(size):
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)             # <<<<<<<<<<<<<<
@@ -12138,7 +12157,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_29generator9(__pyx_Generator
  */
       __pyx_cur_scope->__pyx_v_derivation = __pyx_cur_scope->__pyx_v_derivations->LazyKthBest((__pyx_cur_scope->__pyx_v_self->hg->nodes_.size() - 1), __pyx_cur_scope->__pyx_v_k);
 
-      /* "cdec/hypergraph.pxi":138
+      /* "cdec/hypergraph.pxi":139
  *             for k in range(size):
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not derivation: break             # <<<<<<<<<<<<<<
@@ -12150,22 +12169,22 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_29generator9(__pyx_Generator
         goto __pyx_L8_break;
       }
 
-      /* "cdec/hypergraph.pxi":139
+      /* "cdec/hypergraph.pxi":140
  *                 derivation = derivations.LazyKthBest(self.hg.nodes_.size() - 1, k)
  *                 if not derivation: break
  *                 fmap = SparseVector.__new__(SparseVector)             # <<<<<<<<<<<<<<
  *                 fmap.vector = new FastSparseVector[weight_t](derivation._yield)
  *                 yield fmap
  */
-      __pyx_t_4 = __pyx_tp_new_4cdec_5_cdec_SparseVector(((PyTypeObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_SparseVector)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 139; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_4 = __pyx_tp_new_4cdec_5_cdec_SparseVector(((PyTypeObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_SparseVector)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 140; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_4);
-      if (!(likely(__Pyx_TypeTest(__pyx_t_4, __pyx_ptype_4cdec_5_cdec_SparseVector)))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 139; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      if (!(likely(__Pyx_TypeTest(__pyx_t_4, __pyx_ptype_4cdec_5_cdec_SparseVector)))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 140; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_XGOTREF(((PyObject *)__pyx_cur_scope->__pyx_v_fmap));
       __Pyx_XDECREF_SET(__pyx_cur_scope->__pyx_v_fmap, ((struct __pyx_obj_4cdec_5_cdec_SparseVector *)__pyx_t_4));
       __Pyx_GIVEREF(__pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "cdec/hypergraph.pxi":140
+      /* "cdec/hypergraph.pxi":141
  *                 if not derivation: break
  *                 fmap = SparseVector.__new__(SparseVector)
  *                 fmap.vector = new FastSparseVector[weight_t](derivation._yield)             # <<<<<<<<<<<<<<
@@ -12174,7 +12193,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_29generator9(__pyx_Generator
  */
       __pyx_cur_scope->__pyx_v_fmap->vector = new FastSparseVector<weight_t> (__pyx_cur_scope->__pyx_v_derivation->yield);
 
-      /* "cdec/hypergraph.pxi":141
+      /* "cdec/hypergraph.pxi":142
  *                 fmap = SparseVector.__new__(SparseVector)
  *                 fmap.vector = new FastSparseVector[weight_t](derivation._yield)
  *                 yield fmap             # <<<<<<<<<<<<<<
@@ -12193,12 +12212,12 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_29generator9(__pyx_Generator
       __pyx_L10_resume_from_yield:;
       __pyx_t_1 = __pyx_cur_scope->__pyx_t_0;
       __pyx_t_2 = __pyx_cur_scope->__pyx_t_1;
-      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 141; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 142; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
     }
     __pyx_L8_break:;
   }
 
-  /* "cdec/hypergraph.pxi":143
+  /* "cdec/hypergraph.pxi":144
  *                 yield fmap
  *         finally:
  *             del derivations             # <<<<<<<<<<<<<<
@@ -12243,7 +12262,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_29generator9(__pyx_Generator
     __pyx_L6:;
   }
 
-  /* "cdec/hypergraph.pxi":129
+  /* "cdec/hypergraph.pxi":130
  *             del e_derivations
  * 
  *     def unique_kbest_features(self, size):             # <<<<<<<<<<<<<<
@@ -12266,7 +12285,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_29generator9(__pyx_Generator
 }
 static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_32generator10(__pyx_GeneratorObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
 
-/* "cdec/hypergraph.pxi":145
+/* "cdec/hypergraph.pxi":146
  *             del derivations
  * 
  *     def sample(self, unsigned n):             # <<<<<<<<<<<<<<
@@ -12286,7 +12305,7 @@ static PyObject *__pyx_pw_4cdec_5_cdec_10Hypergraph_31sample(PyObject *__pyx_v_s
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("sample (wrapper)", 0);
   assert(__pyx_arg_n); {
-    __pyx_v_n = __Pyx_PyInt_As_unsigned_int(__pyx_arg_n); if (unlikely((__pyx_v_n == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 145; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+    __pyx_v_n = __Pyx_PyInt_As_unsigned_int(__pyx_arg_n); if (unlikely((__pyx_v_n == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 146; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -12320,7 +12339,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_30sample(struct __pyx_obj_4c
   __Pyx_GIVEREF((PyObject *)__pyx_cur_scope->__pyx_v_self);
   __pyx_cur_scope->__pyx_v_n = __pyx_v_n;
   {
-    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_32generator10, (PyObject *) __pyx_cur_scope, __pyx_n_s_sample, __pyx_n_s_Hypergraph_sample); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 145; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_32generator10, (PyObject *) __pyx_cur_scope, __pyx_n_s_sample, __pyx_n_s_Hypergraph_sample); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 146; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -12367,9 +12386,9 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_32generator10(__pyx_Generato
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 145; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 146; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":147
+  /* "cdec/hypergraph.pxi":148
  *     def sample(self, unsigned n):
  *         """hg.sample(n) -> Sample of n hypotheses from the hypergraph."""
  *         cdef vector[hypergraph.Hypothesis]* hypos = new vector[hypergraph.Hypothesis]()             # <<<<<<<<<<<<<<
@@ -12380,11 +12399,11 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_32generator10(__pyx_Generato
     __pyx_t_1 = new std::vector<HypergraphSampler::Hypothesis> ();
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    {__pyx_filename = __pyx_f[3]; __pyx_lineno = 147; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[3]; __pyx_lineno = 148; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_cur_scope->__pyx_v_hypos = __pyx_t_1;
 
-  /* "cdec/hypergraph.pxi":148
+  /* "cdec/hypergraph.pxi":149
  *         """hg.sample(n) -> Sample of n hypotheses from the hypergraph."""
  *         cdef vector[hypergraph.Hypothesis]* hypos = new vector[hypergraph.Hypothesis]()
  *         hypergraph.sample_hypotheses(self.hg[0], n, self._rng(), hypos)             # <<<<<<<<<<<<<<
@@ -12393,7 +12412,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_32generator10(__pyx_Generato
  */
   HypergraphSampler::sample_hypotheses((__pyx_cur_scope->__pyx_v_self->hg[0]), __pyx_cur_scope->__pyx_v_n, ((struct __pyx_vtabstruct_4cdec_5_cdec_Hypergraph *)__pyx_cur_scope->__pyx_v_self->__pyx_vtab)->_rng(__pyx_cur_scope->__pyx_v_self), __pyx_cur_scope->__pyx_v_hypos);
 
-  /* "cdec/hypergraph.pxi":150
+  /* "cdec/hypergraph.pxi":151
  *         hypergraph.sample_hypotheses(self.hg[0], n, self._rng(), hypos)
  *         cdef unsigned k
  *         try:             # <<<<<<<<<<<<<<
@@ -12402,7 +12421,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_32generator10(__pyx_Generato
  */
   /*try:*/ {
 
-    /* "cdec/hypergraph.pxi":151
+    /* "cdec/hypergraph.pxi":152
  *         cdef unsigned k
  *         try:
  *             for k in range(hypos.size()):             # <<<<<<<<<<<<<<
@@ -12413,16 +12432,16 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_32generator10(__pyx_Generato
     for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
       __pyx_cur_scope->__pyx_v_k = __pyx_t_3;
 
-      /* "cdec/hypergraph.pxi":152
+      /* "cdec/hypergraph.pxi":153
  *         try:
  *             for k in range(hypos.size()):
  *                 yield unicode(GetString(hypos[0][k].words).c_str(), 'utf8')             # <<<<<<<<<<<<<<
  *         finally:
  *             del hypos
  */
-      __pyx_t_4 = __Pyx_PyBytes_FromString(TD::GetString(((__pyx_cur_scope->__pyx_v_hypos[0])[__pyx_cur_scope->__pyx_v_k]).words).c_str()); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 152; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_4 = __Pyx_PyBytes_FromString(TD::GetString(((__pyx_cur_scope->__pyx_v_hypos[0])[__pyx_cur_scope->__pyx_v_k]).words).c_str()); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 153; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 152; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 153; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_5);
       PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4);
       __Pyx_GIVEREF(__pyx_t_4);
@@ -12430,7 +12449,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_32generator10(__pyx_Generato
       PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_n_s_utf8);
       __Pyx_GIVEREF(__pyx_n_s_utf8);
       __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 152; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 153; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_r = __pyx_t_4;
@@ -12445,11 +12464,11 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_32generator10(__pyx_Generato
       __pyx_L9_resume_from_yield:;
       __pyx_t_2 = __pyx_cur_scope->__pyx_t_0;
       __pyx_t_3 = __pyx_cur_scope->__pyx_t_1;
-      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 152; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 153; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
     }
   }
 
-  /* "cdec/hypergraph.pxi":154
+  /* "cdec/hypergraph.pxi":155
  *                 yield unicode(GetString(hypos[0][k].words).c_str(), 'utf8')
  *         finally:
  *             del hypos             # <<<<<<<<<<<<<<
@@ -12495,7 +12514,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_32generator10(__pyx_Generato
     __pyx_L6:;
   }
 
-  /* "cdec/hypergraph.pxi":145
+  /* "cdec/hypergraph.pxi":146
  *             del derivations
  * 
  *     def sample(self, unsigned n):             # <<<<<<<<<<<<<<
@@ -12519,7 +12538,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_32generator10(__pyx_Generato
 }
 static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_35generator11(__pyx_GeneratorObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
 
-/* "cdec/hypergraph.pxi":156
+/* "cdec/hypergraph.pxi":157
  *             del hypos
  * 
  *     def sample_hypotheses(self, unsigned n):             # <<<<<<<<<<<<<<
@@ -12539,7 +12558,7 @@ static PyObject *__pyx_pw_4cdec_5_cdec_10Hypergraph_34sample_hypotheses(PyObject
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("sample_hypotheses (wrapper)", 0);
   assert(__pyx_arg_n); {
-    __pyx_v_n = __Pyx_PyInt_As_unsigned_int(__pyx_arg_n); if (unlikely((__pyx_v_n == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 156; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+    __pyx_v_n = __Pyx_PyInt_As_unsigned_int(__pyx_arg_n); if (unlikely((__pyx_v_n == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 157; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -12573,7 +12592,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_33sample_hypotheses(struct _
   __Pyx_GIVEREF((PyObject *)__pyx_cur_scope->__pyx_v_self);
   __pyx_cur_scope->__pyx_v_n = __pyx_v_n;
   {
-    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_35generator11, (PyObject *) __pyx_cur_scope, __pyx_n_s_sample_hypotheses, __pyx_n_s_Hypergraph_sample_hypotheses); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 156; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_35generator11, (PyObject *) __pyx_cur_scope, __pyx_n_s_sample_hypotheses, __pyx_n_s_Hypergraph_sample_hypotheses); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 157; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -12621,9 +12640,9 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_35generator11(__pyx_Generato
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 156; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 157; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":159
+  /* "cdec/hypergraph.pxi":160
  *         """hg.sample_string(n) -> Sample of n hypotheses from the hypergraph.
  *         Generates (sample_string, dot, fmap)"""
  *         cdef vector[hypergraph.Hypothesis]* hypos = new vector[hypergraph.Hypothesis]()             # <<<<<<<<<<<<<<
@@ -12634,11 +12653,11 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_35generator11(__pyx_Generato
     __pyx_t_1 = new std::vector<HypergraphSampler::Hypothesis> ();
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    {__pyx_filename = __pyx_f[3]; __pyx_lineno = 159; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[3]; __pyx_lineno = 160; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_cur_scope->__pyx_v_hypos = __pyx_t_1;
 
-  /* "cdec/hypergraph.pxi":160
+  /* "cdec/hypergraph.pxi":161
  *         Generates (sample_string, dot, fmap)"""
  *         cdef vector[hypergraph.Hypothesis]* hypos = new vector[hypergraph.Hypothesis]()
  *         cdef SparseVector fmap = None             # <<<<<<<<<<<<<<
@@ -12649,7 +12668,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_35generator11(__pyx_Generato
   __Pyx_GIVEREF(Py_None);
   __pyx_cur_scope->__pyx_v_fmap = ((struct __pyx_obj_4cdec_5_cdec_SparseVector *)Py_None);
 
-  /* "cdec/hypergraph.pxi":161
+  /* "cdec/hypergraph.pxi":162
  *         cdef vector[hypergraph.Hypothesis]* hypos = new vector[hypergraph.Hypothesis]()
  *         cdef SparseVector fmap = None
  *         hypergraph.sample_hypotheses(self.hg[0], n, self._rng(), hypos)             # <<<<<<<<<<<<<<
@@ -12658,7 +12677,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_35generator11(__pyx_Generato
  */
   HypergraphSampler::sample_hypotheses((__pyx_cur_scope->__pyx_v_self->hg[0]), __pyx_cur_scope->__pyx_v_n, ((struct __pyx_vtabstruct_4cdec_5_cdec_Hypergraph *)__pyx_cur_scope->__pyx_v_self->__pyx_vtab)->_rng(__pyx_cur_scope->__pyx_v_self), __pyx_cur_scope->__pyx_v_hypos);
 
-  /* "cdec/hypergraph.pxi":163
+  /* "cdec/hypergraph.pxi":164
  *         hypergraph.sample_hypotheses(self.hg[0], n, self._rng(), hypos)
  *         cdef unsigned k
  *         try:             # <<<<<<<<<<<<<<
@@ -12667,7 +12686,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_35generator11(__pyx_Generato
  */
   /*try:*/ {
 
-    /* "cdec/hypergraph.pxi":164
+    /* "cdec/hypergraph.pxi":165
  *         cdef unsigned k
  *         try:
  *             for k in range(hypos.size()):             # <<<<<<<<<<<<<<
@@ -12678,22 +12697,22 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_35generator11(__pyx_Generato
     for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
       __pyx_cur_scope->__pyx_v_k = __pyx_t_3;
 
-      /* "cdec/hypergraph.pxi":165
+      /* "cdec/hypergraph.pxi":166
  *         try:
  *             for k in range(hypos.size()):
  *                 fmap = SparseVector.__new__(SparseVector)             # <<<<<<<<<<<<<<
  *                 fmap.vector = new FastSparseVector[weight_t](hypos[0][k].fmap)
  *                 yield unicode(GetString(hypos[0][k].words).c_str(), 'utf8'), hypos[0][k].model_score.as_float(), fmap
  */
-      __pyx_t_4 = __pyx_tp_new_4cdec_5_cdec_SparseVector(((PyTypeObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_SparseVector)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 165; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_4 = __pyx_tp_new_4cdec_5_cdec_SparseVector(((PyTypeObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_SparseVector)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 166; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_4);
-      if (!(likely(__Pyx_TypeTest(__pyx_t_4, __pyx_ptype_4cdec_5_cdec_SparseVector)))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 165; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      if (!(likely(__Pyx_TypeTest(__pyx_t_4, __pyx_ptype_4cdec_5_cdec_SparseVector)))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 166; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(((PyObject *)__pyx_cur_scope->__pyx_v_fmap));
       __Pyx_DECREF_SET(__pyx_cur_scope->__pyx_v_fmap, ((struct __pyx_obj_4cdec_5_cdec_SparseVector *)__pyx_t_4));
       __Pyx_GIVEREF(__pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "cdec/hypergraph.pxi":166
+      /* "cdec/hypergraph.pxi":167
  *             for k in range(hypos.size()):
  *                 fmap = SparseVector.__new__(SparseVector)
  *                 fmap.vector = new FastSparseVector[weight_t](hypos[0][k].fmap)             # <<<<<<<<<<<<<<
@@ -12702,16 +12721,16 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_35generator11(__pyx_Generato
  */
       __pyx_cur_scope->__pyx_v_fmap->vector = new FastSparseVector<weight_t> (((__pyx_cur_scope->__pyx_v_hypos[0])[__pyx_cur_scope->__pyx_v_k]).fmap);
 
-      /* "cdec/hypergraph.pxi":167
+      /* "cdec/hypergraph.pxi":168
  *                 fmap = SparseVector.__new__(SparseVector)
  *                 fmap.vector = new FastSparseVector[weight_t](hypos[0][k].fmap)
  *                 yield unicode(GetString(hypos[0][k].words).c_str(), 'utf8'), hypos[0][k].model_score.as_float(), fmap             # <<<<<<<<<<<<<<
  *         finally:
  *             del hypos
  */
-      __pyx_t_4 = __Pyx_PyBytes_FromString(TD::GetString(((__pyx_cur_scope->__pyx_v_hypos[0])[__pyx_cur_scope->__pyx_v_k]).words).c_str()); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 167; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_4 = __Pyx_PyBytes_FromString(TD::GetString(((__pyx_cur_scope->__pyx_v_hypos[0])[__pyx_cur_scope->__pyx_v_k]).words).c_str()); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 168; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 167; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 168; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_5);
       PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4);
       __Pyx_GIVEREF(__pyx_t_4);
@@ -12719,12 +12738,12 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_35generator11(__pyx_Generato
       PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_n_s_utf8);
       __Pyx_GIVEREF(__pyx_n_s_utf8);
       __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 167; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 168; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = PyFloat_FromDouble(((__pyx_cur_scope->__pyx_v_hypos[0])[__pyx_cur_scope->__pyx_v_k]).model_score.as_float()); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 167; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_5 = PyFloat_FromDouble(((__pyx_cur_scope->__pyx_v_hypos[0])[__pyx_cur_scope->__pyx_v_k]).model_score.as_float()); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 168; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_6 = PyTuple_New(3); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 167; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_6 = PyTuple_New(3); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 168; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_6);
       PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_4);
       __Pyx_GIVEREF(__pyx_t_4);
@@ -12747,11 +12766,11 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_35generator11(__pyx_Generato
       __pyx_L9_resume_from_yield:;
       __pyx_t_2 = __pyx_cur_scope->__pyx_t_0;
       __pyx_t_3 = __pyx_cur_scope->__pyx_t_1;
-      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 167; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 168; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
     }
   }
 
-  /* "cdec/hypergraph.pxi":169
+  /* "cdec/hypergraph.pxi":170
  *                 yield unicode(GetString(hypos[0][k].words).c_str(), 'utf8'), hypos[0][k].model_score.as_float(), fmap
  *         finally:
  *             del hypos             # <<<<<<<<<<<<<<
@@ -12798,7 +12817,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_35generator11(__pyx_Generato
     __pyx_L6:;
   }
 
-  /* "cdec/hypergraph.pxi":156
+  /* "cdec/hypergraph.pxi":157
  *             del hypos
  * 
  *     def sample_hypotheses(self, unsigned n):             # <<<<<<<<<<<<<<
@@ -12823,7 +12842,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_35generator11(__pyx_Generato
 }
 static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_38generator12(__pyx_GeneratorObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
 
-/* "cdec/hypergraph.pxi":171
+/* "cdec/hypergraph.pxi":172
  *             del hypos
  * 
  *     def sample_trees(self, unsigned n):             # <<<<<<<<<<<<<<
@@ -12843,7 +12862,7 @@ static PyObject *__pyx_pw_4cdec_5_cdec_10Hypergraph_37sample_trees(PyObject *__p
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("sample_trees (wrapper)", 0);
   assert(__pyx_arg_n); {
-    __pyx_v_n = __Pyx_PyInt_As_unsigned_int(__pyx_arg_n); if (unlikely((__pyx_v_n == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 171; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+    __pyx_v_n = __Pyx_PyInt_As_unsigned_int(__pyx_arg_n); if (unlikely((__pyx_v_n == (unsigned int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 172; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -12877,7 +12896,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_36sample_trees(struct __pyx_
   __Pyx_GIVEREF((PyObject *)__pyx_cur_scope->__pyx_v_self);
   __pyx_cur_scope->__pyx_v_n = __pyx_v_n;
   {
-    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_38generator12, (PyObject *) __pyx_cur_scope, __pyx_n_s_sample_trees, __pyx_n_s_Hypergraph_sample_trees); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 171; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_38generator12, (PyObject *) __pyx_cur_scope, __pyx_n_s_sample_trees, __pyx_n_s_Hypergraph_sample_trees); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 172; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -12924,9 +12943,9 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_38generator12(__pyx_Generato
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 171; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 172; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":173
+  /* "cdec/hypergraph.pxi":174
  *     def sample_trees(self, unsigned n):
  *        """hg.sample_trees(n) -> Sample of n trees from the hypergraph."""
  *        cdef vector[string]* trees = new vector[string]()             # <<<<<<<<<<<<<<
@@ -12937,11 +12956,11 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_38generator12(__pyx_Generato
     __pyx_t_1 = new std::vector<std::string> ();
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    {__pyx_filename = __pyx_f[3]; __pyx_lineno = 173; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[3]; __pyx_lineno = 174; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_cur_scope->__pyx_v_trees = __pyx_t_1;
 
-  /* "cdec/hypergraph.pxi":174
+  /* "cdec/hypergraph.pxi":175
  *        """hg.sample_trees(n) -> Sample of n trees from the hypergraph."""
  *        cdef vector[string]* trees = new vector[string]()
  *        hypergraph.sample_trees(self.hg[0], n, self._rng(), trees)             # <<<<<<<<<<<<<<
@@ -12950,7 +12969,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_38generator12(__pyx_Generato
  */
   HypergraphSampler::sample_trees((__pyx_cur_scope->__pyx_v_self->hg[0]), __pyx_cur_scope->__pyx_v_n, ((struct __pyx_vtabstruct_4cdec_5_cdec_Hypergraph *)__pyx_cur_scope->__pyx_v_self->__pyx_vtab)->_rng(__pyx_cur_scope->__pyx_v_self), __pyx_cur_scope->__pyx_v_trees);
 
-  /* "cdec/hypergraph.pxi":176
+  /* "cdec/hypergraph.pxi":177
  *        hypergraph.sample_trees(self.hg[0], n, self._rng(), trees)
  *        cdef unsigned k
  *        try:             # <<<<<<<<<<<<<<
@@ -12959,7 +12978,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_38generator12(__pyx_Generato
  */
   /*try:*/ {
 
-    /* "cdec/hypergraph.pxi":177
+    /* "cdec/hypergraph.pxi":178
  *        cdef unsigned k
  *        try:
  *            for k in range(trees.size()):             # <<<<<<<<<<<<<<
@@ -12970,16 +12989,16 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_38generator12(__pyx_Generato
     for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
       __pyx_cur_scope->__pyx_v_k = __pyx_t_3;
 
-      /* "cdec/hypergraph.pxi":178
+      /* "cdec/hypergraph.pxi":179
  *        try:
  *            for k in range(trees.size()):
  *                yield unicode(trees[0][k].c_str(), 'utf8')             # <<<<<<<<<<<<<<
  *        finally:
  *            del trees
  */
-      __pyx_t_4 = __Pyx_PyBytes_FromString(((__pyx_cur_scope->__pyx_v_trees[0])[__pyx_cur_scope->__pyx_v_k]).c_str()); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 178; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_4 = __Pyx_PyBytes_FromString(((__pyx_cur_scope->__pyx_v_trees[0])[__pyx_cur_scope->__pyx_v_k]).c_str()); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 179; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 178; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 179; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_5);
       PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4);
       __Pyx_GIVEREF(__pyx_t_4);
@@ -12987,7 +13006,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_38generator12(__pyx_Generato
       PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_n_s_utf8);
       __Pyx_GIVEREF(__pyx_n_s_utf8);
       __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 178; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyUnicode_Type))), __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 179; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_r = __pyx_t_4;
@@ -13002,11 +13021,11 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_38generator12(__pyx_Generato
       __pyx_L9_resume_from_yield:;
       __pyx_t_2 = __pyx_cur_scope->__pyx_t_0;
       __pyx_t_3 = __pyx_cur_scope->__pyx_t_1;
-      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 178; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
+      if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 179; __pyx_clineno = __LINE__; goto __pyx_L5_error;}
     }
   }
 
-  /* "cdec/hypergraph.pxi":180
+  /* "cdec/hypergraph.pxi":181
  *                yield unicode(trees[0][k].c_str(), 'utf8')
  *        finally:
  *            del trees             # <<<<<<<<<<<<<<
@@ -13052,7 +13071,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_38generator12(__pyx_Generato
     __pyx_L6:;
   }
 
-  /* "cdec/hypergraph.pxi":171
+  /* "cdec/hypergraph.pxi":172
  *             del hypos
  * 
  *     def sample_trees(self, unsigned n):             # <<<<<<<<<<<<<<
@@ -13075,7 +13094,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_38generator12(__pyx_Generato
   return NULL;
 }
 
-/* "cdec/hypergraph.pxi":182
+/* "cdec/hypergraph.pxi":183
  *            del trees
  * 
  *     def intersect(self, inp):             # <<<<<<<<<<<<<<
@@ -13110,7 +13129,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_39intersect(struct __pyx_obj
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("intersect", 0);
 
-  /* "cdec/hypergraph.pxi":185
+  /* "cdec/hypergraph.pxi":186
  *         """hg.intersect(Lattice/string): Intersect the hypergraph with the provided reference."""
  *         cdef Lattice lat
  *         if isinstance(inp, Lattice):             # <<<<<<<<<<<<<<
@@ -13121,7 +13140,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_39intersect(struct __pyx_obj
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "cdec/hypergraph.pxi":186
+    /* "cdec/hypergraph.pxi":187
  *         cdef Lattice lat
  *         if isinstance(inp, Lattice):
  *             lat = <Lattice> inp             # <<<<<<<<<<<<<<
@@ -13135,7 +13154,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_39intersect(struct __pyx_obj
     goto __pyx_L3;
   }
 
-  /* "cdec/hypergraph.pxi":187
+  /* "cdec/hypergraph.pxi":188
  *         if isinstance(inp, Lattice):
  *             lat = <Lattice> inp
  *         elif isinstance(inp, basestring):             # <<<<<<<<<<<<<<
@@ -13146,19 +13165,19 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_39intersect(struct __pyx_obj
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "cdec/hypergraph.pxi":188
+    /* "cdec/hypergraph.pxi":189
  *             lat = <Lattice> inp
  *         elif isinstance(inp, basestring):
  *             lat = Lattice(inp)             # <<<<<<<<<<<<<<
  *         else:
  *             raise TypeError('cannot intersect hypergraph with %s' % type(inp))
  */
-    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 188; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 189; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(__pyx_v_inp);
     PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_v_inp);
     __Pyx_GIVEREF(__pyx_v_inp);
-    __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_Lattice)), __pyx_t_3, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 188; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_Lattice)), __pyx_t_3, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 189; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_v_lat = ((struct __pyx_obj_4cdec_5_cdec_Lattice *)__pyx_t_4);
@@ -13167,30 +13186,30 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_39intersect(struct __pyx_obj
   }
   /*else*/ {
 
-    /* "cdec/hypergraph.pxi":190
+    /* "cdec/hypergraph.pxi":191
  *             lat = Lattice(inp)
  *         else:
  *             raise TypeError('cannot intersect hypergraph with %s' % type(inp))             # <<<<<<<<<<<<<<
  *         return hypergraph.Intersect(lat.lattice[0], self.hg)
  * 
  */
-    __pyx_t_4 = __Pyx_PyString_Format(__pyx_kp_s_cannot_intersect_hypergraph_with, ((PyObject *)Py_TYPE(__pyx_v_inp))); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_4 = __Pyx_PyString_Format(__pyx_kp_s_cannot_intersect_hypergraph_with, ((PyObject *)Py_TYPE(__pyx_v_inp))); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 191; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 191; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_4);
     __Pyx_GIVEREF(__pyx_t_4);
     __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_t_3, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_t_3, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 191; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_Raise(__pyx_t_4, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    {__pyx_filename = __pyx_f[3]; __pyx_lineno = 190; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[3]; __pyx_lineno = 191; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_L3:;
 
-  /* "cdec/hypergraph.pxi":191
+  /* "cdec/hypergraph.pxi":192
  *         else:
  *             raise TypeError('cannot intersect hypergraph with %s' % type(inp))
  *         return hypergraph.Intersect(lat.lattice[0], self.hg)             # <<<<<<<<<<<<<<
@@ -13198,13 +13217,13 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_39intersect(struct __pyx_obj
  *     def prune(self, beam_alpha=0, density=0, **kwargs):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_4 = __Pyx_PyBool_FromLong(HG::Intersect((__pyx_v_lat->lattice[0]), __pyx_v_self->hg)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 191; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __Pyx_PyBool_FromLong(HG::Intersect((__pyx_v_lat->lattice[0]), __pyx_v_self->hg)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 192; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_r = __pyx_t_4;
   __pyx_t_4 = 0;
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":182
+  /* "cdec/hypergraph.pxi":183
  *            del trees
  * 
  *     def intersect(self, inp):             # <<<<<<<<<<<<<<
@@ -13225,7 +13244,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_39intersect(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":193
+/* "cdec/hypergraph.pxi":194
  *         return hypergraph.Intersect(lat.lattice[0], self.hg)
  * 
  *     def prune(self, beam_alpha=0, density=0, **kwargs):             # <<<<<<<<<<<<<<
@@ -13276,7 +13295,7 @@ static PyObject *__pyx_pw_4cdec_5_cdec_10Hypergraph_42prune(PyObject *__pyx_v_se
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, __pyx_v_kwargs, values, pos_args, "prune") < 0)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, __pyx_v_kwargs, values, pos_args, "prune") < 0)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 194; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -13291,7 +13310,7 @@ static PyObject *__pyx_pw_4cdec_5_cdec_10Hypergraph_42prune(PyObject *__pyx_v_se
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("prune", 0, 0, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[3]; __pyx_lineno = 193; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
+  __Pyx_RaiseArgtupleInvalid("prune", 0, 0, 2, PyTuple_GET_SIZE(__pyx_args)); {__pyx_filename = __pyx_f[3]; __pyx_lineno = 194; __pyx_clineno = __LINE__; goto __pyx_L3_error;}
   __pyx_L3_error:;
   __Pyx_DECREF(__pyx_v_kwargs); __pyx_v_kwargs = 0;
   __Pyx_AddTraceback("cdec._cdec.Hypergraph.prune", __pyx_clineno, __pyx_lineno, __pyx_filename);
@@ -13319,7 +13338,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_41prune(struct __pyx_obj_4cd
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("prune", 0);
 
-  /* "cdec/hypergraph.pxi":197
+  /* "cdec/hypergraph.pxi":198
  *         beam_alpha: use beam pruning
  *         density: use density pruning"""
  *         cdef hypergraph.EdgeMask* preserve_mask = NULL             # <<<<<<<<<<<<<<
@@ -13328,18 +13347,18 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_41prune(struct __pyx_obj_4cd
  */
   __pyx_v_preserve_mask = NULL;
 
-  /* "cdec/hypergraph.pxi":198
+  /* "cdec/hypergraph.pxi":199
  *         density: use density pruning"""
  *         cdef hypergraph.EdgeMask* preserve_mask = NULL
  *         if 'csplit_preserve_full_word' in kwargs:             # <<<<<<<<<<<<<<
  *              preserve_mask = new hypergraph.EdgeMask(self.hg.edges_.size())
  *              preserve_mask[0][hypergraph.GetFullWordEdgeIndex(self.hg[0])] = True
  */
-  __pyx_t_1 = (__Pyx_PyDict_Contains(__pyx_n_s_csplit_preserve_full_word, __pyx_v_kwargs, Py_EQ)); if (unlikely(__pyx_t_1 < 0)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 198; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = (__Pyx_PyDict_Contains(__pyx_n_s_csplit_preserve_full_word, __pyx_v_kwargs, Py_EQ)); if (unlikely(__pyx_t_1 < 0)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 199; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "cdec/hypergraph.pxi":199
+    /* "cdec/hypergraph.pxi":200
  *         cdef hypergraph.EdgeMask* preserve_mask = NULL
  *         if 'csplit_preserve_full_word' in kwargs:
  *              preserve_mask = new hypergraph.EdgeMask(self.hg.edges_.size())             # <<<<<<<<<<<<<<
@@ -13348,7 +13367,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_41prune(struct __pyx_obj_4cd
  */
     __pyx_v_preserve_mask = new std::vector<bool>(__pyx_v_self->hg->edges_.size());
 
-    /* "cdec/hypergraph.pxi":200
+    /* "cdec/hypergraph.pxi":201
  *         if 'csplit_preserve_full_word' in kwargs:
  *              preserve_mask = new hypergraph.EdgeMask(self.hg.edges_.size())
  *              preserve_mask[0][hypergraph.GetFullWordEdgeIndex(self.hg[0])] = True             # <<<<<<<<<<<<<<
@@ -13360,18 +13379,18 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_41prune(struct __pyx_obj_4cd
   }
   __pyx_L3:;
 
-  /* "cdec/hypergraph.pxi":201
+  /* "cdec/hypergraph.pxi":202
  *              preserve_mask = new hypergraph.EdgeMask(self.hg.edges_.size())
  *              preserve_mask[0][hypergraph.GetFullWordEdgeIndex(self.hg[0])] = True
  *         self.hg.PruneInsideOutside(beam_alpha, density, preserve_mask, False, 1, False)             # <<<<<<<<<<<<<<
  *         if preserve_mask:
  *             del preserve_mask
  */
-  __pyx_t_3 = __pyx_PyFloat_AsDouble(__pyx_v_beam_alpha); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 201; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_t_4 = __pyx_PyFloat_AsDouble(__pyx_v_density); if (unlikely((__pyx_t_4 == (double)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 201; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = __pyx_PyFloat_AsDouble(__pyx_v_beam_alpha); if (unlikely((__pyx_t_3 == (double)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 202; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_4 = __pyx_PyFloat_AsDouble(__pyx_v_density); if (unlikely((__pyx_t_4 == (double)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 202; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_v_self->hg->PruneInsideOutside(__pyx_t_3, __pyx_t_4, __pyx_v_preserve_mask, 0, 1.0, 0);
 
-  /* "cdec/hypergraph.pxi":202
+  /* "cdec/hypergraph.pxi":203
  *              preserve_mask[0][hypergraph.GetFullWordEdgeIndex(self.hg[0])] = True
  *         self.hg.PruneInsideOutside(beam_alpha, density, preserve_mask, False, 1, False)
  *         if preserve_mask:             # <<<<<<<<<<<<<<
@@ -13381,7 +13400,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_41prune(struct __pyx_obj_4cd
   __pyx_t_2 = (__pyx_v_preserve_mask != 0);
   if (__pyx_t_2) {
 
-    /* "cdec/hypergraph.pxi":203
+    /* "cdec/hypergraph.pxi":204
  *         self.hg.PruneInsideOutside(beam_alpha, density, preserve_mask, False, 1, False)
  *         if preserve_mask:
  *             del preserve_mask             # <<<<<<<<<<<<<<
@@ -13393,7 +13412,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_41prune(struct __pyx_obj_4cd
   }
   __pyx_L4:;
 
-  /* "cdec/hypergraph.pxi":193
+  /* "cdec/hypergraph.pxi":194
  *         return hypergraph.Intersect(lat.lattice[0], self.hg)
  * 
  *     def prune(self, beam_alpha=0, density=0, **kwargs):             # <<<<<<<<<<<<<<
@@ -13413,7 +13432,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_41prune(struct __pyx_obj_4cd
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":205
+/* "cdec/hypergraph.pxi":206
  *             del preserve_mask
  * 
  *     def lattice(self): # TODO direct hg -> lattice conversion in cdec             # <<<<<<<<<<<<<<
@@ -13447,19 +13466,19 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_43lattice(struct __pyx_obj_4
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("lattice", 0);
 
-  /* "cdec/hypergraph.pxi":207
+  /* "cdec/hypergraph.pxi":208
  *     def lattice(self): # TODO direct hg -> lattice conversion in cdec
  *         """hg.lattice() -> Lattice corresponding to the hypergraph."""
  *         cdef bytes plf = hypergraph.AsPLF(self.hg[0], True).c_str()             # <<<<<<<<<<<<<<
  *         return Lattice(eval(plf))
  * 
  */
-  __pyx_t_1 = __Pyx_PyBytes_FromString(HypergraphIO::AsPLF((__pyx_v_self->hg[0]), 1).c_str()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 207; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyBytes_FromString(HypergraphIO::AsPLF((__pyx_v_self->hg[0]), 1).c_str()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 208; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_plf = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "cdec/hypergraph.pxi":208
+  /* "cdec/hypergraph.pxi":209
  *         """hg.lattice() -> Lattice corresponding to the hypergraph."""
  *         cdef bytes plf = hypergraph.AsPLF(self.hg[0], True).c_str()
  *         return Lattice(eval(plf))             # <<<<<<<<<<<<<<
@@ -13467,17 +13486,17 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_43lattice(struct __pyx_obj_4
  *     def plf(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_Globals(); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 208; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_Globals(); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyDict_New(); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 208; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyDict_New(); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   if (__pyx_v_plf) {
-    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_plf, __pyx_v_plf) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 208; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_plf, __pyx_v_plf) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   if (((PyObject *)__pyx_v_self)) {
-    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_self, ((PyObject *)__pyx_v_self)) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 208; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_self, ((PyObject *)__pyx_v_self)) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
-  __pyx_t_3 = PyTuple_New(3); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 208; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = PyTuple_New(3); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_INCREF(__pyx_v_plf);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_v_plf);
@@ -13488,22 +13507,22 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_43lattice(struct __pyx_obj_4
   __Pyx_GIVEREF(__pyx_t_2);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_eval, __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 208; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_eval, __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 208; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_3);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_2);
   __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_Lattice)), __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 208; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_Lattice)), __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":205
+  /* "cdec/hypergraph.pxi":206
  *             del preserve_mask
  * 
  *     def lattice(self): # TODO direct hg -> lattice conversion in cdec             # <<<<<<<<<<<<<<
@@ -13525,7 +13544,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_43lattice(struct __pyx_obj_4
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":210
+/* "cdec/hypergraph.pxi":211
  *         return Lattice(eval(plf))
  * 
  *     def plf(self):             # <<<<<<<<<<<<<<
@@ -13557,7 +13576,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_45plf(struct __pyx_obj_4cdec
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("plf", 0);
 
-  /* "cdec/hypergraph.pxi":212
+  /* "cdec/hypergraph.pxi":213
  *     def plf(self):
  *         """hg.plf() -> Lattice PLF representation corresponding to the hypergraph."""
  *         return bytes(hypergraph.AsPLF(self.hg[0], True).c_str())             # <<<<<<<<<<<<<<
@@ -13565,21 +13584,21 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_45plf(struct __pyx_obj_4cdec
  *     def reweight(self, weights):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBytes_FromString(HypergraphIO::AsPLF((__pyx_v_self->hg[0]), 1).c_str()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 212; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyBytes_FromString(HypergraphIO::AsPLF((__pyx_v_self->hg[0]), 1).c_str()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 213; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 212; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 213; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyBytes_Type))), __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 212; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyBytes_Type))), __pyx_t_2, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 213; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":210
+  /* "cdec/hypergraph.pxi":211
  *         return Lattice(eval(plf))
  * 
  *     def plf(self):             # <<<<<<<<<<<<<<
@@ -13599,7 +13618,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_45plf(struct __pyx_obj_4cdec
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":214
+/* "cdec/hypergraph.pxi":215
  *         return bytes(hypergraph.AsPLF(self.hg[0], True).c_str())
  * 
  *     def reweight(self, weights):             # <<<<<<<<<<<<<<
@@ -13633,7 +13652,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_47reweight(struct __pyx_obj_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("reweight", 0);
 
-  /* "cdec/hypergraph.pxi":216
+  /* "cdec/hypergraph.pxi":217
  *     def reweight(self, weights):
  *         """hg.reweight(SparseVector/DenseVector): Reweight the hypergraph with a new vector."""
  *         if isinstance(weights, SparseVector):             # <<<<<<<<<<<<<<
@@ -13644,7 +13663,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_47reweight(struct __pyx_obj_
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "cdec/hypergraph.pxi":217
+    /* "cdec/hypergraph.pxi":218
  *         """hg.reweight(SparseVector/DenseVector): Reweight the hypergraph with a new vector."""
  *         if isinstance(weights, SparseVector):
  *             self.hg.Reweight((<SparseVector> weights).vector[0])             # <<<<<<<<<<<<<<
@@ -13655,7 +13674,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_47reweight(struct __pyx_obj_
     goto __pyx_L3;
   }
 
-  /* "cdec/hypergraph.pxi":218
+  /* "cdec/hypergraph.pxi":219
  *         if isinstance(weights, SparseVector):
  *             self.hg.Reweight((<SparseVector> weights).vector[0])
  *         elif isinstance(weights, DenseVector):             # <<<<<<<<<<<<<<
@@ -13666,7 +13685,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_47reweight(struct __pyx_obj_
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "cdec/hypergraph.pxi":219
+    /* "cdec/hypergraph.pxi":220
  *             self.hg.Reweight((<SparseVector> weights).vector[0])
  *         elif isinstance(weights, DenseVector):
  *             self.hg.Reweight((<DenseVector> weights).vector[0])             # <<<<<<<<<<<<<<
@@ -13678,30 +13697,30 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_47reweight(struct __pyx_obj_
   }
   /*else*/ {
 
-    /* "cdec/hypergraph.pxi":221
+    /* "cdec/hypergraph.pxi":222
  *             self.hg.Reweight((<DenseVector> weights).vector[0])
  *         else:
  *             raise TypeError('cannot reweight hypergraph with %s' % type(weights))             # <<<<<<<<<<<<<<
  * 
  *     property edges:
  */
-    __pyx_t_3 = __Pyx_PyString_Format(__pyx_kp_s_cannot_reweight_hypergraph_with, ((PyObject *)Py_TYPE(__pyx_v_weights))); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 221; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyString_Format(__pyx_kp_s_cannot_reweight_hypergraph_with, ((PyObject *)Py_TYPE(__pyx_v_weights))); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 221; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_4);
     PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_3);
     __Pyx_GIVEREF(__pyx_t_3);
     __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_t_4, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 221; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_t_4, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    {__pyx_filename = __pyx_f[3]; __pyx_lineno = 221; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    {__pyx_filename = __pyx_f[3]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
   __pyx_L3:;
 
-  /* "cdec/hypergraph.pxi":214
+  /* "cdec/hypergraph.pxi":215
  *         return bytes(hypergraph.AsPLF(self.hg[0], True).c_str())
  * 
  *     def reweight(self, weights):             # <<<<<<<<<<<<<<
@@ -13724,7 +13743,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_47reweight(struct __pyx_obj_
 }
 static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_5edges_2generator13(__pyx_GeneratorObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
 
-/* "cdec/hypergraph.pxi":224
+/* "cdec/hypergraph.pxi":225
  * 
  *     property edges:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -13763,7 +13782,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_5edges___get__(struct __pyx_
   __Pyx_INCREF((PyObject *)__pyx_cur_scope->__pyx_v_self);
   __Pyx_GIVEREF((PyObject *)__pyx_cur_scope->__pyx_v_self);
   {
-    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_5edges_2generator13, (PyObject *) __pyx_cur_scope, __pyx_n_s_get, __pyx_n_s_Hypergraph___get); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 224; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_5edges_2generator13, (PyObject *) __pyx_cur_scope, __pyx_n_s_get, __pyx_n_s_Hypergraph___get); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 225; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -13800,9 +13819,9 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_5edges_2generator13(__pyx_Ge
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 224; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 225; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":226
+  /* "cdec/hypergraph.pxi":227
  *         def __get__(self):
  *             cdef unsigned i
  *             for i in range(self.hg.edges_.size()):             # <<<<<<<<<<<<<<
@@ -13813,16 +13832,16 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_5edges_2generator13(__pyx_Ge
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_cur_scope->__pyx_v_i = __pyx_t_2;
 
-    /* "cdec/hypergraph.pxi":227
+    /* "cdec/hypergraph.pxi":228
  *             cdef unsigned i
  *             for i in range(self.hg.edges_.size()):
  *                 yield HypergraphEdge().init(self.hg, i)             # <<<<<<<<<<<<<<
  * 
  *     property nodes:
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_HypergraphEdge)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 227; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_HypergraphEdge)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 228; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = ((struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphEdge *)((struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *)__pyx_t_3)->__pyx_vtab)->init(((struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *)__pyx_t_3), __pyx_cur_scope->__pyx_v_self->hg, __pyx_cur_scope->__pyx_v_i); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 227; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_4 = ((struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphEdge *)((struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *)__pyx_t_3)->__pyx_vtab)->init(((struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *)__pyx_t_3), __pyx_cur_scope->__pyx_v_self->hg, __pyx_cur_scope->__pyx_v_i); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 228; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_r = __pyx_t_4;
@@ -13837,10 +13856,10 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_5edges_2generator13(__pyx_Ge
     __pyx_L6_resume_from_yield:;
     __pyx_t_1 = __pyx_cur_scope->__pyx_t_0;
     __pyx_t_2 = __pyx_cur_scope->__pyx_t_1;
-    if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 227; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 228; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "cdec/hypergraph.pxi":224
+  /* "cdec/hypergraph.pxi":225
  * 
  *     property edges:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -13864,7 +13883,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_5edges_2generator13(__pyx_Ge
 }
 static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_5nodes_2generator14(__pyx_GeneratorObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
 
-/* "cdec/hypergraph.pxi":230
+/* "cdec/hypergraph.pxi":231
  * 
  *     property nodes:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -13903,7 +13922,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_5nodes___get__(struct __pyx_
   __Pyx_INCREF((PyObject *)__pyx_cur_scope->__pyx_v_self);
   __Pyx_GIVEREF((PyObject *)__pyx_cur_scope->__pyx_v_self);
   {
-    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_5nodes_2generator14, (PyObject *) __pyx_cur_scope, __pyx_n_s_get, __pyx_n_s_Hypergraph___get); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 230; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_10Hypergraph_5nodes_2generator14, (PyObject *) __pyx_cur_scope, __pyx_n_s_get, __pyx_n_s_Hypergraph___get); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 231; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -13940,9 +13959,9 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_5nodes_2generator14(__pyx_Ge
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 230; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 231; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":232
+  /* "cdec/hypergraph.pxi":233
  *         def __get__(self):
  *             cdef unsigned i
  *             for i in range(self.hg.nodes_.size()):             # <<<<<<<<<<<<<<
@@ -13953,16 +13972,16 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_5nodes_2generator14(__pyx_Ge
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_cur_scope->__pyx_v_i = __pyx_t_2;
 
-    /* "cdec/hypergraph.pxi":233
+    /* "cdec/hypergraph.pxi":234
  *             cdef unsigned i
  *             for i in range(self.hg.nodes_.size()):
  *                 yield HypergraphNode().init(self.hg, i)             # <<<<<<<<<<<<<<
  * 
  *     property goal:
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_HypergraphNode)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 233; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_HypergraphNode)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 234; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = ((struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphNode *)((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_3)->__pyx_vtab)->init(((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_3), __pyx_cur_scope->__pyx_v_self->hg, __pyx_cur_scope->__pyx_v_i); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 233; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_4 = ((struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphNode *)((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_3)->__pyx_vtab)->init(((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_3), __pyx_cur_scope->__pyx_v_self->hg, __pyx_cur_scope->__pyx_v_i); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 234; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_r = __pyx_t_4;
@@ -13977,10 +13996,10 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_5nodes_2generator14(__pyx_Ge
     __pyx_L6_resume_from_yield:;
     __pyx_t_1 = __pyx_cur_scope->__pyx_t_0;
     __pyx_t_2 = __pyx_cur_scope->__pyx_t_1;
-    if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 233; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 234; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "cdec/hypergraph.pxi":230
+  /* "cdec/hypergraph.pxi":231
  * 
  *     property nodes:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14003,7 +14022,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_10Hypergraph_5nodes_2generator14(__pyx_Ge
   return NULL;
 }
 
-/* "cdec/hypergraph.pxi":236
+/* "cdec/hypergraph.pxi":237
  * 
  *     property goal:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14034,7 +14053,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_4goal___get__(struct __pyx_o
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "cdec/hypergraph.pxi":237
+  /* "cdec/hypergraph.pxi":238
  *     property goal:
  *         def __get__(self):
  *             return HypergraphNode().init(self.hg, self.hg.GoalNode())             # <<<<<<<<<<<<<<
@@ -14042,16 +14061,16 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_4goal___get__(struct __pyx_o
  *     property npaths:
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_HypergraphNode)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_HypergraphNode)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 238; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = ((struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphNode *)((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_1)->__pyx_vtab)->init(((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_1), __pyx_v_self->hg, __pyx_v_self->hg->GoalNode()); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 237; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = ((struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphNode *)((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_1)->__pyx_vtab)->init(((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_1), __pyx_v_self->hg, __pyx_v_self->hg->GoalNode()); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 238; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":236
+  /* "cdec/hypergraph.pxi":237
  * 
  *     property goal:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14071,7 +14090,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_4goal___get__(struct __pyx_o
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":240
+/* "cdec/hypergraph.pxi":241
  * 
  *     property npaths:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14101,21 +14120,21 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_6npaths___get__(struct __pyx
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "cdec/hypergraph.pxi":241
+  /* "cdec/hypergraph.pxi":242
  *     property npaths:
  *         def __get__(self):
  *             return self.hg.NumberOfPaths()             # <<<<<<<<<<<<<<
  * 
- *     def inside_outside(self):
+ *     def inside(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_self->hg->NumberOfPaths()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 241; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_self->hg->NumberOfPaths()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 242; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":240
+  /* "cdec/hypergraph.pxi":241
  * 
  *     property npaths:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14134,8 +14153,112 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_6npaths___get__(struct __pyx
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":243
+/* "cdec/hypergraph.pxi":244
  *             return self.hg.NumberOfPaths()
+ * 
+ *     def inside(self):             # <<<<<<<<<<<<<<
+ *         """returns the inside score of each node"""
+ *         cdef vector[prob_t]* scores = new vector[prob_t]()
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_4cdec_5_cdec_10Hypergraph_50inside(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static char __pyx_doc_4cdec_5_cdec_10Hypergraph_49inside[] = "returns the inside score of each node";
+static PyObject *__pyx_pw_4cdec_5_cdec_10Hypergraph_50inside(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("inside (wrapper)", 0);
+  __pyx_r = __pyx_pf_4cdec_5_cdec_10Hypergraph_49inside(((struct __pyx_obj_4cdec_5_cdec_Hypergraph *)__pyx_v_self));
+
+  /* function exit code */
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside(struct __pyx_obj_4cdec_5_cdec_Hypergraph *__pyx_v_self) {
+  std::vector<prob_t>  *__pyx_v_scores;
+  CYTHON_UNUSED prob_t __pyx_v_z;
+  size_t __pyx_v_i;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  std::vector<prob_t>  *__pyx_t_1;
+  PyObject *__pyx_t_2 = NULL;
+  size_t __pyx_t_3;
+  size_t __pyx_t_4;
+  PyObject *__pyx_t_5 = NULL;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("inside", 0);
+
+  /* "cdec/hypergraph.pxi":246
+ *     def inside(self):
+ *         """returns the inside score of each node"""
+ *         cdef vector[prob_t]* scores = new vector[prob_t]()             # <<<<<<<<<<<<<<
+ *         cdef prob_t z = hypergraph.Inside(self.hg[0], scores)
+ *         return [scores[0][i].as_float() for i in range(scores.size())]
+ */
+  try {
+    __pyx_t_1 = new std::vector<prob_t> ();
+  } catch(...) {
+    __Pyx_CppExn2PyErr();
+    {__pyx_filename = __pyx_f[3]; __pyx_lineno = 246; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  }
+  __pyx_v_scores = __pyx_t_1;
+
+  /* "cdec/hypergraph.pxi":247
+ *         """returns the inside score of each node"""
+ *         cdef vector[prob_t]* scores = new vector[prob_t]()
+ *         cdef prob_t z = hypergraph.Inside(self.hg[0], scores)             # <<<<<<<<<<<<<<
+ *         return [scores[0][i].as_float() for i in range(scores.size())]
+ * 
+ */
+  __pyx_v_z = Inside<prob_t, EdgeProb>((__pyx_v_self->hg[0]), __pyx_v_scores);
+
+  /* "cdec/hypergraph.pxi":248
+ *         cdef vector[prob_t]* scores = new vector[prob_t]()
+ *         cdef prob_t z = hypergraph.Inside(self.hg[0], scores)
+ *         return [scores[0][i].as_float() for i in range(scores.size())]             # <<<<<<<<<<<<<<
+ * 
+ *     def inside_outside(self):
+ */
+  __Pyx_XDECREF(__pyx_r);
+  __pyx_t_2 = PyList_New(0); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 248; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __pyx_v_scores->size();
+  for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
+    __pyx_v_i = __pyx_t_4;
+    __pyx_t_5 = PyFloat_FromDouble(((__pyx_v_scores[0])[__pyx_v_i]).as_float()); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 248; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_GOTREF(__pyx_t_5);
+    if (unlikely(__Pyx_ListComp_Append(__pyx_t_2, (PyObject*)__pyx_t_5))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 248; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  }
+  __pyx_r = __pyx_t_2;
+  __pyx_t_2 = 0;
+  goto __pyx_L0;
+
+  /* "cdec/hypergraph.pxi":244
+ *             return self.hg.NumberOfPaths()
+ * 
+ *     def inside(self):             # <<<<<<<<<<<<<<
+ *         """returns the inside score of each node"""
+ *         cdef vector[prob_t]* scores = new vector[prob_t]()
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_5);
+  __Pyx_AddTraceback("cdec._cdec.Hypergraph.inside", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "cdec/hypergraph.pxi":250
+ *         return [scores[0][i].as_float() for i in range(scores.size())]
  * 
  *     def inside_outside(self):             # <<<<<<<<<<<<<<
  *         """hg.inside_outside() -> SparseVector with inside-outside scores for each feature."""
@@ -14143,20 +14266,20 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_6npaths___get__(struct __pyx
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_4cdec_5_cdec_10Hypergraph_50inside_outside(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static char __pyx_doc_4cdec_5_cdec_10Hypergraph_49inside_outside[] = "hg.inside_outside() -> SparseVector with inside-outside scores for each feature.";
-static PyObject *__pyx_pw_4cdec_5_cdec_10Hypergraph_50inside_outside(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_4cdec_5_cdec_10Hypergraph_52inside_outside(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static char __pyx_doc_4cdec_5_cdec_10Hypergraph_51inside_outside[] = "hg.inside_outside() -> SparseVector with inside-outside scores for each feature.";
+static PyObject *__pyx_pw_4cdec_5_cdec_10Hypergraph_52inside_outside(PyObject *__pyx_v_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("inside_outside (wrapper)", 0);
-  __pyx_r = __pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(((struct __pyx_obj_4cdec_5_cdec_Hypergraph *)__pyx_v_self));
+  __pyx_r = __pyx_pf_4cdec_5_cdec_10Hypergraph_51inside_outside(((struct __pyx_obj_4cdec_5_cdec_Hypergraph *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(struct __pyx_obj_4cdec_5_cdec_Hypergraph *__pyx_v_self) {
+static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_51inside_outside(struct __pyx_obj_4cdec_5_cdec_Hypergraph *__pyx_v_self) {
   FastSparseVector<prob_t>  *__pyx_v_result;
   prob_t __pyx_v_z;
   struct __pyx_obj_4cdec_5_cdec_SparseVector *__pyx_v_vector = 0;
@@ -14172,7 +14295,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(struct __py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("inside_outside", 0);
 
-  /* "cdec/hypergraph.pxi":245
+  /* "cdec/hypergraph.pxi":252
  *     def inside_outside(self):
  *         """hg.inside_outside() -> SparseVector with inside-outside scores for each feature."""
  *         cdef FastSparseVector[prob_t]* result = new FastSparseVector[prob_t]()             # <<<<<<<<<<<<<<
@@ -14181,7 +14304,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(struct __py
  */
   __pyx_v_result = new FastSparseVector<prob_t> ();
 
-  /* "cdec/hypergraph.pxi":246
+  /* "cdec/hypergraph.pxi":253
  *         """hg.inside_outside() -> SparseVector with inside-outside scores for each feature."""
  *         cdef FastSparseVector[prob_t]* result = new FastSparseVector[prob_t]()
  *         cdef prob_t z = hypergraph.InsideOutside(self.hg[0], result)             # <<<<<<<<<<<<<<
@@ -14190,7 +14313,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(struct __py
  */
   __pyx_v_z = InsideOutside<prob_t, EdgeProb, SparseVector<prob_t>, EdgeFeaturesAndProbWeightFunction>((__pyx_v_self->hg[0]), __pyx_v_result);
 
-  /* "cdec/hypergraph.pxi":247
+  /* "cdec/hypergraph.pxi":254
  *         cdef FastSparseVector[prob_t]* result = new FastSparseVector[prob_t]()
  *         cdef prob_t z = hypergraph.InsideOutside(self.hg[0], result)
  *         result[0] /= z             # <<<<<<<<<<<<<<
@@ -14199,20 +14322,20 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(struct __py
  */
   (__pyx_v_result[0]) /= __pyx_v_z;
 
-  /* "cdec/hypergraph.pxi":248
+  /* "cdec/hypergraph.pxi":255
  *         cdef prob_t z = hypergraph.InsideOutside(self.hg[0], result)
  *         result[0] /= z
  *         cdef SparseVector vector = SparseVector.__new__(SparseVector)             # <<<<<<<<<<<<<<
  *         vector.vector = new FastSparseVector[double]()
  *         cdef FastSparseVector[prob_t].const_iterator* it = new FastSparseVector[prob_t].const_iterator(result[0], False)
  */
-  __pyx_t_1 = __pyx_tp_new_4cdec_5_cdec_SparseVector(((PyTypeObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_SparseVector)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 248; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __pyx_tp_new_4cdec_5_cdec_SparseVector(((PyTypeObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_SparseVector)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 255; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  if (!(likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_4cdec_5_cdec_SparseVector)))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 248; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (!(likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_4cdec_5_cdec_SparseVector)))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 255; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_v_vector = ((struct __pyx_obj_4cdec_5_cdec_SparseVector *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "cdec/hypergraph.pxi":249
+  /* "cdec/hypergraph.pxi":256
  *         result[0] /= z
  *         cdef SparseVector vector = SparseVector.__new__(SparseVector)
  *         vector.vector = new FastSparseVector[double]()             # <<<<<<<<<<<<<<
@@ -14221,7 +14344,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(struct __py
  */
   __pyx_v_vector->vector = new FastSparseVector<double> ();
 
-  /* "cdec/hypergraph.pxi":250
+  /* "cdec/hypergraph.pxi":257
  *         cdef SparseVector vector = SparseVector.__new__(SparseVector)
  *         vector.vector = new FastSparseVector[double]()
  *         cdef FastSparseVector[prob_t].const_iterator* it = new FastSparseVector[prob_t].const_iterator(result[0], False)             # <<<<<<<<<<<<<<
@@ -14230,7 +14353,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(struct __py
  */
   __pyx_v_it = new FastSparseVector<prob_t> ::const_iterator((__pyx_v_result[0]), 0);
 
-  /* "cdec/hypergraph.pxi":252
+  /* "cdec/hypergraph.pxi":259
  *         cdef FastSparseVector[prob_t].const_iterator* it = new FastSparseVector[prob_t].const_iterator(result[0], False)
  *         cdef unsigned i
  *         for i in range(result.size()):             # <<<<<<<<<<<<<<
@@ -14241,7 +14364,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(struct __py
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_i = __pyx_t_3;
 
-    /* "cdec/hypergraph.pxi":253
+    /* "cdec/hypergraph.pxi":260
  *         cdef unsigned i
  *         for i in range(result.size()):
  *             vector.vector.set_value(it[0].ptr().first, log(it[0].ptr().second))             # <<<<<<<<<<<<<<
@@ -14250,7 +14373,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(struct __py
  */
     __pyx_v_vector->vector->set_value((__pyx_v_it[0]).operator->()->first, log((__pyx_v_it[0]).operator->()->second));
 
-    /* "cdec/hypergraph.pxi":254
+    /* "cdec/hypergraph.pxi":261
  *         for i in range(result.size()):
  *             vector.vector.set_value(it[0].ptr().first, log(it[0].ptr().second))
  *             pinc(it[0]) # ++it             # <<<<<<<<<<<<<<
@@ -14260,7 +14383,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(struct __py
     (++(__pyx_v_it[0]));
   }
 
-  /* "cdec/hypergraph.pxi":255
+  /* "cdec/hypergraph.pxi":262
  *             vector.vector.set_value(it[0].ptr().first, log(it[0].ptr().second))
  *             pinc(it[0]) # ++it
  *         del it             # <<<<<<<<<<<<<<
@@ -14269,7 +14392,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(struct __py
  */
   delete __pyx_v_it;
 
-  /* "cdec/hypergraph.pxi":256
+  /* "cdec/hypergraph.pxi":263
  *             pinc(it[0]) # ++it
  *         del it
  *         del result             # <<<<<<<<<<<<<<
@@ -14278,7 +14401,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(struct __py
  */
   delete __pyx_v_result;
 
-  /* "cdec/hypergraph.pxi":257
+  /* "cdec/hypergraph.pxi":264
  *         del it
  *         del result
  *         return vector             # <<<<<<<<<<<<<<
@@ -14290,8 +14413,8 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(struct __py
   __pyx_r = ((PyObject *)__pyx_v_vector);
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":243
- *             return self.hg.NumberOfPaths()
+  /* "cdec/hypergraph.pxi":250
+ *         return [scores[0][i].as_float() for i in range(scores.size())]
  * 
  *     def inside_outside(self):             # <<<<<<<<<<<<<<
  *         """hg.inside_outside() -> SparseVector with inside-outside scores for each feature."""
@@ -14310,7 +14433,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_10Hypergraph_49inside_outside(struct __py
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":264
+/* "cdec/hypergraph.pxi":271
  *     cdef public TRule trule
  * 
  *     cdef init(self, hypergraph.Hypergraph* hg, unsigned i):             # <<<<<<<<<<<<<<
@@ -14327,7 +14450,7 @@ static PyObject *__pyx_f_4cdec_5_cdec_14HypergraphEdge_init(struct __pyx_obj_4cd
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("init", 0);
 
-  /* "cdec/hypergraph.pxi":265
+  /* "cdec/hypergraph.pxi":272
  * 
  *     cdef init(self, hypergraph.Hypergraph* hg, unsigned i):
  *         self.hg = hg             # <<<<<<<<<<<<<<
@@ -14336,7 +14459,7 @@ static PyObject *__pyx_f_4cdec_5_cdec_14HypergraphEdge_init(struct __pyx_obj_4cd
  */
   __pyx_v_self->hg = __pyx_v_hg;
 
-  /* "cdec/hypergraph.pxi":266
+  /* "cdec/hypergraph.pxi":273
  *     cdef init(self, hypergraph.Hypergraph* hg, unsigned i):
  *         self.hg = hg
  *         self.edge = &hg.edges_[i]             # <<<<<<<<<<<<<<
@@ -14345,23 +14468,23 @@ static PyObject *__pyx_f_4cdec_5_cdec_14HypergraphEdge_init(struct __pyx_obj_4cd
  */
   __pyx_v_self->edge = (&(__pyx_v_hg->edges_[__pyx_v_i]));
 
-  /* "cdec/hypergraph.pxi":267
+  /* "cdec/hypergraph.pxi":274
  *         self.hg = hg
  *         self.edge = &hg.edges_[i]
  *         self.trule = TRule.__new__(TRule)             # <<<<<<<<<<<<<<
  *         self.trule.rule = new shared_ptr[grammar.TRule](self.edge.rule_)
  *         return self
  */
-  __pyx_t_1 = __pyx_tp_new_4cdec_5_cdec_TRule(((PyTypeObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_TRule)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 267; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __pyx_tp_new_4cdec_5_cdec_TRule(((PyTypeObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_TRule)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 274; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  if (!(likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_4cdec_5_cdec_TRule)))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 267; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (!(likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_4cdec_5_cdec_TRule)))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 274; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_GOTREF(__pyx_v_self->trule);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->trule));
   __pyx_v_self->trule = ((struct __pyx_obj_4cdec_5_cdec_TRule *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "cdec/hypergraph.pxi":268
+  /* "cdec/hypergraph.pxi":275
  *         self.edge = &hg.edges_[i]
  *         self.trule = TRule.__new__(TRule)
  *         self.trule.rule = new shared_ptr[grammar.TRule](self.edge.rule_)             # <<<<<<<<<<<<<<
@@ -14370,7 +14493,7 @@ static PyObject *__pyx_f_4cdec_5_cdec_14HypergraphEdge_init(struct __pyx_obj_4cd
  */
   __pyx_v_self->trule->rule = new boost::shared_ptr<TRule> (__pyx_v_self->edge->rule_);
 
-  /* "cdec/hypergraph.pxi":269
+  /* "cdec/hypergraph.pxi":276
  *         self.trule = TRule.__new__(TRule)
  *         self.trule.rule = new shared_ptr[grammar.TRule](self.edge.rule_)
  *         return self             # <<<<<<<<<<<<<<
@@ -14382,7 +14505,7 @@ static PyObject *__pyx_f_4cdec_5_cdec_14HypergraphEdge_init(struct __pyx_obj_4cd
   __pyx_r = ((PyObject *)__pyx_v_self);
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":264
+  /* "cdec/hypergraph.pxi":271
  *     cdef public TRule trule
  * 
  *     cdef init(self, hypergraph.Hypergraph* hg, unsigned i):             # <<<<<<<<<<<<<<
@@ -14401,7 +14524,7 @@ static PyObject *__pyx_f_4cdec_5_cdec_14HypergraphEdge_init(struct __pyx_obj_4cd
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":271
+/* "cdec/hypergraph.pxi":278
  *         return self
  * 
  *     def __len__(self):             # <<<<<<<<<<<<<<
@@ -14427,7 +14550,7 @@ static Py_ssize_t __pyx_pf_4cdec_5_cdec_14HypergraphEdge___len__(struct __pyx_ob
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__len__", 0);
 
-  /* "cdec/hypergraph.pxi":272
+  /* "cdec/hypergraph.pxi":279
  * 
  *     def __len__(self):
  *         return self.edge.tail_nodes_.size()             # <<<<<<<<<<<<<<
@@ -14437,7 +14560,7 @@ static Py_ssize_t __pyx_pf_4cdec_5_cdec_14HypergraphEdge___len__(struct __pyx_ob
   __pyx_r = __pyx_v_self->edge->tail_nodes_.size();
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":271
+  /* "cdec/hypergraph.pxi":278
  *         return self
  * 
  *     def __len__(self):             # <<<<<<<<<<<<<<
@@ -14451,7 +14574,7 @@ static Py_ssize_t __pyx_pf_4cdec_5_cdec_14HypergraphEdge___len__(struct __pyx_ob
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":275
+/* "cdec/hypergraph.pxi":282
  * 
  *     property head_node:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14482,7 +14605,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_9head_node___get__(struc
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "cdec/hypergraph.pxi":276
+  /* "cdec/hypergraph.pxi":283
  *     property head_node:
  *         def __get__(self):
  *             return HypergraphNode().init(self.hg, self.edge.head_node_)             # <<<<<<<<<<<<<<
@@ -14490,16 +14613,16 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_9head_node___get__(struc
  *     property tail_nodes:
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_HypergraphNode)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 276; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_HypergraphNode)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 283; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = ((struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphNode *)((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_1)->__pyx_vtab)->init(((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_1), __pyx_v_self->hg, __pyx_v_self->edge->head_node_); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 276; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = ((struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphNode *)((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_1)->__pyx_vtab)->init(((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_1), __pyx_v_self->hg, __pyx_v_self->edge->head_node_); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 283; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":275
+  /* "cdec/hypergraph.pxi":282
  * 
  *     property head_node:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14520,7 +14643,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_9head_node___get__(struc
 }
 static PyObject *__pyx_gb_4cdec_5_cdec_14HypergraphEdge_10tail_nodes_2generator15(__pyx_GeneratorObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
 
-/* "cdec/hypergraph.pxi":279
+/* "cdec/hypergraph.pxi":286
  * 
  *     property tail_nodes:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14559,7 +14682,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_10tail_nodes___get__(str
   __Pyx_INCREF((PyObject *)__pyx_cur_scope->__pyx_v_self);
   __Pyx_GIVEREF((PyObject *)__pyx_cur_scope->__pyx_v_self);
   {
-    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_14HypergraphEdge_10tail_nodes_2generator15, (PyObject *) __pyx_cur_scope, __pyx_n_s_get, __pyx_n_s_HypergraphEdge___get); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 279; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_14HypergraphEdge_10tail_nodes_2generator15, (PyObject *) __pyx_cur_scope, __pyx_n_s_get, __pyx_n_s_HypergraphEdge___get); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 286; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -14596,9 +14719,9 @@ static PyObject *__pyx_gb_4cdec_5_cdec_14HypergraphEdge_10tail_nodes_2generator1
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 279; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 286; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":281
+  /* "cdec/hypergraph.pxi":288
  *         def __get__(self):
  *             cdef unsigned i
  *             for i in range(self.edge.tail_nodes_.size()):             # <<<<<<<<<<<<<<
@@ -14609,16 +14732,16 @@ static PyObject *__pyx_gb_4cdec_5_cdec_14HypergraphEdge_10tail_nodes_2generator1
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_cur_scope->__pyx_v_i = __pyx_t_2;
 
-    /* "cdec/hypergraph.pxi":282
+    /* "cdec/hypergraph.pxi":289
  *             cdef unsigned i
  *             for i in range(self.edge.tail_nodes_.size()):
  *                 yield HypergraphNode().init(self.hg, self.edge.tail_nodes_[i])             # <<<<<<<<<<<<<<
  * 
  *     property span:
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_HypergraphNode)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 282; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_HypergraphNode)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 289; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = ((struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphNode *)((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_3)->__pyx_vtab)->init(((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_3), __pyx_cur_scope->__pyx_v_self->hg, (__pyx_cur_scope->__pyx_v_self->edge->tail_nodes_[__pyx_cur_scope->__pyx_v_i])); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 282; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_4 = ((struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphNode *)((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_3)->__pyx_vtab)->init(((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_t_3), __pyx_cur_scope->__pyx_v_self->hg, (__pyx_cur_scope->__pyx_v_self->edge->tail_nodes_[__pyx_cur_scope->__pyx_v_i])); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 289; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_r = __pyx_t_4;
@@ -14633,10 +14756,10 @@ static PyObject *__pyx_gb_4cdec_5_cdec_14HypergraphEdge_10tail_nodes_2generator1
     __pyx_L6_resume_from_yield:;
     __pyx_t_1 = __pyx_cur_scope->__pyx_t_0;
     __pyx_t_2 = __pyx_cur_scope->__pyx_t_1;
-    if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 282; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 289; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "cdec/hypergraph.pxi":279
+  /* "cdec/hypergraph.pxi":286
  * 
  *     property tail_nodes:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14659,7 +14782,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_14HypergraphEdge_10tail_nodes_2generator1
   return NULL;
 }
 
-/* "cdec/hypergraph.pxi":285
+/* "cdec/hypergraph.pxi":292
  * 
  *     property span:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14691,7 +14814,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_4span___get__(struct __p
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "cdec/hypergraph.pxi":286
+  /* "cdec/hypergraph.pxi":293
  *     property span:
  *         def __get__(self):
  *             return (self.edge.i_, self.edge.j_)             # <<<<<<<<<<<<<<
@@ -14699,11 +14822,11 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_4span___get__(struct __p
  *     property src_span:
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_short(__pyx_v_self->edge->i_); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 286; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyInt_From_short(__pyx_v_self->edge->i_); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyInt_From_short(__pyx_v_self->edge->j_); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 286; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_PyInt_From_short(__pyx_v_self->edge->j_); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 286; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 293; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_3);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
@@ -14715,7 +14838,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_4span___get__(struct __p
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":285
+  /* "cdec/hypergraph.pxi":292
  * 
  *     property span:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14736,7 +14859,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_4span___get__(struct __p
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":289
+/* "cdec/hypergraph.pxi":296
  * 
  *     property src_span:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14768,7 +14891,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_8src_span___get__(struct
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "cdec/hypergraph.pxi":290
+  /* "cdec/hypergraph.pxi":297
  *     property src_span:
  *         def __get__(self):
  *             return (self.edge.prev_i_, self.edge.prev_j_)             # <<<<<<<<<<<<<<
@@ -14776,11 +14899,11 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_8src_span___get__(struct
  *     property feature_values:
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_short(__pyx_v_self->edge->prev_i_); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 290; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyInt_From_short(__pyx_v_self->edge->prev_i_); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 297; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyInt_From_short(__pyx_v_self->edge->prev_j_); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 290; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_PyInt_From_short(__pyx_v_self->edge->prev_j_); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 297; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 290; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 297; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_3);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
@@ -14792,7 +14915,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_8src_span___get__(struct
   __pyx_t_3 = 0;
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":289
+  /* "cdec/hypergraph.pxi":296
  * 
  *     property src_span:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14813,7 +14936,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_8src_span___get__(struct
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":293
+/* "cdec/hypergraph.pxi":300
  * 
  *     property feature_values:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14844,20 +14967,20 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_14feature_values___get__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "cdec/hypergraph.pxi":294
+  /* "cdec/hypergraph.pxi":301
  *     property feature_values:
  *         def __get__(self):
  *             cdef SparseVector vector = SparseVector.__new__(SparseVector)             # <<<<<<<<<<<<<<
  *             vector.vector = new FastSparseVector[double](self.edge.feature_values_)
  *             return vector
  */
-  __pyx_t_1 = __pyx_tp_new_4cdec_5_cdec_SparseVector(((PyTypeObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_SparseVector)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 294; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __pyx_tp_new_4cdec_5_cdec_SparseVector(((PyTypeObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_SparseVector)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 301; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  if (!(likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_4cdec_5_cdec_SparseVector)))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 294; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (!(likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_4cdec_5_cdec_SparseVector)))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 301; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_v_vector = ((struct __pyx_obj_4cdec_5_cdec_SparseVector *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "cdec/hypergraph.pxi":295
+  /* "cdec/hypergraph.pxi":302
  *         def __get__(self):
  *             cdef SparseVector vector = SparseVector.__new__(SparseVector)
  *             vector.vector = new FastSparseVector[double](self.edge.feature_values_)             # <<<<<<<<<<<<<<
@@ -14866,7 +14989,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_14feature_values___get__
  */
   __pyx_v_vector->vector = new FastSparseVector<double> (__pyx_v_self->edge->feature_values_);
 
-  /* "cdec/hypergraph.pxi":296
+  /* "cdec/hypergraph.pxi":303
  *             cdef SparseVector vector = SparseVector.__new__(SparseVector)
  *             vector.vector = new FastSparseVector[double](self.edge.feature_values_)
  *             return vector             # <<<<<<<<<<<<<<
@@ -14878,7 +15001,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_14feature_values___get__
   __pyx_r = ((PyObject *)__pyx_v_vector);
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":293
+  /* "cdec/hypergraph.pxi":300
  * 
  *     property feature_values:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14898,7 +15021,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_14feature_values___get__
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":299
+/* "cdec/hypergraph.pxi":306
  * 
  *     property prob:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14928,7 +15051,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_4prob___get__(struct __p
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "cdec/hypergraph.pxi":300
+  /* "cdec/hypergraph.pxi":307
  *     property prob:
  *         def __get__(self):
  *             return self.edge.edge_prob_.as_float()             # <<<<<<<<<<<<<<
@@ -14936,13 +15059,13 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_4prob___get__(struct __p
  *     def __richcmp__(HypergraphEdge x, HypergraphEdge y, int op):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_self->edge->edge_prob_.as_float()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 300; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_self->edge->edge_prob_.as_float()); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 307; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":299
+  /* "cdec/hypergraph.pxi":306
  * 
  *     property prob:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -14961,7 +15084,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_4prob___get__(struct __p
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":302
+/* "cdec/hypergraph.pxi":309
  *             return self.edge.edge_prob_.as_float()
  * 
  *     def __richcmp__(HypergraphEdge x, HypergraphEdge y, int op):             # <<<<<<<<<<<<<<
@@ -14978,8 +15101,8 @@ static PyObject *__pyx_pw_4cdec_5_cdec_14HypergraphEdge_3__richcmp__(PyObject *_
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__richcmp__ (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_x), __pyx_ptype_4cdec_5_cdec_HypergraphEdge, 1, "x", 0))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 302; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_y), __pyx_ptype_4cdec_5_cdec_HypergraphEdge, 1, "y", 0))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 302; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_x), __pyx_ptype_4cdec_5_cdec_HypergraphEdge, 1, "x", 0))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 309; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_y), __pyx_ptype_4cdec_5_cdec_HypergraphEdge, 1, "y", 0))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 309; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_r = __pyx_pf_4cdec_5_cdec_14HypergraphEdge_2__richcmp__(((struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *)__pyx_v_x), ((struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *)__pyx_v_y), ((int)__pyx_v_op));
 
   /* function exit code */
@@ -15001,7 +15124,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_2__richcmp__(struct __py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__richcmp__", 0);
 
-  /* "cdec/hypergraph.pxi":305
+  /* "cdec/hypergraph.pxi":312
  *         if op == 2: # ==
  *             return x.edge == y.edge
  *         elif op == 3: # !=             # <<<<<<<<<<<<<<
@@ -15010,7 +15133,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_2__richcmp__(struct __py
  */
   switch (__pyx_v_op) {
 
-    /* "cdec/hypergraph.pxi":303
+    /* "cdec/hypergraph.pxi":310
  * 
  *     def __richcmp__(HypergraphEdge x, HypergraphEdge y, int op):
  *         if op == 2: # ==             # <<<<<<<<<<<<<<
@@ -15019,7 +15142,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_2__richcmp__(struct __py
  */
     case 2:
 
-    /* "cdec/hypergraph.pxi":304
+    /* "cdec/hypergraph.pxi":311
  *     def __richcmp__(HypergraphEdge x, HypergraphEdge y, int op):
  *         if op == 2: # ==
  *             return x.edge == y.edge             # <<<<<<<<<<<<<<
@@ -15027,14 +15150,14 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_2__richcmp__(struct __py
  *             return not (x == y)
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_1 = __Pyx_PyBool_FromLong((__pyx_v_x->edge == __pyx_v_y->edge)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 304; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_1 = __Pyx_PyBool_FromLong((__pyx_v_x->edge == __pyx_v_y->edge)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 311; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_r = __pyx_t_1;
     __pyx_t_1 = 0;
     goto __pyx_L0;
     break;
 
-    /* "cdec/hypergraph.pxi":305
+    /* "cdec/hypergraph.pxi":312
  *         if op == 2: # ==
  *             return x.edge == y.edge
  *         elif op == 3: # !=             # <<<<<<<<<<<<<<
@@ -15043,7 +15166,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_2__richcmp__(struct __py
  */
     case 3:
 
-    /* "cdec/hypergraph.pxi":306
+    /* "cdec/hypergraph.pxi":313
  *             return x.edge == y.edge
  *         elif op == 3: # !=
  *             return not (x == y)             # <<<<<<<<<<<<<<
@@ -15051,10 +15174,10 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_2__richcmp__(struct __py
  * 
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_1 = PyObject_RichCompare(((PyObject *)__pyx_v_x), ((PyObject *)__pyx_v_y), Py_EQ); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 306; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 306; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_1 = PyObject_RichCompare(((PyObject *)__pyx_v_x), ((PyObject *)__pyx_v_y), Py_EQ); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 313; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 313; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyBool_FromLong((!__pyx_t_2)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 306; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_1 = __Pyx_PyBool_FromLong((!__pyx_t_2)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 313; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_r = __pyx_t_1;
     __pyx_t_1 = 0;
@@ -15063,20 +15186,20 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_2__richcmp__(struct __py
     default: break;
   }
 
-  /* "cdec/hypergraph.pxi":307
+  /* "cdec/hypergraph.pxi":314
  *         elif op == 3: # !=
  *             return not (x == y)
  *         raise NotImplemented('comparison not implemented for HypergraphEdge')             # <<<<<<<<<<<<<<
  * 
  * cdef class HypergraphNode:
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_NotImplemented, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 307; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_NotImplemented, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 314; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  {__pyx_filename = __pyx_f[3]; __pyx_lineno = 307; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  {__pyx_filename = __pyx_f[3]; __pyx_lineno = 314; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":302
+  /* "cdec/hypergraph.pxi":309
  *             return self.edge.edge_prob_.as_float()
  * 
  *     def __richcmp__(HypergraphEdge x, HypergraphEdge y, int op):             # <<<<<<<<<<<<<<
@@ -15095,7 +15218,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphEdge_2__richcmp__(struct __py
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":262
+/* "cdec/hypergraph.pxi":269
  *     cdef hypergraph.Hypergraph* hg
  *     cdef hypergraph.HypergraphEdge* edge
  *     cdef public TRule trule             # <<<<<<<<<<<<<<
@@ -15153,7 +15276,7 @@ static int __pyx_pf_4cdec_5_cdec_14HypergraphEdge_5trule_2__set__(struct __pyx_o
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__set__", 0);
-  if (!(likely(((__pyx_v_value) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_value, __pyx_ptype_4cdec_5_cdec_TRule))))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 262; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (!(likely(((__pyx_v_value) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_value, __pyx_ptype_4cdec_5_cdec_TRule))))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 269; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_t_1 = __pyx_v_value;
   __Pyx_INCREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
@@ -15203,7 +15326,7 @@ static int __pyx_pf_4cdec_5_cdec_14HypergraphEdge_5trule_4__del__(struct __pyx_o
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":313
+/* "cdec/hypergraph.pxi":320
  *     cdef hypergraph.HypergraphNode* node
  * 
  *     cdef init(self, hypergraph.Hypergraph* hg, unsigned i):             # <<<<<<<<<<<<<<
@@ -15216,7 +15339,7 @@ static PyObject *__pyx_f_4cdec_5_cdec_14HypergraphNode_init(struct __pyx_obj_4cd
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("init", 0);
 
-  /* "cdec/hypergraph.pxi":314
+  /* "cdec/hypergraph.pxi":321
  * 
  *     cdef init(self, hypergraph.Hypergraph* hg, unsigned i):
  *         self.hg = hg             # <<<<<<<<<<<<<<
@@ -15225,7 +15348,7 @@ static PyObject *__pyx_f_4cdec_5_cdec_14HypergraphNode_init(struct __pyx_obj_4cd
  */
   __pyx_v_self->hg = __pyx_v_hg;
 
-  /* "cdec/hypergraph.pxi":315
+  /* "cdec/hypergraph.pxi":322
  *     cdef init(self, hypergraph.Hypergraph* hg, unsigned i):
  *         self.hg = hg
  *         self.node = &hg.nodes_[i]             # <<<<<<<<<<<<<<
@@ -15234,7 +15357,7 @@ static PyObject *__pyx_f_4cdec_5_cdec_14HypergraphNode_init(struct __pyx_obj_4cd
  */
   __pyx_v_self->node = (&(__pyx_v_hg->nodes_[__pyx_v_i]));
 
-  /* "cdec/hypergraph.pxi":316
+  /* "cdec/hypergraph.pxi":323
  *         self.hg = hg
  *         self.node = &hg.nodes_[i]
  *         return self             # <<<<<<<<<<<<<<
@@ -15246,7 +15369,7 @@ static PyObject *__pyx_f_4cdec_5_cdec_14HypergraphNode_init(struct __pyx_obj_4cd
   __pyx_r = ((PyObject *)__pyx_v_self);
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":313
+  /* "cdec/hypergraph.pxi":320
  *     cdef hypergraph.HypergraphNode* node
  * 
  *     cdef init(self, hypergraph.Hypergraph* hg, unsigned i):             # <<<<<<<<<<<<<<
@@ -15261,7 +15384,7 @@ static PyObject *__pyx_f_4cdec_5_cdec_14HypergraphNode_init(struct __pyx_obj_4cd
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":319
+/* "cdec/hypergraph.pxi":326
  * 
  *     property id:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -15291,7 +15414,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode_2id___get__(struct __pyx
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "cdec/hypergraph.pxi":320
+  /* "cdec/hypergraph.pxi":327
  *     property id:
  *         def __get__(self):
  *             return self.node.id_             # <<<<<<<<<<<<<<
@@ -15299,13 +15422,13 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode_2id___get__(struct __pyx
  *     property in_edges:
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->node->id_); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 320; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->node->id_); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 327; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":319
+  /* "cdec/hypergraph.pxi":326
  * 
  *     property id:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -15325,7 +15448,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode_2id___get__(struct __pyx
 }
 static PyObject *__pyx_gb_4cdec_5_cdec_14HypergraphNode_8in_edges_2generator16(__pyx_GeneratorObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
 
-/* "cdec/hypergraph.pxi":323
+/* "cdec/hypergraph.pxi":330
  * 
  *     property in_edges:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -15364,7 +15487,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode_8in_edges___get__(struct
   __Pyx_INCREF((PyObject *)__pyx_cur_scope->__pyx_v_self);
   __Pyx_GIVEREF((PyObject *)__pyx_cur_scope->__pyx_v_self);
   {
-    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_14HypergraphNode_8in_edges_2generator16, (PyObject *) __pyx_cur_scope, __pyx_n_s_get, __pyx_n_s_HypergraphNode___get); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 323; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_14HypergraphNode_8in_edges_2generator16, (PyObject *) __pyx_cur_scope, __pyx_n_s_get, __pyx_n_s_HypergraphNode___get); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 330; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -15401,9 +15524,9 @@ static PyObject *__pyx_gb_4cdec_5_cdec_14HypergraphNode_8in_edges_2generator16(_
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 323; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 330; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":325
+  /* "cdec/hypergraph.pxi":332
  *         def __get__(self):
  *             cdef unsigned i
  *             for i in range(self.node.in_edges_.size()):             # <<<<<<<<<<<<<<
@@ -15414,16 +15537,16 @@ static PyObject *__pyx_gb_4cdec_5_cdec_14HypergraphNode_8in_edges_2generator16(_
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_cur_scope->__pyx_v_i = __pyx_t_2;
 
-    /* "cdec/hypergraph.pxi":326
+    /* "cdec/hypergraph.pxi":333
  *             cdef unsigned i
  *             for i in range(self.node.in_edges_.size()):
  *                 yield HypergraphEdge().init(self.hg, self.node.in_edges_[i])             # <<<<<<<<<<<<<<
  * 
  *     property out_edges:
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_HypergraphEdge)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 326; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_HypergraphEdge)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 333; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = ((struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphEdge *)((struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *)__pyx_t_3)->__pyx_vtab)->init(((struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *)__pyx_t_3), __pyx_cur_scope->__pyx_v_self->hg, (__pyx_cur_scope->__pyx_v_self->node->in_edges_[__pyx_cur_scope->__pyx_v_i])); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 326; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_4 = ((struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphEdge *)((struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *)__pyx_t_3)->__pyx_vtab)->init(((struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *)__pyx_t_3), __pyx_cur_scope->__pyx_v_self->hg, (__pyx_cur_scope->__pyx_v_self->node->in_edges_[__pyx_cur_scope->__pyx_v_i])); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 333; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_r = __pyx_t_4;
@@ -15438,10 +15561,10 @@ static PyObject *__pyx_gb_4cdec_5_cdec_14HypergraphNode_8in_edges_2generator16(_
     __pyx_L6_resume_from_yield:;
     __pyx_t_1 = __pyx_cur_scope->__pyx_t_0;
     __pyx_t_2 = __pyx_cur_scope->__pyx_t_1;
-    if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 326; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 333; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "cdec/hypergraph.pxi":323
+  /* "cdec/hypergraph.pxi":330
  * 
  *     property in_edges:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -15465,7 +15588,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_14HypergraphNode_8in_edges_2generator16(_
 }
 static PyObject *__pyx_gb_4cdec_5_cdec_14HypergraphNode_9out_edges_2generator17(__pyx_GeneratorObject *__pyx_generator, PyObject *__pyx_sent_value); /* proto */
 
-/* "cdec/hypergraph.pxi":329
+/* "cdec/hypergraph.pxi":336
  * 
  *     property out_edges:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -15504,7 +15627,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode_9out_edges___get__(struc
   __Pyx_INCREF((PyObject *)__pyx_cur_scope->__pyx_v_self);
   __Pyx_GIVEREF((PyObject *)__pyx_cur_scope->__pyx_v_self);
   {
-    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_14HypergraphNode_9out_edges_2generator17, (PyObject *) __pyx_cur_scope, __pyx_n_s_get, __pyx_n_s_HypergraphNode___get); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 329; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_GeneratorObject *gen = __Pyx_Generator_New((__pyx_generator_body_t) __pyx_gb_4cdec_5_cdec_14HypergraphNode_9out_edges_2generator17, (PyObject *) __pyx_cur_scope, __pyx_n_s_get, __pyx_n_s_HypergraphNode___get); if (unlikely(!gen)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 336; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_cur_scope);
     __Pyx_RefNannyFinishContext();
     return (PyObject *) gen;
@@ -15541,9 +15664,9 @@ static PyObject *__pyx_gb_4cdec_5_cdec_14HypergraphNode_9out_edges_2generator17(
     return NULL;
   }
   __pyx_L3_first_run:;
-  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 329; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 336; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":331
+  /* "cdec/hypergraph.pxi":338
  *         def __get__(self):
  *             cdef unsigned i
  *             for i in range(self.node.out_edges_.size()):             # <<<<<<<<<<<<<<
@@ -15554,16 +15677,16 @@ static PyObject *__pyx_gb_4cdec_5_cdec_14HypergraphNode_9out_edges_2generator17(
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_cur_scope->__pyx_v_i = __pyx_t_2;
 
-    /* "cdec/hypergraph.pxi":332
+    /* "cdec/hypergraph.pxi":339
  *             cdef unsigned i
  *             for i in range(self.node.out_edges_.size()):
  *                 yield HypergraphEdge().init(self.hg, self.node.out_edges_[i])             # <<<<<<<<<<<<<<
  * 
  *     property span:
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_HypergraphEdge)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 332; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)__pyx_ptype_4cdec_5_cdec_HypergraphEdge)), __pyx_empty_tuple, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = ((struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphEdge *)((struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *)__pyx_t_3)->__pyx_vtab)->init(((struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *)__pyx_t_3), __pyx_cur_scope->__pyx_v_self->hg, (__pyx_cur_scope->__pyx_v_self->node->out_edges_[__pyx_cur_scope->__pyx_v_i])); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 332; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_4 = ((struct __pyx_vtabstruct_4cdec_5_cdec_HypergraphEdge *)((struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *)__pyx_t_3)->__pyx_vtab)->init(((struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *)__pyx_t_3), __pyx_cur_scope->__pyx_v_self->hg, (__pyx_cur_scope->__pyx_v_self->node->out_edges_[__pyx_cur_scope->__pyx_v_i])); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_r = __pyx_t_4;
@@ -15578,10 +15701,10 @@ static PyObject *__pyx_gb_4cdec_5_cdec_14HypergraphNode_9out_edges_2generator17(
     __pyx_L6_resume_from_yield:;
     __pyx_t_1 = __pyx_cur_scope->__pyx_t_0;
     __pyx_t_2 = __pyx_cur_scope->__pyx_t_1;
-    if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 332; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    if (unlikely(!__pyx_sent_value)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 339; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   }
 
-  /* "cdec/hypergraph.pxi":329
+  /* "cdec/hypergraph.pxi":336
  * 
  *     property out_edges:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -15604,7 +15727,7 @@ static PyObject *__pyx_gb_4cdec_5_cdec_14HypergraphNode_9out_edges_2generator17(
   return NULL;
 }
 
-/* "cdec/hypergraph.pxi":335
+/* "cdec/hypergraph.pxi":342
  * 
  *     property span:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -15635,7 +15758,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode_4span___get__(struct __p
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "cdec/hypergraph.pxi":336
+  /* "cdec/hypergraph.pxi":343
  *     property span:
  *         def __get__(self):
  *             return next(self.in_edges).span             # <<<<<<<<<<<<<<
@@ -15643,19 +15766,19 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode_4span___get__(struct __p
  *     property cat:
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_in_edges); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 336; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_in_edges); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 343; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyIter_Next(__pyx_t_1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 336; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_2 = __Pyx_PyIter_Next(__pyx_t_1); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 343; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_span); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 336; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_span); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 343; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "cdec/hypergraph.pxi":335
+  /* "cdec/hypergraph.pxi":342
  * 
  *     property span:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -15675,7 +15798,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode_4span___get__(struct __p
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":339
+/* "cdec/hypergraph.pxi":346
  * 
  *     property cat:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -15707,7 +15830,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode_3cat___get__(struct __py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "cdec/hypergraph.pxi":340
+  /* "cdec/hypergraph.pxi":347
  *     property cat:
  *         def __get__(self):
  *             if self.node.cat_:             # <<<<<<<<<<<<<<
@@ -15717,7 +15840,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode_3cat___get__(struct __py
   __pyx_t_1 = (__pyx_v_self->node->cat_ != 0);
   if (__pyx_t_1) {
 
-    /* "cdec/hypergraph.pxi":341
+    /* "cdec/hypergraph.pxi":348
  *         def __get__(self):
  *             if self.node.cat_:
  *                 return str(TDConvert(-self.node.cat_).c_str())             # <<<<<<<<<<<<<<
@@ -15725,14 +15848,14 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode_3cat___get__(struct __py
  *     def __richcmp__(HypergraphNode x, HypergraphNode y, int op):
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_2 = __Pyx_PyBytes_FromString(TD::Convert((-__pyx_v_self->node->cat_)).c_str()); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 341; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = __Pyx_PyBytes_FromString(TD::Convert((-__pyx_v_self->node->cat_)).c_str()); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 348; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 341; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 348; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
     PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_2);
     __Pyx_GIVEREF(__pyx_t_2);
     __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyString_Type))), __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 341; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)((PyObject*)(&PyString_Type))), __pyx_t_3, NULL); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 348; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_r = __pyx_t_2;
@@ -15740,7 +15863,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode_3cat___get__(struct __py
     goto __pyx_L0;
   }
 
-  /* "cdec/hypergraph.pxi":339
+  /* "cdec/hypergraph.pxi":346
  * 
  *     property cat:
  *         def __get__(self):             # <<<<<<<<<<<<<<
@@ -15762,7 +15885,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode_3cat___get__(struct __py
   return __pyx_r;
 }
 
-/* "cdec/hypergraph.pxi":343
+/* "cdec/hypergraph.pxi":350
  *                 return str(TDConvert(-self.node.cat_).c_str())
  * 
  *     def __richcmp__(HypergraphNode x, HypergraphNode y, int op):             # <<<<<<<<<<<<<<
@@ -15779,8 +15902,8 @@ static PyObject *__pyx_pw_4cdec_5_cdec_14HypergraphNode_1__richcmp__(PyObject *_
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__richcmp__ (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_x), __pyx_ptype_4cdec_5_cdec_HypergraphNode, 1, "x", 0))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 343; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_y), __pyx_ptype_4cdec_5_cdec_HypergraphNode, 1, "y", 0))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 343; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_x), __pyx_ptype_4cdec_5_cdec_HypergraphNode, 1, "x", 0))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 350; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_y), __pyx_ptype_4cdec_5_cdec_HypergraphNode, 1, "y", 0))) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 350; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_r = __pyx_pf_4cdec_5_cdec_14HypergraphNode___richcmp__(((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_v_x), ((struct __pyx_obj_4cdec_5_cdec_HypergraphNode *)__pyx_v_y), ((int)__pyx_v_op));
 
   /* function exit code */
@@ -15802,7 +15925,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode___richcmp__(struct __pyx
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("__richcmp__", 0);
 
-  /* "cdec/hypergraph.pxi":346
+  /* "cdec/hypergraph.pxi":353
  *         if op == 2: # ==
  *             return x.node == y.node
  *         elif op == 3: # !=             # <<<<<<<<<<<<<<
@@ -15811,7 +15934,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode___richcmp__(struct __pyx
  */
   switch (__pyx_v_op) {
 
-    /* "cdec/hypergraph.pxi":344
+    /* "cdec/hypergraph.pxi":351
  * 
  *     def __richcmp__(HypergraphNode x, HypergraphNode y, int op):
  *         if op == 2: # ==             # <<<<<<<<<<<<<<
@@ -15820,7 +15943,7 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode___richcmp__(struct __pyx
  */
     case 2:
 
-    /* "cdec/hypergraph.pxi":345
+    /* "cdec/hypergraph.pxi":352
  *     def __richcmp__(HypergraphNode x, HypergraphNode y, int op):
  *         if op == 2: # ==
  *             return x.node == y.node             # <<<<<<<<<<<<<<
@@ -15828,14 +15951,14 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode___richcmp__(struct __pyx
  *             return not (x == y)
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_1 = __Pyx_PyBool_FromLong((__pyx_v_x->node == __pyx_v_y->node)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 345; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_1 = __Pyx_PyBool_FromLong((__pyx_v_x->node == __pyx_v_y->node)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 352; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_r = __pyx_t_1;
     __pyx_t_1 = 0;
     goto __pyx_L0;
     break;
 
-    /* "cdec/hypergraph.pxi":346
+    /* "cdec/hypergraph.pxi":353
  *         if op == 2: # ==
  *             return x.node == y.node
  *         elif op == 3: # !=             # <<<<<<<<<<<<<<
@@ -15844,17 +15967,17 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode___richcmp__(struct __pyx
  */
     case 3:
 
-    /* "cdec/hypergraph.pxi":347
+    /* "cdec/hypergraph.pxi":354
  *             return x.node == y.node
  *         elif op == 3: # !=
  *             return not (x == y)             # <<<<<<<<<<<<<<
  *         raise NotImplemented('comparison not implemented for HypergraphNode')
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_1 = PyObject_RichCompare(((PyObject *)__pyx_v_x), ((PyObject *)__pyx_v_y), Py_EQ); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 347; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 347; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_1 = PyObject_RichCompare(((PyObject *)__pyx_v_x), ((PyObject *)__pyx_v_y), Py_EQ); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 354; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 354; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyBool_FromLong((!__pyx_t_2)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 347; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+    __pyx_t_1 = __Pyx_PyBool_FromLong((!__pyx_t_2)); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 354; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_r = __pyx_t_1;
     __pyx_t_1 = 0;
@@ -15863,18 +15986,18 @@ static PyObject *__pyx_pf_4cdec_5_cdec_14HypergraphNode___richcmp__(struct __pyx
     default: break;
   }
 
-  /* "cdec/hypergraph.pxi":348
+  /* "cdec/hypergraph.pxi":355
  *         elif op == 3: # !=
  *             return not (x == y)
  *         raise NotImplemented('comparison not implemented for HypergraphNode')             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_NotImplemented, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 348; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_NotImplemented, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 355; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  {__pyx_filename = __pyx_f[3]; __pyx_lineno = 348; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  {__pyx_filename = __pyx_f[3]; __pyx_lineno = 355; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
-  /* "cdec/hypergraph.pxi":343
+  /* "cdec/hypergraph.pxi":350
  *                 return str(TDConvert(-self.node.cat_).c_str())
  * 
  *     def __richcmp__(HypergraphNode x, HypergraphNode y, int op):             # <<<<<<<<<<<<<<
@@ -24656,7 +24779,8 @@ static PyMethodDef __pyx_methods_4cdec_5_cdec_Hypergraph[] = {
   {"lattice", (PyCFunction)__pyx_pw_4cdec_5_cdec_10Hypergraph_44lattice, METH_NOARGS, __pyx_doc_4cdec_5_cdec_10Hypergraph_43lattice},
   {"plf", (PyCFunction)__pyx_pw_4cdec_5_cdec_10Hypergraph_46plf, METH_NOARGS, __pyx_doc_4cdec_5_cdec_10Hypergraph_45plf},
   {"reweight", (PyCFunction)__pyx_pw_4cdec_5_cdec_10Hypergraph_48reweight, METH_O, __pyx_doc_4cdec_5_cdec_10Hypergraph_47reweight},
-  {"inside_outside", (PyCFunction)__pyx_pw_4cdec_5_cdec_10Hypergraph_50inside_outside, METH_NOARGS, __pyx_doc_4cdec_5_cdec_10Hypergraph_49inside_outside},
+  {"inside", (PyCFunction)__pyx_pw_4cdec_5_cdec_10Hypergraph_50inside, METH_NOARGS, __pyx_doc_4cdec_5_cdec_10Hypergraph_49inside},
+  {"inside_outside", (PyCFunction)__pyx_pw_4cdec_5_cdec_10Hypergraph_52inside_outside, METH_NOARGS, __pyx_doc_4cdec_5_cdec_10Hypergraph_51inside_outside},
   {0, 0, 0, 0}
 };
 
@@ -29343,9 +29467,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_TER, __pyx_k_TER, sizeof(__pyx_k_TER), 0, 0, 1, 1},
   {&__pyx_n_s_TRule___get, __pyx_k_TRule___get, sizeof(__pyx_k_TRule___get), 0, 0, 1, 1},
   {&__pyx_n_s_TypeError, __pyx_k_TypeError, sizeof(__pyx_k_TypeError), 0, 0, 1, 1},
-  {&__pyx_kp_s_Users_waziz_workspace_mtm14_my, __pyx_k_Users_waziz_workspace_mtm14_my, sizeof(__pyx_k_Users_waziz_workspace_mtm14_my), 0, 0, 1, 0},
-  {&__pyx_kp_s_Users_waziz_workspace_mtm14_my_2, __pyx_k_Users_waziz_workspace_mtm14_my_2, sizeof(__pyx_k_Users_waziz_workspace_mtm14_my_2), 0, 0, 1, 0},
-  {&__pyx_kp_s_Users_waziz_workspace_mtm14_my_3, __pyx_k_Users_waziz_workspace_mtm14_my_3, sizeof(__pyx_k_Users_waziz_workspace_mtm14_my_3), 0, 0, 1, 0},
   {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
   {&__pyx_kp_s__10, __pyx_k__10, sizeof(__pyx_k__10), 0, 0, 1, 0},
   {&__pyx_kp_s__11, __pyx_k__11, sizeof(__pyx_k__11), 0, 0, 1, 0},
@@ -29403,6 +29524,9 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_get, __pyx_k_get, sizeof(__pyx_k_get), 0, 0, 1, 1},
   {&__pyx_n_s_get_2, __pyx_k_get_2, sizeof(__pyx_k_get_2), 0, 0, 1, 1},
   {&__pyx_n_s_grammar, __pyx_k_grammar, sizeof(__pyx_k_grammar), 0, 0, 1, 1},
+  {&__pyx_kp_s_home_waziz_workspace_github_my, __pyx_k_home_waziz_workspace_github_my, sizeof(__pyx_k_home_waziz_workspace_github_my), 0, 0, 1, 0},
+  {&__pyx_kp_s_home_waziz_workspace_github_my_2, __pyx_k_home_waziz_workspace_github_my_2, sizeof(__pyx_k_home_waziz_workspace_github_my_2), 0, 0, 1, 0},
+  {&__pyx_kp_s_home_waziz_workspace_github_my_3, __pyx_k_home_waziz_workspace_github_my_3, sizeof(__pyx_k_home_waziz_workspace_github_my_3), 0, 0, 1, 0},
   {&__pyx_n_s_hyp, __pyx_k_hyp, sizeof(__pyx_k_hyp), 0, 0, 1, 1},
   {&__pyx_n_s_hypergraph, __pyx_k_hypergraph, sizeof(__pyx_k_hypergraph), 0, 0, 1, 1},
   {&__pyx_n_s_i, __pyx_k_i, sizeof(__pyx_k_i), 0, 0, 1, 1},
@@ -29499,7 +29623,7 @@ static int __Pyx_InitCachedBuiltins(void) {
   __pyx_builtin_NotImplemented = __Pyx_GetBuiltinName(__pyx_n_s_NotImplemented); if (!__pyx_builtin_NotImplemented) {__pyx_filename = __pyx_f[1]; __pyx_lineno = 95; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_builtin_super = __Pyx_GetBuiltinName(__pyx_n_s_super); if (!__pyx_builtin_super) {__pyx_filename = __pyx_f[2]; __pyx_lineno = 197; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_n_s_ValueError); if (!__pyx_builtin_ValueError) {__pyx_filename = __pyx_f[2]; __pyx_lineno = 232; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_builtin_eval = __Pyx_GetBuiltinName(__pyx_n_s_eval); if (!__pyx_builtin_eval) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 208; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_builtin_eval = __Pyx_GetBuiltinName(__pyx_n_s_eval); if (!__pyx_builtin_eval) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 209; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_builtin_enumerate = __Pyx_GetBuiltinName(__pyx_n_s_enumerate); if (!__pyx_builtin_enumerate) {__pyx_filename = __pyx_f[4]; __pyx_lineno = 14; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_builtin_IndexError = __Pyx_GetBuiltinName(__pyx_n_s_IndexError); if (!__pyx_builtin_IndexError) {__pyx_filename = __pyx_f[4]; __pyx_lineno = 26; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_builtin_open = __Pyx_GetBuiltinName(__pyx_n_s_open); if (!__pyx_builtin_open) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 90; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -29555,23 +29679,23 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "cdec/hypergraph.pxi":307
+  /* "cdec/hypergraph.pxi":314
  *         elif op == 3: # !=
  *             return not (x == y)
  *         raise NotImplemented('comparison not implemented for HypergraphEdge')             # <<<<<<<<<<<<<<
  * 
  * cdef class HypergraphNode:
  */
-  __pyx_tuple__6 = PyTuple_Pack(1, __pyx_kp_s_comparison_not_implemented_for_H); if (unlikely(!__pyx_tuple__6)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 307; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__6 = PyTuple_Pack(1, __pyx_kp_s_comparison_not_implemented_for_H); if (unlikely(!__pyx_tuple__6)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 314; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "cdec/hypergraph.pxi":348
+  /* "cdec/hypergraph.pxi":355
  *         elif op == 3: # !=
  *             return not (x == y)
  *         raise NotImplemented('comparison not implemented for HypergraphNode')             # <<<<<<<<<<<<<<
  */
-  __pyx_tuple__7 = PyTuple_Pack(1, __pyx_kp_s_comparison_not_implemented_for_H_2); if (unlikely(!__pyx_tuple__7)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 348; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_tuple__7 = PyTuple_Pack(1, __pyx_kp_s_comparison_not_implemented_for_H_2); if (unlikely(!__pyx_tuple__7)) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 355; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
@@ -29618,7 +29742,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__14 = PyTuple_Pack(4, __pyx_n_s_i, __pyx_n_s_label, __pyx_n_s_weight, __pyx_n_s_delta); if (unlikely(!__pyx_tuple__14)) {__pyx_filename = __pyx_f[4]; __pyx_lineno = 63; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
-  __pyx_codeobj__15 = (PyObject*)__Pyx_PyCode_New(0, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__14, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_waziz_workspace_mtm14_my, __pyx_n_s_lines, 63, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__15)) {__pyx_filename = __pyx_f[4]; __pyx_lineno = 63; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__15 = (PyObject*)__Pyx_PyCode_New(0, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__14, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_waziz_workspace_github_my, __pyx_n_s_lines, 63, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__15)) {__pyx_filename = __pyx_f[4]; __pyx_lineno = 63; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "cdec/lattice.pxi":72
  *             yield '%d [shape=doublecircle]' % len(self)
@@ -29685,7 +29809,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__24 = PyTuple_Pack(3, __pyx_n_s_phrase_2, __pyx_n_s_genexpr, __pyx_n_s_genexpr); if (unlikely(!__pyx_tuple__24)) {__pyx_filename = __pyx_f[2]; __pyx_lineno = 5; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__24);
   __Pyx_GIVEREF(__pyx_tuple__24);
-  __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(1, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__24, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_waziz_workspace_mtm14_my_2, __pyx_n_s_phrase, 5, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) {__pyx_filename = __pyx_f[2]; __pyx_lineno = 5; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(1, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__24, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_waziz_workspace_github_my_2, __pyx_n_s_phrase, 5, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) {__pyx_filename = __pyx_f[2]; __pyx_lineno = 5; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "cdec/mteval.pxi":197
  *         return []
@@ -29749,7 +29873,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__31 = PyTuple_Pack(1, __pyx_n_s_yn); if (unlikely(!__pyx_tuple__31)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 28; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__31);
   __Pyx_GIVEREF(__pyx_tuple__31);
-  __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_waziz_workspace_mtm14_my_3, __pyx_n_s_set_silent, 28, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 28; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__32 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__31, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_waziz_workspace_github_my_3, __pyx_n_s_set_silent, 28, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__32)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 28; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "cdec/_cdec.pyx":32
  *     SetSilent(yn)
@@ -29761,7 +29885,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__33 = PyTuple_Pack(5, __pyx_n_s_config, __pyx_n_s_key, __pyx_n_s_value, __pyx_n_s_name, __pyx_n_s_info); if (unlikely(!__pyx_tuple__33)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 32; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__33);
   __Pyx_GIVEREF(__pyx_tuple__33);
-  __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(1, 0, 5, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_Users_waziz_workspace_mtm14_my_3, __pyx_n_s_make_config, 32, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 32; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(1, 0, 5, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_waziz_workspace_github_my_3, __pyx_n_s_make_config, 32, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 32; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -29969,24 +30093,24 @@ PyMODINIT_FUNC PyInit__cdec(void)
   __pyx_ptype_4cdec_5_cdec_TextGrammar = &__pyx_type_4cdec_5_cdec_TextGrammar;
   __pyx_vtabptr_4cdec_5_cdec_Hypergraph = &__pyx_vtable_4cdec_5_cdec_Hypergraph;
   __pyx_vtable_4cdec_5_cdec_Hypergraph._rng = (MT19937 *(*)(struct __pyx_obj_4cdec_5_cdec_Hypergraph *))__pyx_f_4cdec_5_cdec_10Hypergraph__rng;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec_Hypergraph) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 4; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec_Hypergraph) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 5; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec_Hypergraph.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_4cdec_5_cdec_Hypergraph.tp_dict, __pyx_vtabptr_4cdec_5_cdec_Hypergraph) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 4; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  if (PyObject_SetAttrString(__pyx_m, "Hypergraph", (PyObject *)&__pyx_type_4cdec_5_cdec_Hypergraph) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 4; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (__Pyx_SetVtable(__pyx_type_4cdec_5_cdec_Hypergraph.tp_dict, __pyx_vtabptr_4cdec_5_cdec_Hypergraph) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 5; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyObject_SetAttrString(__pyx_m, "Hypergraph", (PyObject *)&__pyx_type_4cdec_5_cdec_Hypergraph) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 5; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_ptype_4cdec_5_cdec_Hypergraph = &__pyx_type_4cdec_5_cdec_Hypergraph;
   __pyx_vtabptr_4cdec_5_cdec_HypergraphEdge = &__pyx_vtable_4cdec_5_cdec_HypergraphEdge;
   __pyx_vtable_4cdec_5_cdec_HypergraphEdge.init = (PyObject *(*)(struct __pyx_obj_4cdec_5_cdec_HypergraphEdge *, Hypergraph *, unsigned int))__pyx_f_4cdec_5_cdec_14HypergraphEdge_init;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec_HypergraphEdge) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 259; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec_HypergraphEdge) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 266; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec_HypergraphEdge.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_4cdec_5_cdec_HypergraphEdge.tp_dict, __pyx_vtabptr_4cdec_5_cdec_HypergraphEdge) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 259; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  if (PyObject_SetAttrString(__pyx_m, "HypergraphEdge", (PyObject *)&__pyx_type_4cdec_5_cdec_HypergraphEdge) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 259; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (__Pyx_SetVtable(__pyx_type_4cdec_5_cdec_HypergraphEdge.tp_dict, __pyx_vtabptr_4cdec_5_cdec_HypergraphEdge) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 266; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyObject_SetAttrString(__pyx_m, "HypergraphEdge", (PyObject *)&__pyx_type_4cdec_5_cdec_HypergraphEdge) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 266; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_ptype_4cdec_5_cdec_HypergraphEdge = &__pyx_type_4cdec_5_cdec_HypergraphEdge;
   __pyx_vtabptr_4cdec_5_cdec_HypergraphNode = &__pyx_vtable_4cdec_5_cdec_HypergraphNode;
   __pyx_vtable_4cdec_5_cdec_HypergraphNode.init = (PyObject *(*)(struct __pyx_obj_4cdec_5_cdec_HypergraphNode *, Hypergraph *, unsigned int))__pyx_f_4cdec_5_cdec_14HypergraphNode_init;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec_HypergraphNode) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 309; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec_HypergraphNode) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 316; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec_HypergraphNode.tp_print = 0;
-  if (__Pyx_SetVtable(__pyx_type_4cdec_5_cdec_HypergraphNode.tp_dict, __pyx_vtabptr_4cdec_5_cdec_HypergraphNode) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 309; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  if (PyObject_SetAttrString(__pyx_m, "HypergraphNode", (PyObject *)&__pyx_type_4cdec_5_cdec_HypergraphNode) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 309; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (__Pyx_SetVtable(__pyx_type_4cdec_5_cdec_HypergraphNode.tp_dict, __pyx_vtabptr_4cdec_5_cdec_HypergraphNode) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 316; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyObject_SetAttrString(__pyx_m, "HypergraphNode", (PyObject *)&__pyx_type_4cdec_5_cdec_HypergraphNode) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 316; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_ptype_4cdec_5_cdec_HypergraphNode = &__pyx_type_4cdec_5_cdec_HypergraphNode;
   if (PyType_Ready(&__pyx_type_4cdec_5_cdec_Lattice) < 0) {__pyx_filename = __pyx_f[4]; __pyx_lineno = 3; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec_Lattice.tp_print = 0;
@@ -30064,46 +30188,46 @@ PyMODINIT_FUNC PyInit__cdec(void)
   if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_7___iter__) < 0) {__pyx_filename = __pyx_f[2]; __pyx_lineno = 205; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec___pyx_scope_struct_7___iter__.tp_print = 0;
   __pyx_ptype_4cdec_5_cdec___pyx_scope_struct_7___iter__ = &__pyx_type_4cdec_5_cdec___pyx_scope_struct_7___iter__;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_8_kbest) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 49; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_8_kbest) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 50; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec___pyx_scope_struct_8_kbest.tp_print = 0;
   __pyx_ptype_4cdec_5_cdec___pyx_scope_struct_8_kbest = &__pyx_type_4cdec_5_cdec___pyx_scope_struct_8_kbest;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_9_kbest_trees) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 62; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_9_kbest_trees) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 63; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec___pyx_scope_struct_9_kbest_trees.tp_print = 0;
   __pyx_ptype_4cdec_5_cdec___pyx_scope_struct_9_kbest_trees = &__pyx_type_4cdec_5_cdec___pyx_scope_struct_9_kbest_trees;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_10_kbest_features) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 81; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_10_kbest_features) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 82; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec___pyx_scope_struct_10_kbest_features.tp_print = 0;
   __pyx_ptype_4cdec_5_cdec___pyx_scope_struct_10_kbest_features = &__pyx_type_4cdec_5_cdec___pyx_scope_struct_10_kbest_features;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_11_unique_kbest) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 97; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_11_unique_kbest) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 98; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec___pyx_scope_struct_11_unique_kbest.tp_print = 0;
   __pyx_ptype_4cdec_5_cdec___pyx_scope_struct_11_unique_kbest = &__pyx_type_4cdec_5_cdec___pyx_scope_struct_11_unique_kbest;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_12_unique_kbest_trees) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 110; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_12_unique_kbest_trees) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 111; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec___pyx_scope_struct_12_unique_kbest_trees.tp_print = 0;
   __pyx_ptype_4cdec_5_cdec___pyx_scope_struct_12_unique_kbest_trees = &__pyx_type_4cdec_5_cdec___pyx_scope_struct_12_unique_kbest_trees;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_13_unique_kbest_features) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 129; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_13_unique_kbest_features) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 130; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec___pyx_scope_struct_13_unique_kbest_features.tp_print = 0;
   __pyx_ptype_4cdec_5_cdec___pyx_scope_struct_13_unique_kbest_features = &__pyx_type_4cdec_5_cdec___pyx_scope_struct_13_unique_kbest_features;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_14_sample) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 145; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_14_sample) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 146; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec___pyx_scope_struct_14_sample.tp_print = 0;
   __pyx_ptype_4cdec_5_cdec___pyx_scope_struct_14_sample = &__pyx_type_4cdec_5_cdec___pyx_scope_struct_14_sample;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_15_sample_hypotheses) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 156; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_15_sample_hypotheses) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 157; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec___pyx_scope_struct_15_sample_hypotheses.tp_print = 0;
   __pyx_ptype_4cdec_5_cdec___pyx_scope_struct_15_sample_hypotheses = &__pyx_type_4cdec_5_cdec___pyx_scope_struct_15_sample_hypotheses;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_16_sample_trees) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 171; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_16_sample_trees) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 172; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec___pyx_scope_struct_16_sample_trees.tp_print = 0;
   __pyx_ptype_4cdec_5_cdec___pyx_scope_struct_16_sample_trees = &__pyx_type_4cdec_5_cdec___pyx_scope_struct_16_sample_trees;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_17___get__) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 224; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_17___get__) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 225; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec___pyx_scope_struct_17___get__.tp_print = 0;
   __pyx_ptype_4cdec_5_cdec___pyx_scope_struct_17___get__ = &__pyx_type_4cdec_5_cdec___pyx_scope_struct_17___get__;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_18___get__) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 230; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_18___get__) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 231; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec___pyx_scope_struct_18___get__.tp_print = 0;
   __pyx_ptype_4cdec_5_cdec___pyx_scope_struct_18___get__ = &__pyx_type_4cdec_5_cdec___pyx_scope_struct_18___get__;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_19___get__) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 279; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_19___get__) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 286; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec___pyx_scope_struct_19___get__.tp_print = 0;
   __pyx_ptype_4cdec_5_cdec___pyx_scope_struct_19___get__ = &__pyx_type_4cdec_5_cdec___pyx_scope_struct_19___get__;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_20___get__) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 323; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_20___get__) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 330; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec___pyx_scope_struct_20___get__.tp_print = 0;
   __pyx_ptype_4cdec_5_cdec___pyx_scope_struct_20___get__ = &__pyx_type_4cdec_5_cdec___pyx_scope_struct_20___get__;
-  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_21___get__) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 329; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_21___get__) < 0) {__pyx_filename = __pyx_f[3]; __pyx_lineno = 336; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_type_4cdec_5_cdec___pyx_scope_struct_21___get__.tp_print = 0;
   __pyx_ptype_4cdec_5_cdec___pyx_scope_struct_21___get__ = &__pyx_type_4cdec_5_cdec___pyx_scope_struct_21___get__;
   if (PyType_Ready(&__pyx_type_4cdec_5_cdec___pyx_scope_struct_22___iter__) < 0) {__pyx_filename = __pyx_f[4]; __pyx_lineno = 56; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -32870,6 +32994,101 @@ bad:
     Py_XDECREF(names);
     Py_XDECREF(globals);
     return NULL;
+}
+
+static CYTHON_INLINE size_t __Pyx_PyInt_As_size_t(PyObject *x) {
+    const size_t neg_one = (size_t) -1, const_zero = 0;
+    const int is_unsigned = neg_one > const_zero;
+#if PY_MAJOR_VERSION < 3
+    if (likely(PyInt_Check(x))) {
+        if (sizeof(size_t) < sizeof(long)) {
+            __PYX_VERIFY_RETURN_INT(size_t, long, PyInt_AS_LONG(x))
+        } else {
+            long val = PyInt_AS_LONG(x);
+            if (is_unsigned && unlikely(val < 0)) {
+                goto raise_neg_overflow;
+            }
+            return (size_t) val;
+        }
+    } else
+#endif
+    if (likely(PyLong_Check(x))) {
+        if (is_unsigned) {
+#if CYTHON_COMPILING_IN_CPYTHON && PY_MAJOR_VERSION >= 3
+ #if CYTHON_USE_PYLONG_INTERNALS
+            switch (Py_SIZE(x)) {
+                case  0: return 0;
+                case  1: __PYX_VERIFY_RETURN_INT(size_t, digit, ((PyLongObject*)x)->ob_digit[0]);
+            }
+ #endif
+#endif
+            if (unlikely(Py_SIZE(x) < 0)) {
+                goto raise_neg_overflow;
+            }
+            if (sizeof(size_t) <= sizeof(unsigned long)) {
+                __PYX_VERIFY_RETURN_INT(size_t, unsigned long, PyLong_AsUnsignedLong(x))
+            } else if (sizeof(size_t) <= sizeof(unsigned long long)) {
+                __PYX_VERIFY_RETURN_INT(size_t, unsigned long long, PyLong_AsUnsignedLongLong(x))
+            }
+        } else {
+#if CYTHON_COMPILING_IN_CPYTHON && PY_MAJOR_VERSION >= 3
+ #if CYTHON_USE_PYLONG_INTERNALS
+            switch (Py_SIZE(x)) {
+                case  0: return 0;
+                case  1: __PYX_VERIFY_RETURN_INT(size_t,  digit, +(((PyLongObject*)x)->ob_digit[0]));
+                case -1: __PYX_VERIFY_RETURN_INT(size_t, sdigit, -(sdigit) ((PyLongObject*)x)->ob_digit[0]);
+            }
+ #endif
+#endif
+            if (sizeof(size_t) <= sizeof(long)) {
+                __PYX_VERIFY_RETURN_INT(size_t, long, PyLong_AsLong(x))
+            } else if (sizeof(size_t) <= sizeof(long long)) {
+                __PYX_VERIFY_RETURN_INT(size_t, long long, PyLong_AsLongLong(x))
+            }
+        }
+        {
+#if CYTHON_COMPILING_IN_PYPY && !defined(_PyLong_AsByteArray)
+            PyErr_SetString(PyExc_RuntimeError,
+                            "_PyLong_AsByteArray() not available in PyPy, cannot convert large numbers");
+#else
+            size_t val;
+            PyObject *v = __Pyx_PyNumber_Int(x);
+ #if PY_MAJOR_VERSION < 3
+            if (likely(v) && !PyLong_Check(v)) {
+                PyObject *tmp = v;
+                v = PyNumber_Long(tmp);
+                Py_DECREF(tmp);
+            }
+ #endif
+            if (likely(v)) {
+                int one = 1; int is_little = (int)*(unsigned char *)&one;
+                unsigned char *bytes = (unsigned char *)&val;
+                int ret = _PyLong_AsByteArray((PyLongObject *)v,
+                                              bytes, sizeof(val),
+                                              is_little, !is_unsigned);
+                Py_DECREF(v);
+                if (likely(!ret))
+                    return val;
+            }
+#endif
+            return (size_t) -1;
+        }
+    } else {
+        size_t val;
+        PyObject *tmp = __Pyx_PyNumber_Int(x);
+        if (!tmp) return (size_t) -1;
+        val = __Pyx_PyInt_As_size_t(tmp);
+        Py_DECREF(tmp);
+        return val;
+    }
+raise_overflow:
+    PyErr_SetString(PyExc_OverflowError,
+        "value too large to convert to size_t");
+    return (size_t) -1;
+raise_neg_overflow:
+    PyErr_SetString(PyExc_OverflowError,
+        "can't convert negative value to size_t");
+    return (size_t) -1;
 }
 
 static CYTHON_INLINE long __Pyx_PyInt_As_long(PyObject *x) {

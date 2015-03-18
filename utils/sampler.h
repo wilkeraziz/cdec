@@ -132,7 +132,7 @@ size_t RandomNumberGenerator<RNG>::SelectSample(const SampleSet<F>& ss, double T
   assert(T > 0.0);
   assert(ss.m_scores.size() > 0);
   if (ss.m_scores.size() == 1) return 0;
-  const double annealing_factor = 1.0 / T;
+  const typename F::value_type annealing_factor = 1.0 / T;
   const bool anneal = (T != 1.0);
   F sum = F(0);
   if (anneal) {
